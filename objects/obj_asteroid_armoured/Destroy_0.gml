@@ -12,4 +12,4 @@ var e = spawn_entity(
   direction + random_range(-5, 5),
   rotation_speed + random_range(-1, 1)
 )
-e.spawning = false;
+spawn_in_complete(e);

@@ -6,7 +6,7 @@
     "path": "folders/Scripts/Environment.yy",
   },
   "resourceVersion": "1.0",
-  "name": "script_environment_functions",
+  "name": "script_entity_spawning_effects",
   "tags": [],
   "resourceType": "GMScript",
 }

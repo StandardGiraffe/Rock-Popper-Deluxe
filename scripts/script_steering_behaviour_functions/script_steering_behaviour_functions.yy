@@ -2,11 +2,11 @@
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "Housekeeping",
-    "path": "folders/Scripts/Housekeeping.yy",
+    "name": "Vectors",
+    "path": "folders/Scripts/Utilities/Vectors.yy",
   },
   "resourceVersion": "1.0",
-  "name": "script_entity_states",
+  "name": "script_steering_behaviour_functions",
   "tags": [],
   "resourceType": "GMScript",
 }

@@ -6,5 +6,5 @@ var dropped_powerup = spawn_powerup(
 );
 
 dropped_powerup.speed = (speed / 2);
-dropped_powerup.direction = direction;
+dropped_powerup.set_direction = direction;
 dropped_powerup.rotation_speed = rotation_speed;

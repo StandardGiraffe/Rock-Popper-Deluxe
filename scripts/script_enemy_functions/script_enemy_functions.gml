@@ -2,11 +2,6 @@ function award_points(number) {
   global.stats.points += number;
 }
 
-//function display_points_popup(_x, _y, _points_value) {
-//  var popup = instance_create_layer(_x, _y, "PointsPopups", obj_points_popup)
-//  popup.points_value = points_value
-//}
-
 function get_random_value(args) {
   if args.as_int {
     return args.base + irandom_range(args.min, args.max)

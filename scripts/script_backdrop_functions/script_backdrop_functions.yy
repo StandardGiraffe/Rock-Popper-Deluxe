@@ -2,11 +2,11 @@
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "Powerups",
-    "path": "folders/Scripts/Powerups.yy",
+    "name": "Environment",
+    "path": "folders/Scripts/Environment.yy",
   },
   "resourceVersion": "1.0",
-  "name": "script_powerup_points_picker",
+  "name": "script_backdrop_functions",
   "tags": [],
   "resourceType": "GMScript",
 }
