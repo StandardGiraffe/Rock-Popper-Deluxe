@@ -1,0 +1,3 @@
+if !spawning {
+  other.impacted(); 
+}
