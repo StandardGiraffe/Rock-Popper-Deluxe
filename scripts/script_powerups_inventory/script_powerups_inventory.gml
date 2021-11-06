@@ -21,7 +21,7 @@ function powerup_drop_inventory(_x, _y) {
       
       if global.powerups_inventory[$ powerup] {
         var dropped_powerup = spawn_powerup(global.powerup_collection[$ powerup], _x + random_range(-50, 50), _y + random_range(-50, 50));
-        dropped_powerup.direction = random(360);
+        dropped_powerup.set_direction = random(360);
         global.powerups_inventory[$ powerup] = false;
       }
   }

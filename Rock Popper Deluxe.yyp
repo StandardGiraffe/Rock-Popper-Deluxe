@@ -22,6 +22,7 @@
     {"id":{"name":"obj_base_bullet","path":"objects/obj_base_bullet/obj_base_bullet.yy",},"order":2,},
     {"id":{"name":"spr_powerup_capsule_shields","path":"sprites/spr_powerup_capsule_shields/spr_powerup_capsule_shields.yy",},"order":0,},
     {"id":{"name":"spr_dead_player","path":"sprites/spr_dead_player/spr_dead_player.yy",},"order":2,},
+    {"id":{"name":"script_steering_behaviour_functions","path":"scripts/script_steering_behaviour_functions/script_steering_behaviour_functions.yy",},"order":1,},
     {"id":{"name":"spr_powerup_turning_up","path":"sprites/spr_powerup_turning_up/spr_powerup_turning_up.yy",},"order":0,},
     {"id":{"name":"snd_powerup","path":"sounds/snd_powerup/snd_powerup.yy",},"order":11,},
     {"id":{"name":"script_movement","path":"scripts/script_movement/script_movement.yy",},"order":1,},
@@ -120,6 +121,7 @@
     {"id":{"name":"script_entity_spawning_effects","path":"scripts/script_entity_spawning_effects/script_entity_spawning_effects.yy",},"order":3,},
     {"id":{"name":"obj_droid_rammer_mini","path":"objects/obj_droid_rammer_mini/obj_droid_rammer_mini.yy",},"order":4,},
     {"id":{"name":"obj_particle_system","path":"objects/obj_particle_system/obj_particle_system.yy",},"order":7,},
+    {"id":{"name":"script_vector_functions","path":"scripts/script_vector_functions/script_vector_functions.yy",},"order":0,},
     {"id":{"name":"snd_shields_up","path":"sounds/snd_shields_up/snd_shields_up.yy",},"order":13,},
     {"id":{"name":"spr_asteroid_splitter_medium_fragment_h2","path":"sprites/spr_asteroid_splitter_medium_fragment_h2/spr_asteroid_splitter_medium_fragment_h2.yy",},"order":3,},
     {"id":{"name":"snd_zoom_mini","path":"sounds/snd_zoom_mini/snd_zoom_mini.yy",},"order":9,},
@@ -231,6 +233,7 @@
     {"folderPath":"folders/Objects/Enemies/Asterdroids/asterdroid_shooter_small.yy","order":1,"resourceVersion":"1.0","name":"asterdroid_shooter_small","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Objects/Projectiles.yy","order":9,"resourceVersion":"1.0","name":"Projectiles","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Scripts/Environment.yy","order":7,"resourceVersion":"1.0","name":"Environment","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Scripts/Utilities/Vectors.yy","order":1,"resourceVersion":"1.0","name":"Vectors","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":-1,"resourceVersion":"1.3","name":"audiogroup_default","resourceType":"GMAudioGroup",},
