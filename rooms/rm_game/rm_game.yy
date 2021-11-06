@@ -19,7 +19,6 @@
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_particle_system","path":"objects/obj_particle_system/obj_particle_system.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":0.0,"y":32.0,"resourceVersion":"1.0","name":"inst_3F1D4723","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_spawner","path":"objects/obj_spawner/obj_spawner.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":32.0,"y":0.0,"resourceVersion":"1.0","name":"inst_2F5EC9F5","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_projectiles","path":"objects/obj_projectiles/obj_projectiles.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":0.0,"y":64.0,"resourceVersion":"1.0","name":"inst_749D0EB2","tags":[],"resourceType":"GMRInstance",},
-        {"properties":[],"isDnd":false,"objectId":{"name":"obj_powerup_turning_up","path":"objects/obj_powerup_turning_up/obj_powerup_turning_up.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":768.0,"y":544.0,"resourceVersion":"1.0","name":"inst_6C30764E","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Invisibles","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":544.0,"y":384.0,"resourceVersion":"1.0","name":"inst_4541E14F","tags":[],"resourceType":"GMRInstance",},
@@ -40,7 +39,6 @@
     {"name":"inst_3F1D4723","path":"rooms/rm_game/rm_game.yy",},
     {"name":"inst_2F5EC9F5","path":"rooms/rm_game/rm_game.yy",},
     {"name":"inst_749D0EB2","path":"rooms/rm_game/rm_game.yy",},
-    {"name":"inst_6C30764E","path":"rooms/rm_game/rm_game.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
