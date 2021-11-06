@@ -2,11 +2,11 @@
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "Housekeeping",
-    "path": "folders/Scripts/Housekeeping.yy",
+    "name": "Environment",
+    "path": "folders/Scripts/Environment.yy",
   },
   "resourceVersion": "1.0",
-  "name": "script_entity_states",
+  "name": "script_backdrop_functions",
   "tags": [],
   "resourceType": "GMScript",
 }

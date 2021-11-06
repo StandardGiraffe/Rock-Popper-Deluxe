@@ -137,3 +137,32 @@ global.particles_debris = part_system_create_layer("Player", false);
   part_type_blend(p, false);
   part_type_life(p, room_speed * 1, room_speed * 3.5)  ;
 }
+
+// Powerup Particles
+{
+  // Gold powerup sparkle
+  global.particle_powerup_gold_sparkle = part_type_create();
+  var p = global.particle_powerup_gold_sparkle;
+  part_type_shape(p, pt_shape_sphere);
+  part_type_size(p, 0.05, 0.1, 0, 0.02);
+  part_type_color3(p, c_yellow, c_white, c_yellow);
+  part_type_alpha2(p, 1, 0);
+  part_type_speed(p, 0, 0.2, 0, 0.1);
+  part_type_direction(p, 0, 360, 0, false);
+  part_type_orientation(p, 0, 0, 0, false, false);
+  part_type_blend(p, true);
+  part_type_life(p, room_speed * 0.5, room_speed * 1);
+  
+  // Silver powerup sparkle
+  global.particle_powerup_silver_sparkle = part_type_create();
+  var p = global.particle_powerup_silver_sparkle;
+  part_type_shape(p, pt_shape_sphere);
+  part_type_size(p, 0.05, 0.1, 0, 0.02);
+  part_type_color3(p, c_gray, c_white, c_gray);
+  part_type_alpha2(p, 1, 0);
+  part_type_speed(p, 0, 0.2, 0, 0.1);
+  part_type_direction(p, 0, 360, 0, false);
+  part_type_orientation(p, 0, 0, 0, false, false);
+  part_type_blend(p, true);
+  part_type_life(p, room_speed * 0.5, room_speed * 1);
+}

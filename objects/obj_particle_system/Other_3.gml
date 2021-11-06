@@ -11,7 +11,8 @@ array_foreach(
     global.particle_debris_tiny_hot,
     global.particle_debris_small_hot,
     global.particle_debris_asteroid,
-    global.particle_debris_droid
+    global.particle_debris_droid,
+    global.particle_powerup_gold_sparkle
   ],
   function(particle) { part_type_destroy(particle) }
 )

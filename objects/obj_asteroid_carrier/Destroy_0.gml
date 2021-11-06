@@ -12,7 +12,7 @@ switch (result) {
         direction + random_range(-5, 5),
         rotation_speed + random_range(-1, 1)
       )
-      e.spawning = false;
+      spawn_in_complete(e);
     })
     break;
     
@@ -25,7 +25,7 @@ switch (result) {
         direction + random_range(-5, 5),
         rotation_speed + random_range(-1, 1)
       )
-      e.spawning = false;
+      spawn_in_complete(e);
     });
     break;
     
@@ -39,7 +39,7 @@ switch (result) {
         direction,
         rotation_speed + random_range(-1, 1)
       )
-      e.spawning = false;
+      spawn_in_complete(e);
     })
     break;
 }
