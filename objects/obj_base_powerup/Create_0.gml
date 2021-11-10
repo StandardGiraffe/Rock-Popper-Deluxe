@@ -13,7 +13,13 @@ max_force = 0.1;
 
 velocity = new vector_lengthdir(max_speed, powerup_initial_direction());
 
-//speed = max_speed;
+
+// Functions:
 set_direction = function(_dir) {
   velocity = new vector_lengthdir(max_speed, _dir);
+}
+
+set_fading = function() {
+  fading = true;
+  fade_direction = "out";
 }

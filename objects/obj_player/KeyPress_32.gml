@@ -8,7 +8,7 @@ if global.powerups_inventory.bullet_dual_shot {
     image_angle
   );
   setup_player_shot(b);
-  add_recoil(b.speed, b.shot_power);
+  add_recoil(b.max_speed, b.shot_power);
   
   var b = shoot_projectile(
     obj_bullet_player,
@@ -17,10 +17,10 @@ if global.powerups_inventory.bullet_dual_shot {
     image_angle
   );
   setup_player_shot(b);
-  add_recoil(b.speed, b.shot_power);
+  add_recoil(b.max_speed, b.shot_power);
   
 } else {
   var b = shoot_projectile(obj_bullet_player, x, y, image_angle);
   setup_player_shot(b);
-  add_recoil(b.speed, b.shot_power);
+  add_recoil(b.max_speed, b.shot_power);
 }

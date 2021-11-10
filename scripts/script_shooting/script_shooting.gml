@@ -3,20 +3,21 @@ function shoot_projectile(_projectile_id, _x, _y, _direction) {
     _x, _y, "Projectiles", _projectile_id
   );
   
-  projectile.direction = _direction;
-  projectile.image_angle = _direction;
+  projectile.set_direction(_direction);
   
-  if global.powerups_inventory.bullet_speed_shot {
-    projectile.speed = global.stats.bullet_speed * 2;
-  } else {
-    projectile.speed = global.stats.bullet_speed;
-  }
+  //projectile.image_angle = _direction;
   
-  if global.powerups_inventory.bullet_power_shot {
-    projectile.power = global.stats.bullet_power * 2;
-  } else {
-    projectile.power = global.stats.bullet_power;
-  }
+  //if global.powerups_inventory.bullet_speed_shot {
+  //  projectile.max_speed = global.stats.bullet_speed * 2;
+  //} else {
+  //  projectile.max_speed = global.stats.bullet_speed;
+  //}
+  
+  //if global.powerups_inventory.bullet_power_shot {
+  //  projectile.power = global.stats.bullet_power * 2;
+  //} else {
+  //  projectile.power = global.stats.bullet_power;
+  //}
   
   return projectile;
 }
@@ -48,10 +49,13 @@ function draw_bullet_impact_particles(_x, _y) {
 
 function setup_player_shot(_bullet) {
   var damage_bonus = global.powerups_inventory.bullet_power_shot ? 1 : 0;
-  var speed_bonus = global.powerups_inventory.bullet_speed_shot ? 1 : 0;
+  var speed_bonus = global.powerups_inventory.bullet_speed_shot ? 1.75 : 1;
   
   _bullet.shot_power += damage_bonus;
-  _bullet.speed += speed_bonus;
+  
+  _bullet.max_speed *= speed_bonus;
+  _bullet.velocity.multiply(speed_bonus);
+  
   _bullet.void_persistent = global.powerups_inventory.bullet_void_shot;
   
   return _bullet

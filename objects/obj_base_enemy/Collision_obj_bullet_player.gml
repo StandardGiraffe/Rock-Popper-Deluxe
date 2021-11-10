@@ -1,6 +1,6 @@
 var damage_taken = other.shot_power;
-var impact_magnitude = ((damage_taken * 8) + other.speed) / enemy.mass;
-var impact_direction = other.direction;
+var impact_magnitude = ((damage_taken * 8) + other.max_speed) / enemy.mass;
+var impact_direction = other.get_direction();
 
 draw_bullet_impact_particles(other.x, other.y);
 instance_destroy(other);

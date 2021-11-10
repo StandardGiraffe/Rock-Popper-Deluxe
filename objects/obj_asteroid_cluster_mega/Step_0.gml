@@ -2,7 +2,7 @@ event_inherited();
 
 if (instance_exists(obj_player) && spit_asteroid) {
   spit_asteroid = false;
-  alarm_set(0, room_speed * random_range(4, 6));
+  alarm_set(0, room_speed * random_range(2, 5));
   
   var player_direction = point_direction(x, y, obj_player.x, obj_player.y);
   var selection = irandom(1);
