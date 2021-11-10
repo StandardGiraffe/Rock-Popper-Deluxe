@@ -1,6 +1,6 @@
 event_inherited();
 
-if irandom(2) == 0 {
+if irandom(3) == 0 {
   var selection = irandom(3);
   
   switch selection {
