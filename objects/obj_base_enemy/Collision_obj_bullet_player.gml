@@ -16,7 +16,7 @@ if (_current_sprite != _new_sprite) {
   generate_debris(
     x, y,
     enemy.type,
-    (sprite_width * sprite_height / 1000),
+    (sprite_width * sprite_height / 1500),
     image_angle,
     sprite_height, sprite_width
   );
