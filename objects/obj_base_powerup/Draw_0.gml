@@ -26,7 +26,6 @@ if fading {
       fade_direction = "out";
     }
   }
-  show_debug_message([ image_alpha, fade_direction ] )
 }
 
 draw_self();
