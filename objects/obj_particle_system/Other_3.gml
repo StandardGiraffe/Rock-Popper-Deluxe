@@ -2,6 +2,12 @@
 
 array_foreach(
   [
+    global.particle_bullet_trail_enemy_small,
+    global.particle_impact_flare_enemy_small,
+    global.particle_impact_spark_enemy_small,
+    global.particle_bullet_trail_enemy_tiny,
+    global.particle_impact_flare_enemy_tiny,
+    global.particle_impact_spark_enemy_tiny,
     global.particle_bullet_trail_small,
     global.particle_impact_flare_small,
     global.particle_impact_spark_small,

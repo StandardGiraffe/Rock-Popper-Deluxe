@@ -29,8 +29,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Projectiles",
-    "path": "folders/Objects/Projectiles.yy",
+    "name": "Player Projectiles",
+    "path": "folders/Objects/Projectiles/Player Projectiles.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_bullet_player",

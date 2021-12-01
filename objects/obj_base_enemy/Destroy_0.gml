@@ -2,7 +2,7 @@ audio_play_sound(enemy.death_sound, 0, 0);
 
 if points_value > 0 {
   award_points(points_value);
-  display_popup(points_value, x, y);  
+  display_popup(points_value, x, y, undefined, undefined, 1.5, 0.02);  
 }
 
 maybe_drop_powerup(enemy.drop_chance, x, y);

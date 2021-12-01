@@ -1,5 +1,10 @@
 function collect_powerup_shields() {
-  global.stats.shielded = true;
+  if !global.stats.shielded {
+    global.stats.shielded = true;
+    global.stats.current_shields = global.stats.max_shields / 2;
+  } else {
+    global.stats.current_shields = global.stats.max_shields
+  }
 }
 
 global.powerup_shields = {

@@ -3,6 +3,87 @@
 global.particles = part_system_create_layer("Entities", false);
 global.particles_debris = part_system_create_layer("Player", false);
 
+#region Enemy Shot Particles
+
+// Shot trail for a tiny enemy bullet
+global.particle_bullet_trail_enemy_tiny = part_type_create();
+var p = global.particle_bullet_trail_enemy_tiny;
+part_type_shape(p, pt_shape_sphere);
+part_type_size(p, 0.01, 0.05, 0, 0.02);
+part_type_color3(p, c_lime, c_green, c_olive);
+part_type_alpha2(p, 1, 0);
+part_type_speed(p, 0, 0.3, 0, 0);
+part_type_direction(p, 0, 360, 0, false);
+part_type_orientation(p, 0, 0, 0, false, false);
+part_type_blend(p, true);
+part_type_life(p, room_speed * 0.25, room_speed * 0.5);
+
+// Impact effect for a tiny enemy bullet
+global.particle_impact_flare_enemy_tiny = part_type_create();
+var p = global.particle_impact_flare_enemy_tiny;
+part_type_shape(p, pt_shape_flare);
+part_type_size(p, 1, 1, -0.05, false);
+part_type_color3(p, c_lime, c_green, c_olive);
+part_type_alpha2(p, 0.75, 0);
+part_type_speed(p, 0, 0, 0, false);
+part_type_direction(p, 0, 0, 0, false);
+part_type_orientation(p, 0, 360, 4, false, false);
+part_type_blend(p, true);
+part_type_life(p, room_speed * 0.25, room_speed * 0.75);
+
+global.particle_impact_spark_enemy_tiny = part_type_create();
+var p = global.particle_impact_spark_enemy_tiny;
+part_type_shape(p, pt_shape_spark);
+part_type_size(p, 1, 1, 0.05, false);
+part_type_color2(p, c_lime, c_green);
+part_type_alpha2(p, 1, 0);
+part_type_speed(p, 0, 0, 0, false);
+part_type_direction(p, 0, 0, 0, false);
+part_type_orientation(p, 0, 360, 2, false, false);
+part_type_blend(p, true);
+part_type_life(p, room_speed * 0.05, room_speed * 0.1);
+
+
+// Shot trail for a small enemy bullet
+global.particle_bullet_trail_enemy_small = part_type_create();
+var p = global.particle_bullet_trail_enemy_small;
+part_type_shape(p, pt_shape_sphere);
+part_type_size(p, 0.05, 0.1, 0, 0.02);
+part_type_color3(p, c_lime, c_green, c_olive);
+part_type_alpha2(p, 1, 0);
+part_type_speed(p, 0, 0.3, 0, 0);
+part_type_direction(p, 0, 360, 0, false);
+part_type_orientation(p, 0, 0, 0, false, false);
+part_type_blend(p, true);
+part_type_life(p, room_speed * 0.5, room_speed * 0.75);
+
+// Impact effect for a small enemy bullet
+global.particle_impact_flare_enemy_small = part_type_create();
+var p = global.particle_impact_flare_enemy_small;
+part_type_shape(p, pt_shape_flare);
+part_type_size(p, 1.25, 1.25, -0.05, false);
+part_type_color3(p, c_lime, c_green, c_olive);
+part_type_alpha2(p, 1, 0);
+part_type_speed(p, 0, 0, 0, false);
+part_type_direction(p, 0, 0, 0, false);
+part_type_orientation(p, 0, 360, 4, false, false);
+part_type_blend(p, true);
+part_type_life(p, room_speed * 0.5, room_speed * 1);
+
+global.particle_impact_spark_enemy_small = part_type_create();
+var p = global.particle_impact_spark_enemy_small;
+part_type_shape(p, pt_shape_spark);
+part_type_size(p, 1.25, 1.25, 0.05, false);
+part_type_color2(p, c_lime, c_green);
+part_type_alpha2(p, 1, 0);
+part_type_speed(p, 0, 0, 0, false);
+part_type_direction(p, 0, 0, 0, false);
+part_type_orientation(p, 0, 360, 2, false, false);
+part_type_blend(p, true);
+part_type_life(p, room_speed * 0.1, room_speed * 0.2);
+
+#endregion Enemy Shot Particles
+
 
 // Player Shot Particles
 {
@@ -129,11 +210,11 @@ global.particles_debris = part_system_create_layer("Player", false);
   global.particle_debris_droid = part_type_create();
   var p = global.particle_debris_droid;
   part_type_sprite(p, spr_debris_droid, false, false, true);
-  part_type_size(p, 0.5, 2.5, 0, false);
+  part_type_size(p, 0.5, 1.5, 0, false);
   part_type_alpha2(p, 1, 0);
   part_type_speed(p, 0, 1, 0, 0);
   part_type_direction(p, 0, 360, 0, 0);
-  part_type_orientation(p, 0, 360, 0, 5, false);
+  part_type_orientation(p, 0, 360, 0, 0, false);
   part_type_blend(p, false);
   part_type_life(p, room_speed * 1, room_speed * 3.5)  ;
 }

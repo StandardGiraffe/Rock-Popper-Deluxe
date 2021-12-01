@@ -33,3 +33,25 @@ function maybe_drop_powerup(_drop_chance, _x, _y) {
     )
   }
 }
+
+function stabilize_speed(_speed, _starting_speed, _acceleration_rate = 0.001, _deceleration_rate = 0.05) {
+  if (_speed < _starting_speed) {
+    return _speed + _acceleration_rate;
+  }
+
+  if (_speed > _starting_speed) {
+    return _speed - _deceleration_rate;
+  }
+  
+  return _speed;
+}
+
+
+function approach_target_direction(_magnitude) {
+  var _angle_difference = angle_difference(self.direction, self.target_direction);
+  
+  if (abs(_angle_difference) >= _magnitude) {
+    self.direction -= median(-_magnitude, _angle_difference, _magnitude);
+  }
+  
+}

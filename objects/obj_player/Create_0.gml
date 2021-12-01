@@ -1,7 +1,8 @@
+// Fresh start events
 spawn_in(0.05);
-
 global.powerups_inventory = new base_powerups_inventory();
 
+// Functions
 impacted = function() {
   if !spawning {
     if (global.stats.shielded) {
