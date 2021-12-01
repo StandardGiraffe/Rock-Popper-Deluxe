@@ -1,4 +1,3 @@
-sprite_index = enemy.sprites[0];
 spawn_in();
 flash_alpha = 0;
 flash_colour = c_white;

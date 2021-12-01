@@ -154,7 +154,7 @@
   "nineSlice": null,
   "parent": {
     "name": "asteroid_carrier",
-    "path": "folders/Objects/Enemies/Asteroids/asteroid_carrier.yy",
+    "path": "folders/Objects/Enemies/Droids/asteroid_carrier.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_asteroid_carrier_h1",

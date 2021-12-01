@@ -69,4 +69,6 @@ function revert_to_base_stats(full_game_reset = false) {
   global.stats.inertia_rate = global.base_stats.inertia_rate;
   
   global.stats.shielded = global.base_stats.shielded;
+  global.stats.max_shields = global.base_stats.max_shields;
+  global.stats.current_shields = global.base_stats.current_shields;
 }

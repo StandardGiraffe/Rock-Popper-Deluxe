@@ -33,6 +33,7 @@ function Enemy(
   death_sound = _death_sound;
 }
 
+#region Asteroids
 // Basic Asteroid
 global.enemy_asteroid_basic = {
   object_name: obj_asteroid_basic,
@@ -153,6 +154,136 @@ global.enemy_asteroid_splitter_medium_fragment = {
   drop_chance: 32,
 };
 
+// Boss Asteroid: Cluster Crumbler
+global.enemy_asteroid_cluster_mega = {
+  object_name: obj_asteroid_cluster_mega,
+  type: "asteroid",
+  max_hitpoints: { base: 75, min: 0, max: 0, as_int: true },
+  max_shields: 0,
+  score_multiplier: 250,
+  movement_speed: { base: 0, min: 0, max: 0, as_int: false },
+  mass: 10000,
+  rotation_speed: { base: 0, min: -0.5, max: 0.5, as_int: false },
+  initial_direction: { base: 0, min: 0, max: 360, as_int: false },
+  hit_sound: snd_struck,
+  death_sound: snd_destroyed,
+  spawn_distance_minimum: 100,
+  spawn_distance_maximum: 5000,
+  sprites: [
+    spr_asteroid_cluster_mega_h0,
+    spr_asteroid_cluster_mega_h1,
+    spr_asteroid_cluster_mega_h2,
+    spr_asteroid_cluster_mega_h3
+  ],
+  drop_chance: -1,
+};
+#endregion Asteroids
+
+#region Asterdroids
+// A large, shielded asterdroid
+global.enemy_asterdroid_shielded = {
+  object_name: obj_asterdroid_shielded,
+  type: "asterdroid",
+  max_hitpoints: { base: 10, min: 5, max: 10, as_int: true },
+  max_shields: 125,
+  score_multiplier: 125,
+  movement_speed: { base: 1, min: 0, max: 2, as_int: false },
+  mass: 250,
+  rotation_speed: { base: 0, min: -1, max: 1, as_int: false },
+  initial_direction: { base: 0, min: 0, max: 360, as_int: false },
+  hit_sound: snd_struck,
+  death_sound: snd_destroyed,
+  spawn_distance_minimum: 100,
+  spawn_distance_maximum: 5000,
+  sprites: [
+    spr_asterdroid_shielded_h0,
+    spr_asterdroid_shielded_h1,
+    spr_asterdroid_shielded_h2,
+    spr_asterdroid_shielded_h3
+  ],
+  drop_chance: 2,
+};
+
+// A large, shielded asterdroid
+global.enemy_asterdroid_shooter_small = {
+  object_name: obj_asterdroid_shooter_small,
+  type: "asterdroid",
+  max_hitpoints: { base: 3, min: 1, max: 3, as_int: true },
+  max_shields: 0,
+  score_multiplier: 125,
+  movement_speed: { base: 1, min: 0, max: 1.5, as_int: false },
+  mass: 50,
+  rotation_speed: { base: 0, min: -2, max: 2, as_int: false },
+  initial_direction: { base: 0, min: 0, max: 360, as_int: false },
+  hit_sound: snd_struck,
+  death_sound: snd_destroyed,
+  spawn_distance_minimum: 100,
+  spawn_distance_maximum: 5000,
+  sprites: [
+    spr_asterdroid_shooter_small_h0,
+    spr_asterdroid_shooter_small_h1,
+    spr_asterdroid_shooter_small_h2,
+    spr_asterdroid_shooter_small_h3
+  ],
+  drop_chance: 16,
+};
+#endregion Asterdroids
+
+#region Droids
+// Straight-Shooting Droid
+global.enemy_droid_straight_shoot = {
+  object_name: obj_droid_straight_shoot,
+  type: "droid_mini",
+  max_hitpoints: { base: 1, min: 0, max: 1, as_int: true },
+  max_shields: 15,
+  score_multiplier: 200,
+  movement_speed: { base: 0.5, min: 1, max: 1.5, as_int: false },
+  mass: 10,
+  rotation_speed: { base: 0, min: 0, max: 0, as_int: false },
+  initial_direction: { base: 0, min: 0, max: 360, as_int: false },
+  hit_sound: snd_tink,
+  death_sound: snd_destroyed,
+  spawn_distance_minimum: 100,
+  spawn_distance_maximum: 5000,
+  sprites: [
+    spr_droid_straight_shoot_h0,
+    spr_droid_straight_shoot_h1,
+    spr_droid_straight_shoot_h2,
+    spr_droid_straight_shoot_h3
+  ],
+  drop_chance: 16,
+  stabilization_rate: 1,
+  wobble_range: 5,
+  wobble_frequency: 2
+};
+
+// Straight-Shooting Droid
+global.enemy_droid_straight_shoot_spread = {
+  object_name: obj_droid_straight_shoot_spread,
+  type: "droid",
+  max_hitpoints: { base: 10, min: 2, max: 5, as_int: true },
+  max_shields: 50,
+  score_multiplier: 250,
+  movement_speed: { base: 0.5, min: 0.5, max: 1, as_int: false },
+  mass: 30,
+  rotation_speed: { base: 0, min: 0, max: 0, as_int: false },
+  initial_direction: { base: 0, min: 0, max: 360, as_int: false },
+  hit_sound: snd_tink,
+  death_sound: snd_destroyed,
+  spawn_distance_minimum: 100,
+  spawn_distance_maximum: 5000,
+  sprites: [
+    spr_droid_straight_shoot_spread_h0,
+    spr_droid_straight_shoot_spread_h1,
+    spr_droid_straight_shoot_spread_h2,
+    spr_droid_straight_shoot_spread_h3
+  ],
+  drop_chance: 4,
+  stabilization_rate: 0.5,
+  wobble_range: 15,
+  wobble_frequency: 3
+};
+
 // Armoured Asteroid
 global.enemy_asteroid_armoured = {
   object_name: obj_asteroid_armoured,
@@ -180,7 +311,7 @@ global.enemy_asteroid_armoured = {
 // Asteroid Carrier
 global.enemy_asteroid_carrier = {
   object_name: obj_asteroid_carrier,
-  type: "droid",
+  type: "droid_mini",
   max_hitpoints: { base: 5, min: 0, max: 5, as_int: true },
   max_shields: 0,
   score_multiplier: 100,
@@ -197,30 +328,6 @@ global.enemy_asteroid_carrier = {
     spr_asteroid_carrier_h1,
     spr_asteroid_carrier_h2,
     spr_asteroid_carrier_h3
-  ],
-  drop_chance: -1,
-};
-
-// Boss Asteroid: Cluster Crumbler
-global.enemy_asteroid_cluster_mega = {
-  object_name: obj_asteroid_cluster_mega,
-  type: "asteroid",
-  max_hitpoints: { base: 75, min: 0, max: 0, as_int: true },
-  max_shields: 0,
-  score_multiplier: 250,
-  movement_speed: { base: 0, min: 0, max: 0, as_int: false },
-  mass: 10000,
-  rotation_speed: { base: 0, min: -0.5, max: 0.5, as_int: false },
-  initial_direction: { base: 0, min: 0, max: 360, as_int: false },
-  hit_sound: snd_struck,
-  death_sound: snd_destroyed,
-  spawn_distance_minimum: 100,
-  spawn_distance_maximum: 5000,
-  sprites: [
-    spr_asteroid_cluster_mega_h0,
-    spr_asteroid_cluster_mega_h1,
-    spr_asteroid_cluster_mega_h2,
-    spr_asteroid_cluster_mega_h3
   ],
   drop_chance: -1,
 };
@@ -272,7 +379,9 @@ global.enemy_droid_rammer_mini = {
   ],
   drop_chance: 1,
 };
+#endregion Droids
 
+#region Capsules
 global.enemy_powerup_capsule_weapon = {
   object_name: obj_powerup_capsule_weapon,
   type: "capsule",
@@ -341,3 +450,6 @@ global.enemy_powerup_capsule_shields = {
   ],
   drop_chance: -1,
 };
+#endregion Capsules
+
+

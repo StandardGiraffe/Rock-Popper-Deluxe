@@ -16,7 +16,7 @@ if (draw_hud) {
   }
 
   if (global.stats.shielded) {
-    draw_text_color(64, 80, "SHIELDS UP", c_aqua, c_aqua, c_blue, c_blue, 1);  
+    draw_text_color(64, 80, "SHIELDS: " + string_format(global.stats.current_shields / global.stats.max_shields * 100, 3, 0) + "%", c_aqua, c_aqua, c_blue, c_blue, 1);  
   } else {
     draw_text_color(64, 80, "SHIELDS DOWN", c_red, c_red, c_maroon, c_maroon, 1);
   }

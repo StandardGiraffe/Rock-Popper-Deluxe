@@ -1,50 +1,17 @@
-function shoot_projectile(_projectile_id, _x, _y, _direction) {
+function shoot_projectile(_projectile_id, _x, _y, _direction, _sound_effect_id = undefined) {
+  if _sound_effect_id { audio_play_sound(_sound_effect_id, 0, 0); }
+  
   var projectile = instance_create_layer(
     _x, _y, "Projectiles", _projectile_id
   );
   
   projectile.set_direction(_direction);
   
-  //projectile.image_angle = _direction;
-  
-  //if global.powerups_inventory.bullet_speed_shot {
-  //  projectile.max_speed = global.stats.bullet_speed * 2;
-  //} else {
-  //  projectile.max_speed = global.stats.bullet_speed;
-  //}
-  
-  //if global.powerups_inventory.bullet_power_shot {
-  //  projectile.power = global.stats.bullet_power * 2;
-  //} else {
-  //  projectile.power = global.stats.bullet_power;
-  //}
-  
   return projectile;
 }
 
-function draw_bullet_impact_particles(_x, _y) {
-  part_particles_create(
-    global.particles,
-    _x, _y,
-    global.particle_impact_flare_small,
-    1
-  )
-  
-  part_particles_create(
-    global.particles,
-    _x, _y,
-    global.particle_impact_spark_small,
-    1
-  )
-  
-  if global.powerups_inventory.bullet_power_shot {
-    part_particles_create(
-      global.particles,
-      _x, _y,
-      global.particle_impact_power_shot_ring,
-      1
-    )
-  }
+function draw_bullet_impact_particles(_impact_particle_function, _x, _y) {
+  _impact_particle_function(_x, _y);
 }
 
 function setup_player_shot(_bullet) {

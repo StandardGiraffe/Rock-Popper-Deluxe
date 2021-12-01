@@ -8,6 +8,8 @@ global.base_stats = {
   turn_rate: 2,
   bullet_speed: 8,
   shielded: true,
+  max_shields: 50,
+  current_shields: 50,
   inertia_rate: 0.01,
   bullet_power: 1
 }

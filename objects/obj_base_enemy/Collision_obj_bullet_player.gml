@@ -12,6 +12,7 @@ if (shielded) {
   
   if (current_shields <= 0) {
     shielded = false
+    sprite_index = enemy.sprites[0];
     display_popup("0.00", x, y, undefined,
       [ c_silver, c_silver, c_white, c_white ], 0.1
     );
@@ -35,7 +36,7 @@ if (shielded) {
   var damage_taken = other.shot_power;
   var impact_magnitude = ((damage_taken * 8) + other.max_speed) / enemy.mass;
 
-  draw_bullet_impact_particles(other.x, other.y);
+  draw_bullet_impact_particles(other.projectile.impact_particles, other.x, other.y);
   instance_destroy(other);
   
   // Take damage:
