@@ -213,7 +213,7 @@ global.enemy_asterdroid_shooter_small = {
   score_multiplier: 125,
   movement_speed: { base: 1, min: 0, max: 1.5, as_int: false },
   mass: 50,
-  rotation_speed: { base: 0, min: -2, max: 2, as_int: false },
+  rotation_speed: { base: 1, min: 0, max: 2, as_int: false },
   initial_direction: { base: 0, min: 0, max: 360, as_int: false },
   hit_sound: snd_struck,
   death_sound: snd_destroyed,
