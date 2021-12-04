@@ -38,7 +38,7 @@ function vector(_x, _y) constructor {
       
 	static get_magnitude = function() {
 		return point_distance(0, 0, x, y);
-    }
+  }
 	
 	static get_direction = function() {
 		return point_direction(0, 0, x, y);
@@ -90,6 +90,10 @@ function vector_lengthdir(_length, _dir) : vector() constructor {
 //Vector Functions Don't Modify the Original Vector
 function vector_copy(_vector) {
 	return new vector(_vector.x, _vector.y);
+}
+
+function vector_add(_vector_a, _vector_b) {
+	return new vector((_vector_a.x + _vector_b.x), (_vector_a.y + _vector_b.y));
 }
 
 function vector_subtract(_vector_a, _vector_b) {
