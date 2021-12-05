@@ -20,3 +20,4 @@ direction = get_random_value(enemy.initial_direction);
 starting_speed = get_random_value(enemy.movement_speed);
 speed = starting_speed;
 
+void_persistent = true;

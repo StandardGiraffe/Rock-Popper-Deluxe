@@ -62,7 +62,7 @@ global.enemy_asteroid_basic = {
 global.enemy_asteroid_gravel = {
   object_name: obj_asteroid_gravel,
   type: "asteroid_mini",
-  max_hitpoints: { base: 1, min: 0, max: 0, as_int: true },
+  max_hitpoints: { base: 0, min: 0, max: 0, as_int: true },
   max_shields: 0,
   score_multiplier: 250,
   movement_speed: { base: 2, min: 0, max: 2, as_int: false },
@@ -82,11 +82,11 @@ global.enemy_asteroid_gravel = {
   drop_chance: 64,
 };
 
-// Tiny gravel Asteroid (One-shot)
+// Small gravel Asteroid (One-shot)
 global.enemy_asteroid_gravel_large = {
   object_name: obj_asteroid_gravel_large,
   type: "asteroid_mini",
-  max_hitpoints: { base: 1, min: 0, max: 0, as_int: true },
+  max_hitpoints: { base: 0, min: 0, max: 0, as_int: true },
   max_shields: 0,
   score_multiplier: 50,
   movement_speed: { base: 2, min: 0, max: 2, as_int: false },
@@ -110,7 +110,7 @@ global.enemy_asteroid_gravel_large = {
 global.enemy_asteroid_splitter_medium = {
   object_name: obj_asteroid_splitter_medium,
   type: "asteroid",
-  max_hitpoints: { base: 0, min: 2, max: 5, as_int: true },
+  max_hitpoints: { base: 1, min: 2, max: 5, as_int: true },
   max_shields: 0,
   score_multiplier: 75,
   movement_speed: { base: 0.5, min: 0, max: 2, as_int: false },
@@ -134,7 +134,7 @@ global.enemy_asteroid_splitter_medium = {
 global.enemy_asteroid_splitter_medium_fragment = {
   object_name: obj_asteroid_splitter_medium_fragment,
   type: "asteroid_mini",
-  max_hitpoints: { base: 0, min: 1, max: 3, as_int: true },
+  max_hitpoints: { base: 1, min: 1, max: 3, as_int: true },
   max_shields: 0,
   score_multiplier: 150,
   movement_speed: { base: 1, min: 0, max: 2.5, as_int: false },
@@ -158,7 +158,7 @@ global.enemy_asteroid_splitter_medium_fragment = {
 global.enemy_asteroid_cluster_mega = {
   object_name: obj_asteroid_cluster_mega,
   type: "asteroid",
-  max_hitpoints: { base: 75, min: 0, max: 0, as_int: true },
+  max_hitpoints: { base: 100, min: 0, max: 0, as_int: true },
   max_shields: 0,
   score_multiplier: 250,
   movement_speed: { base: 0, min: 0, max: 0, as_int: false },
@@ -184,7 +184,7 @@ global.enemy_asteroid_cluster_mega = {
 global.enemy_asterdroid_shielded = {
   object_name: obj_asterdroid_shielded,
   type: "asterdroid",
-  max_hitpoints: { base: 10, min: 5, max: 10, as_int: true },
+  max_hitpoints: { base: 12, min: 5, max: 10, as_int: true },
   max_shields: 125,
   score_multiplier: 125,
   movement_speed: { base: 1, min: 0, max: 2, as_int: false },
@@ -208,7 +208,7 @@ global.enemy_asterdroid_shielded = {
 global.enemy_asterdroid_shooter_small = {
   object_name: obj_asterdroid_shooter_small,
   type: "asterdroid",
-  max_hitpoints: { base: 3, min: 1, max: 3, as_int: true },
+  max_hitpoints: { base: 4, min: 1, max: 3, as_int: true },
   max_shields: 0,
   score_multiplier: 125,
   movement_speed: { base: 1, min: 0, max: 1.5, as_int: false },
@@ -234,7 +234,7 @@ global.enemy_asterdroid_shooter_small = {
 global.enemy_droid_straight_shoot = {
   object_name: obj_droid_straight_shoot,
   type: "droid_mini",
-  max_hitpoints: { base: 1, min: 0, max: 1, as_int: true },
+  max_hitpoints: { base: 2, min: 0, max: 1, as_int: true },
   max_shields: 15,
   score_multiplier: 200,
   movement_speed: { base: 0.5, min: 1, max: 1.5, as_int: false },
@@ -261,7 +261,7 @@ global.enemy_droid_straight_shoot = {
 global.enemy_droid_straight_shoot_spread = {
   object_name: obj_droid_straight_shoot_spread,
   type: "droid",
-  max_hitpoints: { base: 10, min: 2, max: 5, as_int: true },
+  max_hitpoints: { base: 13, min: 2, max: 5, as_int: true },
   max_shields: 50,
   score_multiplier: 250,
   movement_speed: { base: 0.5, min: 0.5, max: 1, as_int: false },
@@ -312,7 +312,7 @@ global.enemy_asteroid_armoured = {
 global.enemy_asteroid_carrier = {
   object_name: obj_asteroid_carrier,
   type: "droid_mini",
-  max_hitpoints: { base: 5, min: 0, max: 5, as_int: true },
+  max_hitpoints: { base: 6, min: 0, max: 5, as_int: true },
   max_shields: 0,
   score_multiplier: 100,
   movement_speed: { base: 1, min: 0, max: 1, as_int: false },
@@ -336,9 +336,9 @@ global.enemy_asteroid_carrier = {
 global.enemy_droid_rammer_medium = {
   object_name: obj_droid_rammer_medium,
   type: "droid",
-  max_hitpoints: { base: 30, min: 0, max: 0, as_int: true },
+  max_hitpoints: { base: 25, min: 0, max: 10, as_int: true },
   max_shields: 0,
-  score_multiplier: 500,
+  score_multiplier: 250,
   movement_speed: { base: 2, min: 0, max: 0, as_int: false },
   mass: 250,
   rotation_speed: { base: 0, min: -1, max: 1, as_int: false },
@@ -360,9 +360,9 @@ global.enemy_droid_rammer_medium = {
 global.enemy_droid_rammer_mini = {
   object_name: obj_droid_rammer_mini,
   type: "droid",
-  max_hitpoints: { base: 15, min: 0, max: 0, as_int: true },
+  max_hitpoints: { base: 15, min: 0, max: 5, as_int: true },
   max_shields: 0,
-  score_multiplier: 200,
+  score_multiplier: 150,
   movement_speed: { base: 2, min: 1, max: 3, as_int: false },
   mass: 50,
   rotation_speed: { base: 0, min: -2, max: 2, as_int: false },
@@ -431,7 +431,7 @@ global.enemy_powerup_capsule_engine = {
 global.enemy_powerup_capsule_shields = {
   object_name: obj_powerup_capsule_shields,
   type: "capsule",
-  max_hitpoints: { base: 1, min: 0, max: 0, as_int: true },
+  max_hitpoints: { base: 0, min: 0, max: 0, as_int: true },
   max_shields: 0,
   score_multiplier: 10,
   movement_speed: { base: 1, min: 0, max: 1, as_int: false },

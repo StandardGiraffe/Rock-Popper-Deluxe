@@ -145,7 +145,7 @@ part_type_life(p, room_speed * 0.1, room_speed * 0.2);
   var p = global.particle_impact_shield_circle;
   part_type_shape(p, pt_shape_circle);
   part_type_size(p, 0.5, 1, -0.05, false);
-  part_type_color2(p, c_teal, c_blue);
+  part_type_color2(p, c_aqua, c_blue);
   part_type_alpha2(p, 0.8, 0);
   part_type_speed(p, 0, 0, 0, false);
   part_type_direction(p, 0, 0, 0, false);
@@ -157,13 +157,37 @@ part_type_life(p, room_speed * 0.1, room_speed * 0.2);
   var p = global.particle_impact_shield_sphere;
   part_type_shape(p, pt_shape_sphere);
   part_type_size(p, 0.01, 0.05, 0, 0.02);
-  part_type_color3(p, c_teal, c_blue, c_aqua);
+  part_type_color3(p, c_aqua, c_blue, c_navy);
   part_type_alpha2(p, 1, 0);
   part_type_speed(p, 0, 0, 0, false);
   part_type_direction(p, 0, 0, 0, false);
   part_type_orientation(p, 0, 0, 0, false, false);
   part_type_blend(p, true);
   part_type_life(p, room_speed * 1, room_speed * 1.5);
+  
+  global.particle_shield_popping_circle = part_type_create();
+  var p = global.particle_shield_popping_circle;
+  part_type_shape(p, pt_shape_circle);
+  part_type_size(p, 1, 1, 0.25, false);
+  part_type_color2(p, c_aqua, c_blue);
+  part_type_alpha2(p, 0.8, 0);
+  part_type_speed(p, 0, 0, 0, false);
+  part_type_direction(p, 0, 0, 0, false);
+  part_type_orientation(p, 0, 0, 0, false, false);
+  part_type_blend(p, true);
+  part_type_life(p, room_speed * 0.35, room_speed * 0.35);
+  
+  global.particle_shield_popping_sphere = part_type_create();
+  var p = global.particle_shield_popping_sphere;
+  part_type_shape(p, pt_shape_sphere);
+  part_type_size(p, 0.05, 0.2, 0, 0.1);
+  part_type_color3(p, c_aqua, c_blue, c_navy);
+  part_type_alpha2(p, 1, 0);
+  part_type_speed(p, 0, 0, 0, false);
+  part_type_direction(p, 0, 0, 0, false);
+  part_type_orientation(p, 0, 0, 0, false, false);
+  part_type_blend(p, true);
+  part_type_life(p, room_speed * 1.5, room_speed * 3);
 }
   
 // Debris Particles

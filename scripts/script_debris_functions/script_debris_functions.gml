@@ -110,3 +110,23 @@ function generate_debris(_x, _y, _enemy_type, _quantity, _angle, _sprite_height,
       break;
   }
 }
+
+function draw_shield_pop(object) {
+  part_particles_create(
+    global.particles,
+    object.x,
+    object.y,
+    global.particle_shield_popping_circle,
+    1
+  );
+  
+  draw_particle_on_sprite(
+    object.x, object.y, global.particle_shield_popping_sphere,
+    object.sprite_height * object.sprite_width * 0.01, object.image_angle, object.sprite_height * 1.15, object.sprite_width * 1.15
+  );
+  
+  draw_particle_on_sprite(
+    object.x, object.y, global.particle_impact_shield_circle,
+    object.sprite_height * object.sprite_width / 1000, object.image_angle, object.sprite_height * 2, object.sprite_width * 2
+  );
+}

@@ -1,11 +1,11 @@
-function shoot_projectile(_projectile_id, _x, _y, _direction, _sound_effect_id = undefined) {
+function shoot_projectile(_projectile_id, _x, _y, _direction, _sound_effect_id = undefined, guns_vector) {
   if _sound_effect_id { audio_play_sound(_sound_effect_id, 0, 0); }
   
   var projectile = instance_create_layer(
     _x, _y, "Projectiles", _projectile_id
   );
   
-  projectile.set_direction(_direction);
+  projectile.set_direction(_direction, guns_vector);
   
   return projectile;
 }
@@ -18,10 +18,10 @@ function setup_player_shot(_bullet) {
   var damage_bonus = global.powerups_inventory.bullet_power_shot ? 2 : 1;
   var speed_bonus = global.powerups_inventory.bullet_speed_shot ? 1.75 : 1;
   
-  _bullet.shot_power *= damage_bonus;
-  _bullet.shot_power_vs_shields *= damage_bonus;
+  _bullet.base_power *= damage_bonus;
+  //_bullet.shot_power_vs_shields() *= damage_bonus;
   
-  _bullet.max_speed *= speed_bonus;
+  _bullet.base_speed *= speed_bonus;
   _bullet.velocity.multiply(speed_bonus);
   
   _bullet.void_persistent = global.powerups_inventory.bullet_void_shot;

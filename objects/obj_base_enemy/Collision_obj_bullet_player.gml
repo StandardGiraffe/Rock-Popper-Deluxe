@@ -1,7 +1,8 @@
 var impact_direction = other.get_direction();
+var own_velocity = new vector_lengthdir(speed, direction);
 
 if (shielded) {
-  var damage_taken = other.shot_power_vs_shields;
+  var damage_taken = other.shot_power_vs_shields(own_velocity);
   var impact_magnitude = 0;
   
   draw_bullet_impact_shields_particles(other.x, other.y);
@@ -13,11 +14,10 @@ if (shielded) {
   if (current_shields <= 0) {
     shielded = false
     sprite_index = enemy.sprites[0];
-    display_popup("0.00", x, y, undefined,
-      [ c_silver, c_silver, c_white, c_white ], 0.1
-    );
     flash_colour = c_teal;
     audio_play_sound(snd_enemy_shields_down, 0, 0);
+    draw_shield_pop(self);
+  
   } else {
     var shield_percent_left = string_format(
       (current_shields / max_shields * 100),
@@ -33,8 +33,8 @@ if (shielded) {
   flash_alpha = 1;
   
 } else {
-  var damage_taken = other.shot_power;
-  var impact_magnitude = ((damage_taken * 8) + other.max_speed) / enemy.mass;
+  var damage_taken = other.shot_power(own_velocity);
+  var impact_magnitude = ((damage_taken * 8) + other.get_current_speed()) / enemy.mass;
 
   draw_bullet_impact_particles(other.projectile.impact_particles, other.x, other.y);
   instance_destroy(other);
@@ -59,7 +59,7 @@ if (shielded) {
     sprite_index = _new_sprite;
   }
 
-  if (current_hitpoints < 1) {
+  if (current_hitpoints <= 0) {
     instance_destroy();
   } else {
     audio_play_sound(enemy.hit_sound, 0, 0);

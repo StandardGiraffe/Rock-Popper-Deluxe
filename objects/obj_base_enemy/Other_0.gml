@@ -1,1 +1,3 @@
-move_wrap(true, true, 0);
+if (void_persistent) {
+  move_wrap(true, true, 0);  
+}

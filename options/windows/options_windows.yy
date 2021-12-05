@@ -1,7 +1,7 @@
 {
   "option_windows_display_name": "Rock Popper Deluxe",
   "option_windows_executable_name": "${project_name}.exe",
-  "option_windows_version": "0.0.11.30",
+  "option_windows_version": "0.0.21.1205",
   "option_windows_company_info": "Team Phyigglesnyph",
   "option_windows_product_info": "",
   "option_windows_copyright_info": "Danny Fekete",

@@ -2,11 +2,11 @@
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "Environment",
-    "path": "folders/Scripts/Environment.yy",
+    "name": "Utilities",
+    "path": "folders/Scripts/Utilities.yy",
   },
   "resourceVersion": "1.0",
-  "name": "script_debris_functions",
+  "name": "script_calculations",
   "tags": [],
   "resourceType": "GMScript",
 }

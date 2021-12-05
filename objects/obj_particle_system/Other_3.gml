@@ -14,6 +14,8 @@ array_foreach(
     global.particle_impact_power_shot_ring,
     global.particle_impact_shield_circle,
     global.particle_impact_shield_sphere,
+    global.particle_shield_popping_circle,
+    global.particle_shield_popping_sphere,
     global.particle_debris_tiny_hot,
     global.particle_debris_small_hot,
     global.particle_debris_asteroid,

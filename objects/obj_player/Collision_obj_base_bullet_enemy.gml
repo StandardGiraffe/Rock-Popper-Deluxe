@@ -3,8 +3,8 @@ if !spawning {
 
   if (global.stats.shielded) {
     var impact_direction = other.get_direction();
-    var impact_magnitude = (other.shot_power * other.shot_power_vs_shields * other.max_speed) / 120;
-    var damage_taken = other.shot_power_vs_shields;
+    var impact_magnitude = (other.shot_power() * other.shot_power_vs_shields() * other.get_current_speed()) / 140;
+    var damage_taken = other.shot_power_vs_shields();
   
     instance_destroy(other);
   

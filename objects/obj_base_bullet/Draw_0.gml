@@ -6,7 +6,7 @@ if fading {
   }
 }
 
-maybe_do(shot_power * 15, function() {
+maybe_do(base_power * 15, function() {
   part_particles_create(
     global.particles,
     x, y,

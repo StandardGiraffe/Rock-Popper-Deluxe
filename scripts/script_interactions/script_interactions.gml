@@ -1,4 +1,5 @@
 function shields_down() {
+  draw_shield_pop(self);
   audio_play_sound(snd_shields_down, 1, 0);
   display_popup(
     "SHIELDS DOWN!!",
