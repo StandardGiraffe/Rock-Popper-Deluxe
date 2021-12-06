@@ -1,6 +1,10 @@
 function add_recoil(_bullet_speed, _bullet_power){
   var recoil_factor = -1 * ((_bullet_speed / 16) + (_bullet_power / 2));
   
+  if (global.powerups_inventory.engine_recoil_damping) {
+    recoil_factor *= 0.25;
+  }
+  
   motion_add(image_angle, recoil_factor);
   speed = min(speed, _bullet_speed * 1.5);  // Clamp recoiled reverse speed to bullet speed.
 }

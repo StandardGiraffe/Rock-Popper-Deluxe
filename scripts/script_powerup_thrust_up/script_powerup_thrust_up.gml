@@ -1,5 +1,4 @@
 function collect_powerup_thrust_up() {
-  show_debug_message(global.powerups_inventory.engine_thrust_up)
   global.powerups_inventory.engine_thrust_up = true;
 }
 

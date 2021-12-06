@@ -385,7 +385,7 @@ global.enemy_droid_rammer_mini = {
 global.enemy_powerup_capsule_weapon = {
   object_name: obj_powerup_capsule_weapon,
   type: "capsule",
-  max_hitpoints: { base: 1, min: 0, max: 0, as_int: true },
+  max_hitpoints: { base: 0, min: 0, max: 0, as_int: true },
   max_shields: 0,
   score_multiplier: 10,
   movement_speed: { base: 1, min: 0, max: 1, as_int: false },
@@ -408,7 +408,7 @@ global.enemy_powerup_capsule_weapon = {
 global.enemy_powerup_capsule_engine = {
   object_name: obj_powerup_capsule_engine,
   type: "capsule",
-  max_hitpoints: { base: 1, min: 0, max: 0, as_int: true },
+  max_hitpoints: { base: 0, min: 0, max: 0, as_int: true },
   max_shields: 0,
   score_multiplier: 10,
   movement_speed: { base: 1, min: 0, max: 1, as_int: false },
@@ -434,7 +434,7 @@ global.enemy_powerup_capsule_shields = {
   max_hitpoints: { base: 0, min: 0, max: 0, as_int: true },
   max_shields: 0,
   score_multiplier: 10,
-  movement_speed: { base: 1, min: 0, max: 1, as_int: false },
+  movement_speed: { base: 0, min: 0, max: 1, as_int: false },
   mass: 10,
   rotation_speed: { base: 0, min: -2, max: 2, as_int: false },
   initial_direction: { base: 0, min: 0, max: 360, as_int: false },
