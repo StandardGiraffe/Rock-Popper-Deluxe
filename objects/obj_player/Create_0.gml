@@ -1,3 +1,11 @@
+event_inherited();
+
+// vvvvvvvv Delete this soon
+shielded = true;
+current_shields = 100;
+max_shields = 100;
+// ^^^^^^^^ Delete this soon
+
 // Fresh start events
 spawn_in(0.05);
 global.powerups_inventory = new base_powerups_inventory();

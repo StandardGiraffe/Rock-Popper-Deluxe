@@ -147,6 +147,7 @@
     {"id":{"name":"obj_message_popup","path":"objects/obj_message_popup/obj_message_popup.yy",},"order":1,},
     {"id":{"name":"spr_asteroid_carrier_h3","path":"sprites/spr_asteroid_carrier_h3/spr_asteroid_carrier_h3.yy",},"order":4,},
     {"id":{"name":"fnt_small","path":"fonts/fnt_small/fnt_small.yy",},"order":0,},
+    {"id":{"name":"obj_base_entity","path":"objects/obj_base_entity/obj_base_entity.yy",},"order":5,},
     {"id":{"name":"spr_asteroid_splitter_medium_h3","path":"sprites/spr_asteroid_splitter_medium_h3/spr_asteroid_splitter_medium_h3.yy",},"order":4,},
     {"id":{"name":"obj_asteroid_carrier","path":"objects/obj_asteroid_carrier/obj_asteroid_carrier.yy",},"order":0,},
     {"id":{"name":"script_entity_spawning_effects","path":"scripts/script_entity_spawning_effects/script_entity_spawning_effects.yy",},"order":3,},
