@@ -1,10 +1,6 @@
 event_inherited();
 
-// vvvvvvvv Delete this soon
-shielded = true;
-current_shields = 100;
-max_shields = 100;
-// ^^^^^^^^ Delete this soon
+revert_to_base_stats(true);
 
 // Fresh start events
 spawn_in(0.05);
@@ -13,7 +9,7 @@ global.powerups_inventory = new base_powerups_inventory();
 // Functions
 impacted = function() {
   if !spawning {
-    if (global.stats.shielded) {
+    if (shielded) {
       shields_down();
     } else {
       player_explode();

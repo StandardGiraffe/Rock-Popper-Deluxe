@@ -1,2 +1,2 @@
-revert_to_base_stats(true);
+//revert_to_base_stats(true);
 draw_hud = true;

@@ -22,13 +22,13 @@ if (shielded) {
     draw_shield_pop(self);
   
   } else {
-    var shield_percent_left = string_format(
-      (current_shields / max_shields * 100),
-      4, 2
-    );
-    display_popup(shield_percent_left, x, y, undefined,
-      [ c_aqua, c_aqua, c_blue, c_blue], 0.1
-    );
+    //var shield_percent_left = string_format(
+    //  (current_shields / max_shields * 100),
+    //  4, 2
+    //);
+    //display_popup(shield_percent_left, x, y, undefined,
+    //  [ c_aqua, c_aqua, c_blue, c_blue], 0.1
+    //);
     flash_colour = c_aqua;
     audio_play_sound(snd_enemy_shields_hit, 0, 0);
   }

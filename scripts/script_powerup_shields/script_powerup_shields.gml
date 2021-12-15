@@ -1,35 +1,39 @@
 function collect_powerup_shields(x, y) {
-  if (!global.stats.shielded) {
-    global.stats.shielded = true;
-    global.stats.current_shields = global.stats.max_shields / 2;
+  if (instance_exists(obj_player)) {
+    var p = obj_player;
     
-    display_popup(
-      "Shields Repaired!",
-      x, y,
-      undefined,
-      [ c_aqua, c_aqua, c_blue, c_blue ]
-    );
+    if (!p.shielded) {
+      p.shielded = (true);
+      p.current_shields = p.max_shields / 2;
     
-  } else if (global.stats.current_shields < global.stats.max_shields) {
-    global.stats.current_shields = global.stats.max_shields
+      display_popup(
+        "Shields Repaired!",
+        x, y,
+        undefined,
+        [ c_aqua, c_aqua, c_blue, c_blue ]
+      );
     
-    display_popup(
-      "Shields Recharged!",
-      x, y,
-      undefined,
-      [ c_aqua, c_aqua, c_blue, c_blue ]
-    );
+    } else if (p.current_shields < p.max_shields) {
+      p.current_shields = p.max_shields;
     
-  } else {
-    global.stats.max_shields *= 1.5;
-    global.stats.current_shields = global.stats.max_shields;
+      display_popup(
+        "Shields Recharged!",
+        x, y,
+        undefined,
+        [ c_aqua, c_aqua, c_blue, c_blue ]
+      );
     
-    display_popup(
-      "Shields Upgraded!",
-      x, y,
-      undefined,
-      [ c_aqua, c_aqua, c_silver, c_silver]
-    );
+    } else {
+      p.max_shields *= 1.15;
+      p.current_shields = p.max_shields;
+    
+      display_popup(
+        "Shields Upgraded!",
+        x, y,
+        undefined,
+        [ c_aqua, c_aqua, c_silver, c_silver]
+      );
+    }    
   }
 }
 

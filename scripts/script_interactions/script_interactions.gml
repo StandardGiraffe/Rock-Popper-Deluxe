@@ -10,7 +10,8 @@ function shields_down() {
   )
   
   spawn_in(0.005, 0.5);
-  global.stats.shielded = false;
+  //global.stats.shielded = false;
+  shielded = false;
 }
 
 function player_explode() {
@@ -69,7 +70,9 @@ function revert_to_base_stats(full_game_reset = false) {
   global.stats.bullet_power = global.base_stats.bullet_power;
   global.stats.inertia_rate = global.base_stats.inertia_rate;
   
-  global.stats.shielded = global.base_stats.shielded;
-  global.stats.max_shields = global.base_stats.max_shields;
-  global.stats.current_shields = global.base_stats.current_shields;
+  if (instance_exists(obj_player)) {
+    obj_player.shielded = global.base_stats.shielded;
+    obj_player.max_shields = global.base_stats.max_shields;
+    obj_player.current_shields = global.base_stats.current_shields;  
+  }
 }

@@ -35,7 +35,7 @@ global.powerup_collection_shields = {
 /// Returns a powerup object name based on certain criteria
 function get_random_powerup(collection = global.powerup_collection, shields_available = true ){
   // Always return a shield powerup if shields are down and shields are available
-  if (shields_available && (!global.stats.shielded || global.stats.current_shields < global.stats.max_shields)) {
+  if (instance_exists(obj_player) && shields_available && (!obj_player.shielded || obj_player.current_shields < obj_player.max_shields)) {
     return obj_powerup_shields
     
   // Otherwise, select randomly from the available powerups...
