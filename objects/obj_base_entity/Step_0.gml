@@ -4,6 +4,11 @@ if (flash_alpha > 0) {
   flash_alpha -= 0.15
 }
 
+// Show shield bar while regenerating (if restored)
+if (shielded && (current_shields < max_shields)) {
+  shield_bar_opacity = 1;
+}
+
 // Fade unneeded shield bar
 if (current_shields == max_shields) && (shield_bar_opacity > 0) {
   shield_bar_opacity = max(shield_bar_opacity - 0.025, 0);
