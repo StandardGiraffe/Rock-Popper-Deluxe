@@ -9,7 +9,10 @@ if (shielded) {
   instance_destroy(other);
   
   // Take damage:
-  previous_shields = current_shields;
+  if (shield_bar_damage_opacity == 0) {
+    previous_shields = current_shields;
+  }
+  
   shield_bar_opacity = 1;
   shield_bar_damage_opacity = 1;
   current_shields -= damage_taken;
