@@ -1,10 +1,11 @@
-function shoot_projectile(_projectile_id, _x, _y, _direction, _sound_effect_id = undefined, guns_vector) {
+function shoot_projectile(_projectile_id, _faction, _x, _y, _direction, _sound_effect_id = undefined, guns_vector) {
   if _sound_effect_id { audio_play_sound(_sound_effect_id, 0, 0); }
   
   var projectile = instance_create_layer(
     _x, _y, "Projectiles", _projectile_id
   );
   
+  projectile.faction = _faction;
   projectile.set_direction(_direction, guns_vector);
   
   return projectile;

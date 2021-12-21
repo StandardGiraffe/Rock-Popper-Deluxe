@@ -1,4 +1,6 @@
 // Setup Movement:
+faction = factions.neutrals;
+
 position = new vector(x, y);
 steering_force = new vector_zero();
 base_speed = projectile.base_speed;

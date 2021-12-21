@@ -1,5 +1,7 @@
-/// @desc Common Functions
+faction = factions.neutrals;
+
 shielded = false;
+repulsor_shielded = false;
 current_shields = 0;
 max_shields = 0;
 shield_bar_opacity = 0;
@@ -22,3 +24,6 @@ function get_shield_bar_location(_remaining_normal = 1, _damage_start_normal = 0
   return [ x1, y1, x2, y2 ];
 }
 
+function is_repulsor_shielded() {
+  return repulsor_shielded;
+}

@@ -6,6 +6,7 @@ global.powerup_collection = {
   engine_thrust_up: obj_powerup_thrust_up,
   engine_turning_up: obj_powerup_turning_up,
   engine_recoil_damping: obj_powerup_recoil_damping,
+  module_repulsor_shields: obj_powerup_repulsor_shields,
   module_shields: obj_powerup_shields,
   module_extra_life: obj_powerup_extra_life
 }
@@ -24,11 +25,13 @@ global.powerup_collection_engines = {
 }
 
 global.powerup_collection_modules = {
-  module_extra_life: obj_powerup_extra_life
+  module_extra_life: obj_powerup_extra_life,
+  module_repulsor_shields: obj_powerup_repulsor_shields
 }
 
 global.powerup_collection_shields = {
   module_points: obj_powerup_points,
+  module_repulsor_shields: obj_powerup_repulsor_shields,
   module_shields: obj_powerup_shields
 }
 

@@ -1,5 +1,5 @@
 event_inherited();
-
+faction = factions.players;
 revert_to_base_stats(true);
 
 // Fresh start events
@@ -22,4 +22,8 @@ impacted = function() {
       }
     }
   }
+}
+
+function is_repulsor_shielded() {
+  return global.powerups_inventory.module_repulsor_shields;
 }

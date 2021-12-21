@@ -2,6 +2,7 @@ event_inherited();
 
 spawn_in();
 
+faction = factions.enemies;
 rotation_speed = get_random_value(enemy.rotation_speed);
 
 max_hitpoints = get_random_value(enemy.max_hitpoints);

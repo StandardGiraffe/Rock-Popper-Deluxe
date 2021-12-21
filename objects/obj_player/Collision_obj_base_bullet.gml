@@ -1,4 +1,4 @@
-if !spawning {
+if (!spawning && other.faction != faction) {
   draw_bullet_impact_particles(other.projectile.impact_particles, other.x, other.y);
 
   if (shielded) {
@@ -6,7 +6,15 @@ if !spawning {
     var impact_magnitude = (other.shot_power() * other.shot_power_vs_shields() * other.get_current_speed()) / 140;
     var damage_taken = other.shot_power_vs_shields();
   
-    instance_destroy(other);
+   if (is_repulsor_shielded()) {
+      other.faction = self.faction;
+      other.void_persistent = true;
+      other.set_direction(angle_of_deflection(
+        other.x, other.y, self, other.get_direction()
+      ));
+    } else {
+      instance_destroy(other);
+    }
   
     // Take damage:
     if (shield_bar_damage_opacity == 0) {
