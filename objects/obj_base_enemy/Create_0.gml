@@ -19,7 +19,7 @@ if (shielded) {
   current_shields = max_shields;
 }
 
-points_value = max_hitpoints * enemy.score_multiplier;
+points_value = max(1, max_hitpoints) * enemy.score_multiplier;
 
 direction = get_random_value(enemy.initial_direction);
 
