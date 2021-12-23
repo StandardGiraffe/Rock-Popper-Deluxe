@@ -1,19 +1,3 @@
-function shields_down() {
-  draw_shield_pop(self);
-  audio_play_sound(snd_shields_down, 1, 0);
-  display_popup(
-    "SHIELDS DOWN!!",
-    x, y,
-    fnt_small,
-    [ c_red, c_red, c_maroon, c_maroon ],
-    1
-  )
-  
-  spawn_in(0.005, 0.5);
-  //global.stats.shielded = false;
-  shielded = false;
-}
-
 function player_explode() {
   image_alpha = 0;
   var random_angle = random(360);

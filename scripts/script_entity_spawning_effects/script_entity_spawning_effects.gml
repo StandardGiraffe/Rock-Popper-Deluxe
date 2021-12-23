@@ -18,9 +18,5 @@ function check_if_spawning(){
       image_alpha = 1;
       spawning = false;
     }
-  //} else {
-  //  if image_alpha != 1 {
-  //    image_alpha = 1
-  //  }
   }
 }
