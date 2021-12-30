@@ -8,5 +8,5 @@ if (typeof(powerup.popup_message) == "string") {
   )  
 }
 
-powerup.collect_function(x, y);
+powerup.collect_function(x, y, other);
 instance_destroy();

@@ -72,3 +72,39 @@ function maybe_do(_percentage_chance, _function) {
     return _function();
   }
 }
+
+// Returns true if all elements of the array match the provided value.
+function array_match_all(_array, _target) {
+  for (var i = 0; i < array_length(_array); i++) {
+    if (_array[i] != _target) { return false; }
+  }
+  
+  return true;
+}
+
+// Returns true if none of the elements of the array match the provided value.
+function array_match_none(_array, _target) {
+  for (var i = 0; i < array_length(_array); i++) {
+    if (_array[i] == _target) { return false; }
+  }
+  
+  return true;
+}
+
+// Returns true if all elements of the array match the provided value.
+function array_match_all_func(_array, _target, _function) {
+  for (var i = 0; i < array_length(_array); i++) {
+    if (_function(_array[i]) != _target) { return false; }
+  }
+  
+  return true;
+}
+
+// Returns true if all elements of the array match the provided value.
+function array_match_none_func(_array, _target, _function) {
+  for (var i = 0; i < array_length(_array); i++) {
+    if (_function(_array[i]) == _target) { return false; }
+  }
+  
+  return true;
+}

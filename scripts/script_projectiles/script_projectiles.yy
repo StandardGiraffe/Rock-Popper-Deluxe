@@ -2,11 +2,11 @@
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "Powerups",
-    "path": "folders/Scripts/Powerups.yy",
+    "name": "Projectiles",
+    "path": "folders/Objects/Projectiles.yy",
   },
   "resourceVersion": "1.0",
-  "name": "_script_powerup_points_picker",
+  "name": "script_projectiles",
   "tags": [],
   "resourceType": "GMScript",
 }

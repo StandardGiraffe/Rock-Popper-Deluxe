@@ -1,5 +1,5 @@
-function collect_powerup_recoil_damping() {
-  global.powerups_inventory.engine_recoil_damping = true;
+function collect_powerup_recoil_damping(_x, _y, _collector) {
+  _collector.powerups_inventory.engine_recoil_damping = true;
 }
 
 global.powerup_recoil_damping = {

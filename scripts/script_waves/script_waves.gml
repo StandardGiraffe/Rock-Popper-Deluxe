@@ -301,8 +301,11 @@ global.waves = [
     background_sprite_set();
     spawner.pause_spawning();
     
-    award_points(10000);
-    instance_destroy(obj_player);
+    with obj_base_player {
+      award_points(10000, self);
+      instance_deactivate_object(self);
+    }
+
     var game_over = instance_create_layer(0, 0, "Invisibles", obj_game_over);
     game_over.hero_text = "You Win (For Now...?)";
   },

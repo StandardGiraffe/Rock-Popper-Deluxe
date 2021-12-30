@@ -1,5 +1,5 @@
-function collect_powerup_speed_shot() {
-  global.powerups_inventory.bullet_speed_shot = true;
+function collect_powerup_speed_shot(_x, _y, _collector) {
+  _collector.powerups_inventory.bullet_speed_shot = true;
 }
 
 global.powerup_speed_shot = {

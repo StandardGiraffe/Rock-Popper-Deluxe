@@ -1,5 +1,5 @@
-function collect_powerup_turning_up() {
-  global.powerups_inventory.engine_turning_up = true;
+function collect_powerup_turning_up(_x, _y, _collector) {
+  _collector.powerups_inventory.engine_turning_up = true;
 }
 
 global.powerup_turning_up = {

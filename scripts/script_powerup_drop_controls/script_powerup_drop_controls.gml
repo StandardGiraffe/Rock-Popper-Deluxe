@@ -36,17 +36,21 @@ global.powerup_collection_shields = {
 }
 
 /// Returns a powerup object name based on certain criteria
-function get_random_powerup(collection = global.powerup_collection, shields_available = true ){
+function get_random_powerup(collection = global.powerup_collection, shields_available = true, target_player = undefined) {
+  if (!target_player) {
+    target_player = array_sample(global.players);
+  }
+  
   // Always return a shield powerup if shields are down and shields are available
-  if (instance_exists(obj_player) && shields_available && (!obj_player.shielded || obj_player.current_shields < obj_player.max_shields)) {
-    return obj_powerup_shields
+  if (shields_available && instance_exists(target_player) && (!target_player.shielded || target_player.current_shields < target_player.max_shields)) {
+    return obj_powerup_shields;
     
   // Otherwise, select randomly from the available powerups...
   } else {
     var selection = array_sample(variable_struct_get_names(collection));
     
     // And if the player already has that powerup, substitute points.
-    if (global.powerups_inventory[$ selection]) {
+    if (instance_exists(target_player) && target_player.powerups_inventory[$ selection]) {
       return obj_powerup_points;
     } else {
       return collection[$ selection];

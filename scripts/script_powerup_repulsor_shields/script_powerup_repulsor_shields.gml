@@ -1,8 +1,8 @@
-function collect_powerup_repulsor_shields(x, y) {
-  global.powerups_inventory.module_repulsor_shields = true;
+function collect_powerup_repulsor_shields(_x, _y, _collector) {
+  _collector.powerups_inventory.module_repulsor_shields = true;
   
-  if (instance_exists(obj_player)) {
-    var p = obj_player;
+  if (instance_exists(other)) {
+    var p = other;
     
     if (!p.shielded) {
       p.shielded = (true);

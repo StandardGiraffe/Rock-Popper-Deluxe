@@ -6,7 +6,7 @@ if (ready_to_shoot && !spawning) {
   
   shoot_projectile(
     obj_bullet_enemy_small,
-    faction,
+    self,
     x + lengthdir_x(0, image_angle),
     y + lengthdir_y(26, image_angle),
     image_angle + 90,
@@ -15,7 +15,7 @@ if (ready_to_shoot && !spawning) {
   );
   shoot_projectile(
     obj_bullet_enemy_small,
-    faction,
+    self,
     x + lengthdir_x(0, image_angle),
     y + lengthdir_y(26, image_angle),
     image_angle - 90,
@@ -24,7 +24,7 @@ if (ready_to_shoot && !spawning) {
   );
   shoot_projectile(
     obj_bullet_enemy_small,
-    faction,
+    self,
     x + lengthdir_x(24, image_angle),
     y + lengthdir_y(0, image_angle),
     image_angle,
@@ -34,7 +34,7 @@ if (ready_to_shoot && !spawning) {
   
   shoot_projectile(
     obj_bullet_enemy_tiny,
-    faction,
+    self,
     x + lengthdir_x(16, image_angle),
     y - lengthdir_y(17, image_angle),
     image_angle - 45,
@@ -43,7 +43,7 @@ if (ready_to_shoot && !spawning) {
   );
   shoot_projectile(
     obj_bullet_enemy_tiny,
-    faction,
+    self,
     x + lengthdir_x(16, image_angle),
     y + lengthdir_y(17, image_angle),
     image_angle + 45,

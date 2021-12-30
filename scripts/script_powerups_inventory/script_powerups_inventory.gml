@@ -1,4 +1,4 @@
-function base_powerups_inventory() constructor {
+function EmptyPowerupsInventory() constructor {
   bullet_power_shot = false;
   bullet_speed_shot = false;
   bullet_dual_shot = false;
@@ -15,16 +15,16 @@ function base_powerups_inventory() constructor {
   module_torpedo = false;
 }
 
-function powerup_drop_inventory(_x, _y) {
-  var powerups = variable_struct_get_names(global.powerups_inventory);
+function powerup_drop_inventory(_x, _y, _powerups_inventory) {
+  var powerups = variable_struct_get_names(_powerups_inventory);
   for (var i = array_length(powerups) - 1; i >= 0; --i) {
       var powerup = powerups[i];
       
-      if global.powerups_inventory[$ powerup] {
+      if _powerups_inventory[$ powerup] {
         var dropped_powerup = spawn_powerup(global.powerup_collection[$ powerup], _x + random_range(-50, 50), _y + random_range(-50, 50));
         dropped_powerup.set_direction(random(360));
         dropped_powerup.set_fading();
-        global.powerups_inventory[$ powerup] = false;
+        _powerups_inventory[$ powerup] = false;
       }
   }
 }

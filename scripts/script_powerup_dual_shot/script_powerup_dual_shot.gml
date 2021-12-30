@@ -1,5 +1,5 @@
-function collect_powerup_dual_shot() {
-  global.powerups_inventory.bullet_dual_shot = true;
+function collect_powerup_dual_shot(_x, _y, _collector) {
+  _collector.powerups_inventory.bullet_dual_shot = true;
 }
 
 global.powerup_dual_shot = {

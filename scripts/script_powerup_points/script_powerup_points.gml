@@ -6,11 +6,11 @@ global.powerup_points_table = [
   2500
 ]
 
-function collect_powerup_points(_x, _y) {
+function collect_powerup_points(_x, _y, _collector) {
   var selection = irandom(array_length(global.powerup_points_table) - 1);
   var award = global.powerup_points_table[selection];
   
-  award_points(award);
+  award_points(award, _collector);
   display_popup(
     string(award) + " Points!",
     _x, _y,

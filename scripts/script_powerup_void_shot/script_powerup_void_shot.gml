@@ -1,5 +1,5 @@
-function collect_powerup_void_shot() {
-  global.powerups_inventory.bullet_void_shot = true;
+function collect_powerup_void_shot(_x, _y, _collector) {
+  _collector.powerups_inventory.bullet_void_shot = true;
 }
 
 global.powerup_void_shot = {

@@ -1,5 +1,6 @@
 check_if_spawning();
 
+// Fade out flashes
 if (flash_alpha > 0) {
   flash_alpha -= 0.15
 }
@@ -17,4 +18,9 @@ if (current_shields == max_shields) && (shield_bar_opacity > 0) {
 // Regenerate Shields
 if (shielded && (current_shields < max_shields)) {
   current_shields = min(current_shields + max_shields / 1800, max_shields);
+}
+
+// Apply inertia if necessary
+if (inertia_rate > 0) {
+  apply_inertia(inertia_rate);
 }

@@ -1,5 +1,6 @@
 // Setup Movement:
 faction = factions.neutrals;
+shooter = noone;
 
 position = new vector(x, y);
 steering_force = new vector_zero();
@@ -12,8 +13,15 @@ velocity = new vector_zero();
 base_power = projectile.base_power;
 base_shield_damage_multiplier = projectile.shield_damage_multiplier;
 lifespan = room_speed * 3;
-void_persistent = false;
 fading = false;
+
+// Setup Special Properties
+void_persistent = false;
+power_shot = false;
+seeking_shot = false;
+
+//// Setup Particle Effects
+//impact_particles = projectile.impact_particles;
 
 // Functions:
 set_direction = function(_dir, others_velocity = new vector_zero()) {
@@ -44,4 +52,8 @@ shot_power = function(others_velocity = new vector_zero()) {
 
 shot_power_vs_shields = function(others_velocity = new vector_zero()) {
   return (shot_power(others_velocity) * base_shield_damage_multiplier);
+}
+
+draw_impact_particles = function() {
+  // Override with bespoke impact arrangement
 }

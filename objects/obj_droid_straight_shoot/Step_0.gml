@@ -4,7 +4,7 @@ if (ready_to_shoot && !spawning) {
   ready_to_shoot = false;
   
   shoot_projectile(
-    obj_bullet_enemy_tiny, faction,
+    obj_bullet_enemy_tiny, self,
     x, y, direction,
     snd_enemy_bullet_tiny_shoot,
     new vector_lengthdir(speed, direction)

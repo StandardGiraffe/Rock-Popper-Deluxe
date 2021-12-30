@@ -6,14 +6,9 @@ if fading {
   }
 }
 
-maybe_do(base_power * 15, function() {
-  part_particles_create(
-    global.particles,
-    x, y,
-    projectile.trail,
-    1
-  );
-})
+// Draw Trails
+draw_projectile_faction_trail(self);
+draw_projectile_special_properties_trails(self);
 
 image_angle = velocity.get_direction();
 

@@ -5,7 +5,7 @@ function spawn_entity_randomly(_object_name, _safe_distance = true) {
   var _y = random(room_height);
   
   if _safe_distance {
-    while (distance_to_object(obj_player) < 100){
+    while (distance_to_object(obj_base_player) < 100){
       _x = random(room_width)
       _y = random(room_height)
     }  

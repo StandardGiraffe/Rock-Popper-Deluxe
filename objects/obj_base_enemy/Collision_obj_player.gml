@@ -1,3 +1,3 @@
 if !spawning {
-  other.impacted(); 
+  other.be_impacted(self); 
 }

@@ -5,6 +5,15 @@ draw_set_color(c_white);
 draw_text(room_width / 2, room_height / 2 - 50, hero_text);
 draw_set_font(fnt_small);
 
-draw_text(room_width / 2, room_height / 2 + 4, "Wave Reached: " + string(global.wave - 1));
-draw_text(room_width / 2, room_height / 2 + 20, "Final Score: " + string(global.stats.points));
-draw_text(room_width / 2, room_height / 2 + 46, "Press R to Restart or Press Q to Quit");
+var line_vertical_offset = room_height / 2 + 4;
+draw_text(room_width / 2, line_vertical_offset, "Wave Reached: " + string(global.wave - 1));
+
+for (var i = 0; i < array_length(global.players); i++) {
+  line_vertical_offset += 16;
+  var player = global.players[i];
+  draw_text(room_width / 2, line_vertical_offset, "Final Score for " + string(player.moniker) + ": " + string(player.stats.points));
+}
+
+line_vertical_offset += 26;
+
+draw_text(room_width / 2, line_vertical_offset, "Press R to Restart or Press Q to Quit");

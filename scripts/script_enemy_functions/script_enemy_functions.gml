@@ -1,5 +1,5 @@
-function award_points(number) {
-  global.stats.points += number;
+function award_points(number, _player) {
+  _player.stats.points += number;
 }
 
 function get_random_value(args) {
@@ -24,12 +24,12 @@ function sprite_based_on_damage(sprite_array) {
   }
 }
 
-function maybe_drop_powerup(_drop_chance, _x, _y) {
+function maybe_drop_powerup(_drop_chance, _x, _y, _target_player = undefined) {
   if (_drop_chance != -1) && (irandom_range(1, _drop_chance) == _drop_chance) {
     instance_create_layer(
       _x, _y,
       "Entities",
-      get_random_powerup()
+      get_random_powerup(undefined, undefined, _target_player)
     )
   }
 }

@@ -1,5 +1,5 @@
-function collect_powerup_extra_life() {
-  global.stats.lives += 1;
+function collect_powerup_extra_life(_x, _y, _collector) {
+  _collector.stats.lives += 1;
 }
 
 global.powerup_extra_life = {

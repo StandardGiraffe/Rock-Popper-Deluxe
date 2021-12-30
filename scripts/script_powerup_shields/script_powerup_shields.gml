@@ -1,6 +1,6 @@
-function collect_powerup_shields(x, y) {
-  if (instance_exists(obj_player)) {
-    var p = obj_player;
+function collect_powerup_shields(_x, _y, _collector) {
+  if (instance_exists(_collector)) {
+    var p = _collector;
     
     if (!p.shielded) {
       p.shielded = (true);
@@ -8,7 +8,7 @@ function collect_powerup_shields(x, y) {
     
       display_popup(
         "Shields Repaired!",
-        x, y,
+        _x, _y,
         undefined,
         [ c_aqua, c_aqua, c_blue, c_blue ]
       );
@@ -18,7 +18,7 @@ function collect_powerup_shields(x, y) {
     
       display_popup(
         "Shields Recharged!",
-        x, y,
+        _x, _y,
         undefined,
         [ c_aqua, c_aqua, c_blue, c_blue ]
       );
@@ -29,7 +29,7 @@ function collect_powerup_shields(x, y) {
     
       display_popup(
         "Shields Upgraded!",
-        x, y,
+        _x, _y,
         undefined,
         [ c_aqua, c_aqua, c_silver, c_silver]
       );

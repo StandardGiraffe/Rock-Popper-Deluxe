@@ -1,5 +1,5 @@
-function collect_powerup_thrust_up() {
-  global.powerups_inventory.engine_thrust_up = true;
+function collect_powerup_thrust_up(_x, _y, _collector) {
+  _collector.powerups_inventory.engine_thrust_up = true;
 }
 
 global.powerup_thrust_up = {

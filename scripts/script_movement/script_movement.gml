@@ -1,7 +1,7 @@
 function add_recoil(_bullet_speed, _bullet_power){
   var recoil_factor = -1 * ((_bullet_speed / 16) + (_bullet_power / 2));
   
-  if (global.powerups_inventory.engine_recoil_damping) {
+  if (powerups_inventory.engine_recoil_damping) {
     recoil_factor *= 0.25;
   }
   
@@ -10,21 +10,21 @@ function add_recoil(_bullet_speed, _bullet_power){
 }
 
 function turn_player(direction) {
-  var turn_bonus = (global.powerups_inventory.engine_turning_up ? 1 : 0) + (global.powerups_inventory.engine_thrust_up ? 0.5 : 0);
+  var turn_bonus = (powerups_inventory.engine_turning_up ? 1 : 0) + (powerups_inventory.engine_thrust_up ? 0.5 : 0);
   
 	if (direction == "left") {
-		image_angle += (global.stats.turn_rate + turn_bonus);
+		image_angle += (stats.turn_rate + turn_bonus);
 	} else {
-		image_angle -= (global.stats.turn_rate + turn_bonus);
+		image_angle -= (stats.turn_rate + turn_bonus);
 	}
 }
 
 function thrust_player(reverse = false) {
-  var acc_bonus = global.powerups_inventory.engine_thrust_up ? 0.05 : 0;
-  var calculated_thrust_max = global.stats.forward_acc + acc_bonus;
+  var acc_bonus = powerups_inventory.engine_thrust_up ? 0.05 : 0;
+  var calculated_thrust_max = stats.forward_acc + acc_bonus;
   
-  var speed_max_bonus = global.powerups_inventory.engine_thrust_up ? 1 : 0;
-  var calculated_speed_max = global.stats.forward_speed_max + speed_max_bonus;
+  var speed_max_bonus = powerups_inventory.engine_thrust_up ? 1 : 0;
+  var calculated_speed_max = stats.forward_speed_max + speed_max_bonus;
   
   var thrust_angle = image_angle
   if (reverse) { calculated_thrust_max *= -1; }
@@ -44,17 +44,4 @@ function thrust_player(reverse = false) {
   }
 
   motion_set(new_direction, new_speed);
-
-  // Old thruster system
-  //if reverse {
-  //  motion_add(image_angle, -(global.stats.forward_acc + acc_bonus))
-  //  if (speed > (global.stats.forward_speed_max + speed_max_bonus)) {
-  //  	speed = global.stats.forward_speed_max + speed_max_bonus;
-  //  }
-  //} else {
-  //  motion_add(image_angle, global.stats.forward_acc + acc_bonus)
-  //  if (speed > (global.stats.forward_speed_max + speed_max_bonus)) {
-  //  	speed = global.stats.forward_speed_max + speed_max_bonus;
-  //  }
-  //}
 }
