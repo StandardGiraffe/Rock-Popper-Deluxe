@@ -289,8 +289,11 @@ global.waves = [
     
   function(spawner) {
     background_sprite_set(spr_background_boss_5);
+    
+    var locus = new central_spawn_region();
+    
     spawn_entity(
-      room_width * 0.33, room_height * 0.5,
+      locus.x, locus.y,
       obj_asteroid_cluster_mega
     );
   },

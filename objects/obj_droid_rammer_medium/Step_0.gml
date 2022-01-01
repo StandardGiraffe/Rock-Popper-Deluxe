@@ -1,21 +1,26 @@
 event_inherited();
 
-if instance_exists(obj_player) && !ramming && !resting && !spawning {
-  spinning = true;
-  speed = 0;
-  rotation_speed += 0.35;
+if (!ramming && !resting && !spawning) {
+  target_player = instance_nearest(x, y, obj_base_player);
   
-  if rotation_speed < 45 {
-    ram_direction = point_direction(x, y, obj_player.x, obj_player.y);
-  } else if rotation_speed > 60 {
-    rotation_speed = 0;
-    direction = ram_direction;
-    spinning = false;
-    ramming = true;
-    ramming_fuel_max = irandom_range(30, 60);
-    ramming_fuel = ramming_fuel_max;
-    stopping_point = random_range(0.5, 2.5);
-    audio_play_sound(snd_zoom, 0, 0);
+  if (target_player) {
+    spinning = true;
+    speed = 0;
+    rotation_speed += 0.35;
+  
+    if rotation_speed < 45 {
+      ram_direction = point_direction(x, y, target_player.x, target_player.y);
+    } else if rotation_speed > 60 {
+      target_player = noone;
+      rotation_speed = 0;
+      direction = ram_direction;
+      spinning = false;
+      ramming = true;
+      ramming_fuel_max = irandom_range(30, 60);
+      ramming_fuel = ramming_fuel_max;
+      stopping_point = random_range(0.5, 2.5);
+      audio_play_sound(snd_zoom, 0, 0);
+    }
   }
   
 } else if !spinning && !resting && !spawning {

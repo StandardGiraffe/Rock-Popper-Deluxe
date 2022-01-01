@@ -2,6 +2,7 @@ enemy = global.enemy_droid_rammer_mini;
 
 event_inherited();
 
+target_player = noone;
 spinning = false;
 ramming = false;
 resting = false;

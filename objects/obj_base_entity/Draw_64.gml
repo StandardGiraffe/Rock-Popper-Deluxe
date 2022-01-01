@@ -24,7 +24,7 @@ if (shield_bar_opacity > 0) {
     // Draw current level
     draw_rectangle_color(shields_remaining_bar[0], shields_remaining_bar[1], shields_remaining_bar[2], shields_remaining_bar[3], c_blue, c_blue, c_navy, c_navy, false);
     
-    // Draw outline
+    // Draw outline and gradations
     draw_rectangle_color(full_bar[0], full_bar[1], full_bar[2], full_bar[3], c_dkgray, c_dkgray, c_black, c_black, true);
     
     var bar_width = (full_bar[2] - full_bar[0]);
