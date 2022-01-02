@@ -1,5 +1,9 @@
 event_inherited();
 
+function damage_body(damage_taken, _shooter) {
+  be_killed(_shooter);
+}
+
 function be_killed(_killer) {
   var dropped_powerup = spawn_powerup(
     get_random_powerup(powerup_collection, false, _killer),

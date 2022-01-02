@@ -8,7 +8,8 @@ if (stats.max_shields) {
   shielded = true;
 }
 
-
+max_hitpoints = stats.max_hitpoints;
+current_hitpoints = max_hitpoints;
 
 powerups_inventory = new EmptyPowerupsInventory();
 
@@ -22,15 +23,16 @@ inertia_rate = stats.inertia_rate;
 spawn_in(0.05);
 
 // Functions
-function be_impacted(_impactor) {
-  if !spawning {
-    if (shielded) {
-      shields_down();
-    } else {
-      be_killed(_impactor);
-    }
-  }
-}
+//function be_impacted(_impactor) {
+//  if (_impactor.faction == faction) { return; }
+//  if (invulnerable_while_spawning && spawning) { return; }
+  
+//  if (shielded) {
+//    shields_down();
+//  } else {
+//    be_killed(_impactor);
+//  }
+//}
 
 function be_killed(_killer) {
   player_explode();

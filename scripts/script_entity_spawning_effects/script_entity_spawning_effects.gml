@@ -1,8 +1,8 @@
-function spawn_in(_spawn_in_rate = 0.005, _starting_spawning_alpha = 0) {
-  image_alpha = 0;
-  spawning = true;
-  spawning_alpha = _starting_spawning_alpha;
-  spawn_in_rate = _spawn_in_rate;
+function spawn_in(_spawn_in_rate = 0.005, _starting_spawning_alpha = 0, _entity = self) {
+  _entity.image_alpha = 0;
+  _entity.spawning = true;
+  _entity.spawning_alpha = _starting_spawning_alpha;
+  _entity.spawn_in_rate = _spawn_in_rate;
 }
 
 function spawn_in_complete(_entity) {

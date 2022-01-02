@@ -1,6 +1,7 @@
 global.base_stats = {
   points: 0,
   lives: 3,
+  max_hitpoints: 1.0,
   turn_rate: 2.0,
   forward_acc: 0.2,
   forward_speed_max: 3.0,
@@ -19,6 +20,8 @@ function FreshPlayerStats(full_game_reset = false) constructor {
     points = global.base_stats.points;
     self.lives = global.base_stats.lives;
   }
+  
+  max_hitpoints = global.base_stats.max_hitpoints;
   
   turn_rate = global.base_stats.turn_rate;
   forward_acc = global.base_stats.forward_acc;

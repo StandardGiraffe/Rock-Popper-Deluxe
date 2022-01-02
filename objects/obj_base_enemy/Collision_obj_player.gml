@@ -1,3 +1,3 @@
-if !spawning {
-  other.be_impacted(self); 
-}
+//if !spawning {
+//  other.be_impacted(self); 
+//}

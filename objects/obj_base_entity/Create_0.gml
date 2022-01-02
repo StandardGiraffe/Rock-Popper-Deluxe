@@ -100,16 +100,40 @@ function display_unshielded_impact(bullet) {
   draw_projectile_special_properties_impacts(bullet);
 }
 
-// A general purpose damage input for non-bullets.
-function be_damaged(damage_taken, _shooter = noone) {
+function be_impacted(_impactor) {
+  if (_impactor.faction == faction) { return; }
+  if (invulnerable_while_spawning && spawning) { return; }
+  
   if (shielded) {
-    damage_shields(damage_taken, _shooter);
+    if (_impactor.shielded) {
+      damage_shields(max(_impactor.current_shields, 10), _impactor);
+    } else {
+      damage_shields(max(_impactor.current_hitpoints * 10, 10), _impactor);
+    }
+    
+  } else {
+    if (_impactor.shielded) {
+      damage_body(max(_impactor.speed, max(_impactor.current_hitpoints, 1)), _impactor);
+    } else {
+      damage_body(max(_impactor.current_hitpoints, 1), _impactor);
+    }
+  }
+  
+  spawn_in(0.01, 0.5);
+}
+
+// A general purpose damage input for non-bullets.
+function be_damaged(damage_taken, _shooter = noone, shield_damage_multiplier = 1) {
+  if (shielded) {
+    damage_shields(damage_taken * shield_damage_multiplier, _shooter);
   } else {
     damage_body(damage_taken, _shooter);
   }
 }
 
 function damage_shields(damage_taken, _shooter) {
+  if (!shielded) { return };
+  
   if (shield_bar_damage_opacity == 0) {
     previous_shields = current_shields;
   }

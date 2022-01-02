@@ -49,3 +49,8 @@ function player_respawn(_player) {
   y = room_height / 2;
   spawn_in(0.005);
 }
+
+function simultaneous_impacts(_impactor_a, _impactor_b) {
+    _impactor_a.be_impacted(_impactor_b);
+    _impactor_b.be_impacted(_impactor_a);
+}
