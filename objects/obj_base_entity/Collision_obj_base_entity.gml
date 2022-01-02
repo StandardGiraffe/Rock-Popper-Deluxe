@@ -6,7 +6,8 @@ if (!spawning && !other.spawning && (other.faction != faction)) {
   show_debug_message([ my_shove_magnitude, others_shove_magnitude ])
 
   be_shoved(my_shove_direction, my_shove_magnitude);
-  other.be_shoved(others_shove_direction, others_shove_magnitude);   
+  other.be_shoved(others_shove_direction, others_shove_magnitude); 
+  screen_shake(10, 2, 0.1, true);
   
   simultaneous_impacts(other, self);
 }

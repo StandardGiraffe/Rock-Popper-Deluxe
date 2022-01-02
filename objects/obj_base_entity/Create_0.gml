@@ -143,6 +143,7 @@ function damage_shields(damage_taken, _shooter) {
   current_shields -= damage_taken;
   
   if (current_shields <= 0) {
+    screen_shake(10, 2);
     shields_down();
   } else {
     audio_play_sound(snd_enemy_shields_hit, 0, 0);
@@ -158,10 +159,15 @@ function damage_body(damage_taken, _shooter) {
   
   current_hitpoints -= damage_taken;
   show_body_damage();
-  
+
   if (current_hitpoints <= 0) {
+    screen_shake(max(max_hitpoints / 10, 5), max(max_hitpoints / 2, 1), max(max_hitpoints / 2, 1));
     be_killed(_shooter);
   } else {
+    if (damage_taken >= 2) {
+      screen_shake(5, max(damage_taken / 2, 1));
+    }
+    
     audio_play_sound(hit_sound, 0, 0);
   }  
 }

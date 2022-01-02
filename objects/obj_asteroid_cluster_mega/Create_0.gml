@@ -5,6 +5,8 @@ event_inherited();
 spit_asteroid = false;
 alarm_set(0, room_speed * random_range(2, 5));
 
+function be_shoved(_direction, _length, _account_for_mass = false, _show_shadow_trail = false) { return; }
+
 function eject_fragment(_bullet) {
   if irandom(3) == 0 {
   var selection = irandom(3);

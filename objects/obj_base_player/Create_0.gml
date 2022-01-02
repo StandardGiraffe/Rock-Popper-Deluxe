@@ -23,17 +23,6 @@ inertia_rate = stats.inertia_rate;
 spawn_in(0.05);
 
 // Functions
-//function be_impacted(_impactor) {
-//  if (_impactor.faction == faction) { return; }
-//  if (invulnerable_while_spawning && spawning) { return; }
-  
-//  if (shielded) {
-//    shields_down();
-//  } else {
-//    be_killed(_impactor);
-//  }
-//}
-
 function be_killed(_killer) {
   player_explode();
   stats.lives -= 1;
@@ -50,8 +39,9 @@ function is_repulsor_shielded() {
   return powerups_inventory.module_repulsor_shields;
 }
 
-function damage_body(damage_taken) {
-  be_killed();
+function damage_body(damage_taken, _damager) {
+  screen_shake(15, 3, 0.1, true);
+  be_killed(_damager);
 }
 
 function shields_down() {
