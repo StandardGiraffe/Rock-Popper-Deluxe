@@ -1,4 +1,5 @@
 function award_points(number, _player) {
+  if (!_player || _player.object_index != obj_player ) { return; }
   _player.stats.points += number;
 }
 

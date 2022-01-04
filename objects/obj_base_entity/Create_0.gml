@@ -80,7 +80,9 @@ function be_shot(bullet) {
   if (shielded && is_repulsor_shielded()) {
     display_shielded_impact(bullet);
     
+    bullet.shooter = self;
     bullet.faction = self.faction;
+    bullet.base_power *= 2.5;
     bullet.void_persistent = true;
     bullet.set_direction(angle_of_deflection(
       bullet.x, bullet.y, self, impact_direction
