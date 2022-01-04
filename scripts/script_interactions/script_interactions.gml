@@ -27,6 +27,9 @@ function player_game_over(_player) {
 }
 
 function player_respawn(_player) {
+  _player.afterimage_drawing_time = 0;
+  _player.afterimage_lifespan = 0;
+  
   var remaining_lives = _player.stats.lives;
   var current_points = _player.stats.points;
   

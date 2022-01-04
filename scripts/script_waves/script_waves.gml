@@ -306,6 +306,11 @@ global.waves = [
     
     with obj_base_player {
       award_points(10000, self);
+      
+      if (stats.lives > 0) {
+        stats.points += (stats.lives * 10000); 
+      }
+      
       instance_deactivate_object(self);
     }
 

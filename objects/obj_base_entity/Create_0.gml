@@ -19,8 +19,11 @@ previous_shields = 0;
 
 void_persistent = true;
 
+// Visual Effect Flags
 flash_alpha = 0;
 flash_colour = c_white;
+afterimage_drawing_time = 0;
+afterimage_lifespan = 0;
 
 // Returns x1, y1, x2, y2
 function get_shield_bar_location(_remaining_normal = 1, _damage_start_normal = 0) {
@@ -106,9 +109,9 @@ function be_impacted(_impactor) {
   
   if (shielded) {
     if (_impactor.shielded) {
-      damage_shields(max(_impactor.current_shields, 10), _impactor);
+      damage_shields(max(_impactor.current_shields, 20), _impactor);
     } else {
-      damage_shields(max(_impactor.current_hitpoints * 10, 10), _impactor);
+      damage_shields(max(_impactor.current_hitpoints * 10, 20), _impactor);
     }
     
   } else {
@@ -174,8 +177,15 @@ function damage_body(damage_taken, _shooter) {
 
 function show_body_damage() { }
 
-function be_shoved(_direction, _length, _account_for_mass = false, _show_shadow_trail = false) {
+function be_shoved(_direction, _length, _account_for_mass = false, _afterimage_drawing_time_in_seconds = 0, _afterimage_fade_time_in_seconds = 0.3) {
   motion_add(_direction, _length);
+  
+  if (_afterimage_drawing_time_in_seconds > 0) {
+    afterimage_drawing_time = room_speed * _afterimage_drawing_time_in_seconds;
+    afterimage_lifespan = room_speed * _afterimage_fade_time_in_seconds;
+    draw_afterimage(self, x, y, 
+    _afterimage_fade_time_in_seconds)
+  }
 }
 
 function be_killed(_killer = noone) {

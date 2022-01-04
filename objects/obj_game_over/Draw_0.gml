@@ -9,8 +9,14 @@ var line_vertical_offset = room_height / 2 + 4;
 draw_text(room_width / 2, line_vertical_offset, "Wave Reached: " + string(global.wave - 1));
 
 for (var i = 0; i < array_length(global.players); i++) {
-  line_vertical_offset += 16;
+  line_vertical_offset += 20;
   var player = global.players[i];
+  
+  if (player.stats.lives) > 0 {
+    draw_text(room_width / 2, line_vertical_offset, "Remaining Lives Bonus: " + string(player.stats.lives * 10000) + " Points");
+    line_vertical_offset += 16;
+  } 
+  
   draw_text(room_width / 2, line_vertical_offset, "Final Score for " + string(player.moniker) + ": " + string(player.stats.points));
 }
 

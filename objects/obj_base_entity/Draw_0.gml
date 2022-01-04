@@ -16,3 +16,9 @@ if (flash_alpha > 0) {
   
   shader_reset();
 }
+
+// Afterimage
+if (afterimage_drawing_time >= 0) {
+  draw_afterimage(self, x, y, afterimage_lifespan / room_speed);
+  afterimage_drawing_time --;
+}

@@ -18,11 +18,10 @@ if (instance_exists(target_player) && spit_asteroid) {
   }
   audio_play_sound(snd_split, 0, 0);
   
-  with spat_asteroid {
+  //with spat_asteroid {
     spat_asteroid.starting_speed += 1;
     spat_asteroid.speed = spat_asteroid.starting_speed;
     spat_asteroid.points_value = 0;
-    spat_asteroid.spawning = false;
-    spat_asteroid.image_alpha = 1;
-  }
+    spawn_in_complete(spat_asteroid);
+  //}
 }
