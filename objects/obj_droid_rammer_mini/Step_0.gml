@@ -24,6 +24,7 @@ if (!ramming && !resting && !spawning) {
   }
   
 } else if !spinning && !resting && !spawning {
+  draw_afterimage(self, x, y, 0.15);
   speed = animcurve_channel_evaluate(
     deceleration_curve,
     (ramming_fuel / ramming_fuel_max)

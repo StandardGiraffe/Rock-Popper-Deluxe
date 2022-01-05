@@ -187,6 +187,7 @@
     {"id":{"name":"spr_powerup_inertial_braking","path":"sprites/spr_powerup_inertial_braking/spr_powerup_inertial_braking.yy",},"order":0,},
     {"id":{"name":"fnt_large","path":"fonts/fnt_large/fnt_large.yy",},"order":1,},
     {"id":{"name":"snd_shields_down","path":"sounds/snd_shields_down/snd_shields_down.yy",},"order":6,},
+    {"id":{"name":"spr_spread_shot","path":"sprites/spr_spread_shot/spr_spread_shot.yy",},"order":0,},
     {"id":{"name":"obj_spawner","path":"objects/obj_spawner/obj_spawner.yy",},"order":8,},
     {"id":{"name":"spr_asteroid_splitter_medium_h1","path":"sprites/spr_asteroid_splitter_medium_h1/spr_asteroid_splitter_medium_h1.yy",},"order":2,},
     {"id":{"name":"spr_asteroid_armoured_h3","path":"sprites/spr_asteroid_armoured_h3/spr_asteroid_armoured_h3.yy",},"order":4,},
@@ -301,6 +302,7 @@
     {"folderPath":"folders/Objects/Powerups/Weapons/Pulse-Shot.yy","order":5,"resourceVersion":"1.0","name":"Pulse-Shot","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Scripts/Environment/Screen Effects.yy","order":6,"resourceVersion":"1.0","name":"Screen Effects","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Objects/Utility Objects.yy","order":10,"resourceVersion":"1.0","name":"Utility Objects","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Objects/Powerups/Weapons/Spread-Shot.yy","order":6,"resourceVersion":"1.0","name":"Spread-Shot","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":-1,"resourceVersion":"1.3","name":"audiogroup_default","resourceType":"GMAudioGroup",},
