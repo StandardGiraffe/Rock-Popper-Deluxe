@@ -1,0 +1,9 @@
+x1 = 0;
+y1 = 0;
+x2 = 0;
+y2 = 0;
+w = 0;
+color1 = undefined;
+color2 = undefined;
+starting_lifespan = 15
+lifespan = starting_lifespan;

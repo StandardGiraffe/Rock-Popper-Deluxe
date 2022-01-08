@@ -48,11 +48,11 @@ function stabilize_speed(_speed, _starting_speed, _acceleration_rate = 0.001, _d
 }
 
 
-function approach_target_direction(_magnitude) {
-  var _angle_difference = angle_difference(self.direction, self.target_direction);
+function approach_target_direction(_target, _rotation_rate) {
+  var _angle_difference = angle_difference(self.direction, _target);
   
-  if (abs(_angle_difference) >= _magnitude) {
-    self.direction -= median(-_magnitude, _angle_difference, _magnitude);
+  if (abs(_angle_difference) >= _rotation_rate) {
+    self.direction -= median(-_rotation_rate, _angle_difference, _rotation_rate);
   }
   
 }

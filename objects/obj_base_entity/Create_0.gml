@@ -18,6 +18,7 @@ shield_bar_damage_opacity = 0;
 previous_shields = 0;
 
 void_persistent = true;
+grappled = 0; 
 
 // Visual Effect Flags
 flash_alpha = 0;

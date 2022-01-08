@@ -452,4 +452,29 @@ global.enemy_powerup_capsule_shields = {
 };
 #endregion Capsules
 
-
+#region Platforms
+// Battle Platform Core
+global.enemy_platform_core = {
+  object_name: obj_platform_core,
+  type: "platform_core",
+  max_hitpoints: { base: 40, min: 0, max: 0, as_int: true },
+  max_shields: 200,
+  score_multiplier: 250,
+  movement_speed: { base: 0, min: 0.1, max: 0.5, as_int: false },
+  mass: 1000,
+  rotation_speed: { base: 0, min: -2, max: 2, as_int: false },
+  initial_direction: { base: 0, min: 0, max: 360, as_int: false },
+  hit_sound: snd_tink,
+  death_sound: snd_destroyed,
+  spawn_distance_minimum: 100,
+  spawn_distance_maximum: 5000,
+  sprites: [
+    spr_platform_core_h0,
+    spr_platform_core_h1,
+    spr_platform_core_h2,
+    spr_platform_core_h3
+  ],
+  drop_chance: 1,
+  
+};
+#endregion Platforms

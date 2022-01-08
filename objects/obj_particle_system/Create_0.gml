@@ -126,7 +126,7 @@ part_type_life(p, room_speed * 0.5, room_speed * 0.75);
   part_type_direction(p, 0, 0, 0, false);
   part_type_orientation(p, 0, 0, 0, false, false);
   part_type_blend(p, true);
-  part_type_life(p, room_speed * 0.1, room_speed * 0.15);
+  part_type_life(p, room_speed * 0.15, room_speed * 0.25);
   
   #endregion Power Shots
 
@@ -363,6 +363,32 @@ part_type_direction(p, 0, 360, 0, false);
 part_type_orientation(p, 0, 0, 0, false, false);
 part_type_blend(p, true);
 part_type_life(p, room_speed * 0.5, room_speed * 2.5);
+
+// Glass dust debris a
+global.particle_debris_glass_dust_a = part_type_create();
+var p = global.particle_debris_glass_dust_a;
+part_type_shape(p, pt_shape_pixel);
+part_type_size(p, 1, 1.5, 0, 0);
+part_type_color2(p, c_white, c_black);
+part_type_alpha2(p, 1, 0);
+part_type_speed(p, 0, 3, 0, 0.1);
+part_type_direction(p, 0, 360, 0, false);
+part_type_orientation(p, 0, 0, 0, false, false);
+part_type_blend(p, true);
+part_type_life(p, room_speed * 1.5, room_speed * 4);
+
+// Glass dust debris b
+global.particle_debris_glass_dust_b = part_type_create();
+var p = global.particle_debris_glass_dust_b;
+part_type_shape(p, pt_shape_pixel);
+part_type_size(p, 1, 1.5, 0, 0);
+part_type_color2(p, c_black, c_white);
+part_type_alpha3(p, 1, 1, 0);
+part_type_speed(p, 0, 3, 0, 0.1);
+part_type_direction(p, 0, 360, 0, false);
+part_type_orientation(p, 0, 0, 0, false, false);
+part_type_blend(p, true);
+part_type_life(p, room_speed * 1.5, room_speed * 4);
   
 // Slower-fading glow
 global.particle_debris_small_hot = part_type_create();
@@ -400,6 +426,18 @@ part_type_direction(p, 0, 360, 0, 0);
 part_type_orientation(p, 0, 360, 0, 0, false);
 part_type_blend(p, false);
 part_type_life(p, room_speed * 1, room_speed * 3.5);
+
+// Platform Core debris
+global.particle_debris_platform_core = part_type_create();
+var p = global.particle_debris_platform_core;
+part_type_sprite(p, spr_debris_platform_core, false, false, true);
+part_type_size(p, 0.5, 1.5, 0, false);
+part_type_alpha2(p, 1, 0);
+part_type_speed(p, 0.5, 2, 0, 0);
+part_type_direction(p, 0, 360, 0, 0);
+part_type_orientation(p, 0, 360, 10, 0, false);
+part_type_blend(p, true);
+part_type_life(p, room_speed * 2, room_speed * 5);
   
 #endregion Debris Particles
 
@@ -433,4 +471,61 @@ part_type_life(p, room_speed * 0.5, room_speed * 1);
 
 #endregion Powerup Particles
 
-show_debug_message(global.particle_impact_spark_small)
+#region Beam Effects
+  // Muzzle-Glow for Tractor Beam
+  global.particle_beam_grapple_muzzle = part_type_create();
+  var p = global.particle_beam_grapple_muzzle;
+  part_type_shape(p, pt_shape_flare);
+  part_type_size(p, 0.5, 0.5, -0.05, false);
+  part_type_color3(p, c_white, c_gray, c_dkgray);
+  part_type_alpha2(p, 0.75, 0);
+  part_type_speed(p, 0, 0, 0, false);
+  part_type_direction(p, 0, 0, 0, false);
+  part_type_orientation(p, 0, 360, 0, false, false);
+  part_type_blend(p, true);
+  part_type_life(p, room_speed * 0.25, room_speed * 0.25);
+
+  // Impact for Tractor Beam
+  global.particle_beam_grapple_impact = part_type_create();
+  var p = global.particle_beam_grapple_impact;
+  part_type_shape(p, pt_shape_circle);
+  part_type_size(p, 0.5, 0.1, -0.01, false);
+  part_type_color3(p, c_gray, c_silver, c_dkgray);
+  part_type_alpha2(p, 0.5, 0);
+  part_type_speed(p, 0, 0.6, 0, 0);
+  part_type_direction(p, 0, 360, 0, false);
+  part_type_orientation(p, 0, 0, 0, false, false);
+  part_type_blend(p, true);
+  part_type_life(p, room_speed * 1, room_speed * 1.5);
+  
+  // Muzzle-Glow for Point-Defence Beam
+  global.particle_beam_point_defence_muzzle = part_type_create();
+  var p = global.particle_beam_point_defence_muzzle;
+  part_type_shape(p, pt_shape_flare);
+  part_type_size(p, 0.5, 0.5, -0.05, false);
+  part_type_color3(p, c_red, c_maroon, c_dkgray);
+  part_type_alpha2(p, 1, 0);
+  part_type_speed(p, 0, 0, 0, false);
+  part_type_direction(p, 0, 0, 0, false);
+  part_type_orientation(p, 0, 360, 0, false, false);
+  part_type_blend(p, true);
+  part_type_life(p, room_speed * 0.25, room_speed * 0.25);
+  
+  // Impact for Point-Defence Beam
+  global.particle_beam_point_defence_impact = part_type_create();
+  var p = global.particle_beam_point_defence_impact;
+  part_type_shape(p, pt_shape_flare);
+  part_type_size(p, 0.75, 0.75, -0.05, false);
+  part_type_color3(p, c_orange, c_red, c_maroon);
+  part_type_alpha3(p, 1, 0.75, 0);
+  part_type_speed(p, 0, 0, 0, false);
+  part_type_direction(p, 0, 0, 0, false);
+  part_type_orientation(p, 0, 360, 4, false, false);
+  part_type_blend(p, true);
+  part_type_life(p, room_speed * 1, room_speed * 1);
+
+#endregion Beam Effects
+
+#region Engine Effects
+
+#endregion Engine Effects

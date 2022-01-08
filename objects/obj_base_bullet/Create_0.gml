@@ -54,6 +54,10 @@ shot_power_vs_shields = function(others_velocity = new vector_zero()) {
   return (shot_power(others_velocity) * base_shield_damage_multiplier);
 }
 
+function be_point_defended() {
+  instance_destroy();
+}
+
 draw_impact_particles = function() {
   // Override with bespoke impact arrangement
 }

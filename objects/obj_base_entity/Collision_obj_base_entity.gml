@@ -1,9 +1,10 @@
 if (!spawning && !other.spawning && (other.faction != faction)) {
   var my_shove_direction = point_direction(other.x, other.y, x, y);
   var others_shove_direction = point_direction(x, y, other.x, other.y);
-  var my_shove_magnitude = clamp(((other.speed * other.mass) - (speed * mass)) / 75, 1.5, 5);
-  var others_shove_magnitude = clamp(((speed * mass) - (other.speed * other.mass)) / 75, 1.5, 5);
-  show_debug_message([ my_shove_magnitude, others_shove_magnitude ])
+  var raw_impact_magnitude = ((max(other.speed, 1) * other.mass) + (max(speed, 1) * mass));
+  
+  var others_shove_magnitude = (max(speed, 1) * mass) / raw_impact_magnitude * 5;
+  var my_shove_magnitude = (max(other.speed, 1) * other.mass) / raw_impact_magnitude * 5;
 
   be_shoved(my_shove_direction, my_shove_magnitude, undefined, 0.25, 0.25);
   other.be_shoved(others_shove_direction, others_shove_magnitude, undefined, 0.25, 0.25); 

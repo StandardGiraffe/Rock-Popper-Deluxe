@@ -1,5 +1,10 @@
 check_if_spawning();
 
+// Tick-downs
+if (grappled > 0) {
+  grappled --;
+}
+
 // Fade out flashes
 if (flash_alpha > 0) {
   flash_alpha -= 0.15
@@ -22,5 +27,6 @@ if (shielded && (current_shields < max_shields)) {
 
 // Apply inertia if necessary
 if (inertia_rate > 0) {
-  apply_inertia(inertia_rate);
+  var grapple_penalty = (grappled ? 5 : 1);
+  apply_inertia(inertia_rate * grapple_penalty);
 }

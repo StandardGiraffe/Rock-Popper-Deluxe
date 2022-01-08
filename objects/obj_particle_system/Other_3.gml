@@ -29,9 +29,17 @@ array_foreach(
     global.particle_shield_popping_sphere,
     
     global.particle_debris_tiny_hot,
+    global.particle_debris_glass_dust_a,
+    global.particle_debris_glass_dust_b,
     global.particle_debris_small_hot,
     global.particle_debris_asteroid,
     global.particle_debris_droid,
+    global.particle_debris_platform_core,
+    
+    global.particle_beam_grapple_muzzle,
+    global.particle_beam_grapple_impact,
+    global.particle_beam_point_defence_muzzle,
+    global.particle_beam_point_defence_impact,
     
     global.particle_powerup_gold_sparkle,
     global.particle_powerup_silver_sparkle
@@ -39,5 +47,13 @@ array_foreach(
   function(particle) { part_type_destroy(particle) }
 )
 
-part_system_destroy(global.particles);
-part_system_destroy(global.particles_debris);
+array_foreach(
+  [
+    global.particles,
+    global.particles_debris
+  ],
+  function(particle_system) {
+    part_emitter_destroy_all(particle_system);
+    part_system_destroy(particle_system);
+  }
+)

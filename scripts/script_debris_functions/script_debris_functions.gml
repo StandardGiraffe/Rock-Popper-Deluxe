@@ -102,6 +102,25 @@ function generate_debris(_x, _y, _enemy_type, _quantity, _angle, _sprite_height,
       );
       
       break;
+      
+    case "platform_core":
+      draw_particle_on_sprite(
+        _x, _y, global.particle_debris_platform_core,
+        _quantity * 2, _angle, _sprite_height, _sprite_width
+      );
+      
+      draw_particle_on_sprite(
+        _x, _y, global.particle_debris_glass_dust_a,
+        _quantity * 20, _angle, _sprite_height, _sprite_width
+      );
+      
+      draw_particle_on_sprite(
+        _x, _y, global.particle_debris_glass_dust_b,
+        _quantity * 20, _angle, _sprite_height, _sprite_width
+      );
+      
+      break;
+      
     case "organic":
       break;
     case "crystal":
