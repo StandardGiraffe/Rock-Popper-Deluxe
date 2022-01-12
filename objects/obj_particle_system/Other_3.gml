@@ -40,6 +40,7 @@ array_foreach(
     global.particle_beam_grapple_impact,
     global.particle_beam_point_defence_muzzle,
     global.particle_beam_point_defence_impact,
+    global.particle_beam_shield_drain_impact,
     
     global.particle_powerup_gold_sparkle,
     global.particle_powerup_silver_sparkle

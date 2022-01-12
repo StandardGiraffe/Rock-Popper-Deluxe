@@ -523,6 +523,19 @@ part_type_life(p, room_speed * 0.5, room_speed * 1);
   part_type_orientation(p, 0, 360, 4, false, false);
   part_type_blend(p, true);
   part_type_life(p, room_speed * 1, room_speed * 1);
+  
+  // Impact for Shield Drain on Recipient
+  global.particle_beam_shield_drain_impact = part_type_create();
+  var p = global.particle_beam_shield_drain_impact;
+  part_type_shape(p, pt_shape_circle);
+  part_type_size(p, 0.25, 0.1, -0.01, false);
+  part_type_color2(p, c_blue, c_navy);
+  part_type_alpha2(p, 0.5, 0);
+  part_type_speed(p, 0, 0, 0, 0);
+  part_type_direction(p, 0, 360, 0, false);
+  part_type_orientation(p, 0, 0, 0, false, false);
+  part_type_blend(p, true);
+  part_type_life(p, room_speed * 0.2, room_speed * 0.2);  
 
 #endregion Beam Effects
 

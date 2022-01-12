@@ -115,6 +115,11 @@ global.waves = [
   
   function(spawner) {
     global.wave ++;
+    spawn_entity_randomly(obj_platform_core_mini_red);
+  },
+  
+  function(spawner) {
+    global.wave ++;
     spawn_entity_randomly(obj_asterdroid_shielded);
     spawn_entity_randomly(obj_asterdroid_shielded);
     spawn_entity_randomly(obj_powerup_capsule_weapon);
@@ -161,7 +166,7 @@ global.waves = [
     
     spawner.resume_spawning();
   },
-  
+
   function(spawner) {
     global.wave ++;
     spawn_entity_randomly(obj_droid_straight_shoot_spread);
@@ -169,7 +174,13 @@ global.waves = [
     spawn_entity_randomly(obj_asterdroid_shooter_small);
     spawn_entity_randomly(obj_asterdroid_shielded);
   },
-  
+
+  function(spawner) {
+    global.wave ++;
+    spawn_entity_randomly(obj_platform_core_mini_red);
+    spawn_entity_randomly(obj_platform_core_mini_blue);
+  },
+
   function(spawner) {
     global.wave ++;
     spawn_entity_randomly(obj_asteroid_carrier);
@@ -194,7 +205,13 @@ global.waves = [
     spawn_entity_randomly(obj_droid_rammer_mini);
     spawn_entity_randomly(obj_asteroid_armoured);
   },
-  
+
+  function(spawner) {
+    global.wave ++;
+    spawn_entity_randomly(obj_platform_core_mini_grey);
+    spawn_entity_randomly(obj_platform_core_mini_blue);
+  },
+
   function(spawner) {
     background_sprite_set();
     spawn_entity_randomly(obj_powerup_capsule_engine);
@@ -247,6 +264,37 @@ global.waves = [
     spawn_formation_starburst(
       obj_droid_straight_shoot_spread, locus.x, locus.y, random_range(1, 2), 3
     )
+  },
+  
+  function(spawner) {
+    spawn_entity_randomly(obj_powerup_capsule_shields);
+  },
+  
+  function(spawner) {
+    global.wave ++;
+    spawner.pause_spawning();
+    
+    spawn_entity_randomly(obj_platform_core_mini_blue);
+    
+    return 2.5;
+  },
+  
+  function(spawner) {
+    spawn_entity_randomly(obj_platform_core_mini_red);
+    
+    return 2.5;
+  },
+  
+  function(spawner) {
+    spawn_entity_randomly(obj_platform_core_mini_grey);
+    
+    return 2.5;
+  },
+  
+  function(spawner) {
+    spawn_entity_randomly(obj_platform_core);
+    
+    spawner.resume_spawning();
   },
   
   function(spawner) {
@@ -318,9 +366,7 @@ global.waves = [
     game_over.hero_text = "You Win (For Now...?)";
   },
   
-  function(spawner) {
-    
-  },
+
   function(spawner) {
     
   },

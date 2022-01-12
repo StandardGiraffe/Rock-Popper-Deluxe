@@ -338,7 +338,7 @@
   "nineSlice": null,
   "parent": {
     "name": "Core",
-    "path": "folders/Objects/Enemies/Platforms/Core.yy",
+    "path": "folders/Objects/Enemies/Platforms/Cores/Core.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_platform_core_h3",

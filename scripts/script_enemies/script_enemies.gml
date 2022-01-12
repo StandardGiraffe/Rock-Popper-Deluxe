@@ -457,15 +457,15 @@ global.enemy_powerup_capsule_shields = {
 global.enemy_platform_core = {
   object_name: obj_platform_core,
   type: "platform_core",
-  max_hitpoints: { base: 40, min: 0, max: 0, as_int: true },
-  max_shields: 200,
+  max_hitpoints: { base: 20, min: 0, max: 0, as_int: true },
+  max_shields: 100,
   score_multiplier: 250,
   movement_speed: { base: 0, min: 0.1, max: 0.5, as_int: false },
   mass: 1000,
   rotation_speed: { base: 0, min: -2, max: 2, as_int: false },
   initial_direction: { base: 0, min: 0, max: 360, as_int: false },
-  hit_sound: snd_tink,
-  death_sound: snd_destroyed,
+  hit_sound: snd_platform_core_impact,
+  death_sound: snd_platform_core_destroyed,
   spawn_distance_minimum: 100,
   spawn_distance_maximum: 5000,
   sprites: [
@@ -475,6 +475,97 @@ global.enemy_platform_core = {
     spr_platform_core_h3
   ],
   drop_chance: 1,
-  
+  repulsor_shielded: true,
+  grapple_beam_range: 225,
+  shield_drain_range: 175,
+  point_defence_range: 150,
+  point_defence_cooldown: room_speed * 1
+};
+
+// Mini Battle Platform Core: Red
+global.enemy_platform_core_mini_red = {
+  object_name: obj_platform_core_mini_red,
+  type: "platform_core",
+  max_hitpoints: { base: 10, min: 0, max: 0, as_int: true },
+  max_shields: 30,
+  score_multiplier: 75,
+  movement_speed: { base: 2, min: 1, max: 2, as_int: false },
+  mass: 600,
+  rotation_speed: { base: 0, min: -3, max: 3, as_int: false },
+  initial_direction: { base: 0, min: 0, max: 360, as_int: false },
+  hit_sound: snd_platform_core_impact,
+  death_sound: snd_platform_core_mini_destroyed,
+  spawn_distance_minimum: 100,
+  spawn_distance_maximum: 5000,
+  sprites: [
+    spr_platform_core_mini_red_h0,
+    spr_platform_core_mini_red_h1,
+    spr_platform_core_mini_red_h2,
+    spr_platform_core_mini_red_h3
+  ],
+  drop_chance: 8,
+  repulsor_shielded: false,
+  grapple_beam_range: 0,
+  shield_drain_range: 0,
+  point_defence_range: 150,
+  point_defence_cooldown: room_speed * 1.25
+};
+
+// Mini Battle Platform Core: Blue
+global.enemy_platform_core_mini_blue = {
+  object_name: obj_platform_core_mini_blue,
+  type: "platform_core",
+  max_hitpoints: { base: 10, min: 0, max: 0, as_int: true },
+  max_shields: 50,
+  score_multiplier: 75,
+  movement_speed: { base: 1, min: 1, max: 2, as_int: false },
+  mass: 600,
+  rotation_speed: { base: 0, min: -3, max: 3, as_int: false },
+  initial_direction: { base: 0, min: 0, max: 360, as_int: false },
+  hit_sound: snd_platform_core_impact,
+  death_sound: snd_platform_core_mini_destroyed,
+  spawn_distance_minimum: 100,
+  spawn_distance_maximum: 5000,
+  sprites: [
+    spr_platform_core_mini_blue_h0,
+    spr_platform_core_mini_blue_h1,
+    spr_platform_core_mini_blue_h2,
+    spr_platform_core_mini_blue_h3
+  ],
+  drop_chance: 8,
+  repulsor_shielded: true,
+  grapple_beam_range: 0,
+  shield_drain_range: 200,
+  point_defence_range: 0,
+  point_defence_cooldown: undefined
+};
+
+// Mini Battle Platform Core: Grey
+global.enemy_platform_core_mini_grey = {
+  object_name: obj_platform_core_mini_grey,
+  type: "platform_core",
+  max_hitpoints: { base: 6, min: 0, max: 0, as_int: true },
+  max_shields: 35,
+  score_multiplier: 75,
+  movement_speed: { base: 3, min: 1, max: 2, as_int: false },
+  mass: 600,
+  rotation_speed: { base: 0, min: -3, max: 3, as_int: false },
+  initial_direction: { base: 0, min: 0, max: 360, as_int: false },
+  hit_sound: snd_platform_core_impact,
+  death_sound: snd_platform_core_mini_destroyed,
+  spawn_distance_minimum: 100,
+  spawn_distance_maximum: 5000,
+  sprites: [
+    spr_platform_core_mini_grey_h0,
+    spr_platform_core_mini_grey_h1,
+    spr_platform_core_mini_grey_h2,
+    spr_platform_core_mini_grey_h3
+  ],
+  drop_chance: 8,
+  repulsor_shielded: true,
+  grapple_beam_range: 250,
+  shield_drain_range: 0,
+  point_defence_range: 0,
+  point_defence_cooldown: undefined
 };
 #endregion Platforms
