@@ -1,6 +1,7 @@
 shooter = noone;
 shooter_body_radius = undefined;
 target = noone;
+max_range = 0;
 muzzle_particle = undefined;
 impact_particle = undefined;
 w = 0;

@@ -1,13 +1,15 @@
 source = noone;
 recipient = noone;
+max_range = 0;
 lifespan = 15;
 magnitude = 0.1;
 enabled = false;
 particle = undefined;
 
-function set_shield_drainer(_source, _recipient, _magnitude = 0.1, _lifespan = 15) {
-  source = _source
-  recipient = _recipient
+function set_shield_drainer(_source, _recipient, _max_range, _magnitude = 0.1, _lifespan = 15) {
+  source = _source;
+  recipient = _recipient;
+  max_range = _max_range;
   magnitude = _magnitude;
   lifespan = _lifespan
   
@@ -41,4 +43,11 @@ function set_shield_drainer(_source, _recipient, _magnitude = 0.1, _lifespan = 1
     recipient.current_shields = min(recipient.current_shields + magnitude, recipient.max_shields);
   }
   enabled = true;
+}
+
+function clean_up() {
+  part_type_destroy(particle);
+  part_type_destroy(particle2);
+
+  instance_destroy();
 }

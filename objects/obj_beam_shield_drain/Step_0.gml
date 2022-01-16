@@ -1,4 +1,6 @@
 if (enabled) {
+  if (point_distance(source.x, source.y, recipient.x, recipient.y) > max_range) { clean_up(); }
+  
   lifespan --;
 
   var drawn_particles = array_sample(
@@ -25,9 +27,6 @@ if (enabled) {
   drawn_particles();
 
   if (lifespan <= 0) {
-    part_type_destroy(particle);
-    part_type_destroy(particle2);
-
-    instance_destroy();
+    clean_up();
   }
 }

@@ -544,8 +544,8 @@ global.enemy_platform_core_mini_blue = {
 global.enemy_platform_core_mini_grey = {
   object_name: obj_platform_core_mini_grey,
   type: "platform_core",
-  max_hitpoints: { base: 6, min: 0, max: 0, as_int: true },
-  max_shields: 35,
+  max_hitpoints: { base: 5, min: 0, max: 0, as_int: true },
+  max_shields: 25,
   score_multiplier: 75,
   movement_speed: { base: 3, min: 1, max: 2, as_int: false },
   mass: 600,
@@ -563,7 +563,7 @@ global.enemy_platform_core_mini_grey = {
   ],
   drop_chance: 8,
   repulsor_shielded: true,
-  grapple_beam_range: 250,
+  grapple_beam_range: 200,
   shield_drain_range: 0,
   point_defence_range: 0,
   point_defence_cooldown: undefined

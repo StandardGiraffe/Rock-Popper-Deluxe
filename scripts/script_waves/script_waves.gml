@@ -209,6 +209,7 @@ global.waves = [
   function(spawner) {
     global.wave ++;
     spawn_entity_randomly(obj_platform_core_mini_grey);
+    spawn_entity_randomly(obj_platform_core_mini_grey);
     spawn_entity_randomly(obj_platform_core_mini_blue);
   },
 
@@ -276,19 +277,19 @@ global.waves = [
     
     spawn_entity_randomly(obj_platform_core_mini_blue);
     
-    return 2.5;
+    return 1.5;
   },
   
   function(spawner) {
     spawn_entity_randomly(obj_platform_core_mini_red);
     
-    return 2.5;
+    return 1.5;
   },
   
   function(spawner) {
     spawn_entity_randomly(obj_platform_core_mini_grey);
     
-    return 2.5;
+    return 1.5;
   },
   
   function(spawner) {
@@ -301,33 +302,48 @@ global.waves = [
     global.wave ++;
 
     background_sprite_set(spr_background_boss_1);
-    spawn_entity_randomly(obj_asteroid_gravel);
-    spawn_entity_randomly(obj_asteroid_gravel);
-    spawn_entity_randomly(obj_asteroid_gravel);
+    
+    var locus = new central_spawn_region();
+    
+    spawn_formation_starburst(
+      obj_asteroid_gravel, locus.x, locus.y, random_range(2, 4), 5
+    )
     
     return 5
   },
   
   function(spawner) {
     background_sprite_set(spr_background_boss_2);
-    spawn_entity_randomly(obj_asteroid_gravel);
-    spawn_entity_randomly(obj_asteroid_gravel);
-    spawn_entity_randomly(obj_asteroid_gravel);
+    
+    var locus = new central_spawn_region();
+
+    spawn_formation_starburst(
+      obj_asteroid_gravel, locus.x, locus.y, random_range(1, 3), 5
+    )
     
     return 5
   },
   
   function(spawner) {
     background_sprite_set(spr_background_boss_3);
-    spawn_entity_randomly(obj_asteroid_gravel);
-    spawn_entity_randomly(obj_asteroid_gravel);
-    spawn_entity_randomly(obj_asteroid_gravel);
     
+    var locus = new central_spawn_region();
+
+    spawn_formation_starburst(
+      obj_asteroid_gravel, locus.x, locus.y, random_range(1, 2), 7
+    )
+
     return 5
   },
   
   function(spawner) {
     background_sprite_set(spr_background_boss_4);
+    spawn_entity_randomly(obj_asteroid_gravel);
+    spawn_entity_randomly(obj_asteroid_gravel);
+    spawn_entity_randomly(obj_asteroid_gravel);
+    spawn_entity_randomly(obj_asteroid_gravel);
+    spawn_entity_randomly(obj_asteroid_gravel);
+    spawn_entity_randomly(obj_asteroid_gravel);
     spawn_entity_randomly(obj_asteroid_gravel);
     spawn_entity_randomly(obj_asteroid_gravel);
     spawn_entity_randomly(obj_asteroid_gravel);
@@ -344,6 +360,8 @@ global.waves = [
       locus.x, locus.y,
       obj_asteroid_cluster_mega
     );
+    
+    spawner.resume_spawning();
   },
   
   function(spawner) {
