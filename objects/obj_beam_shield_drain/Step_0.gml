@@ -1,5 +1,5 @@
 if (enabled) {
-  if (point_distance(source.x, source.y, recipient.x, recipient.y) > max_range) { clean_up(); }
+  if (point_distance(source.x, source.y, recipient.x, recipient.y) > max_range * 1.5) { clean_up(); }
   
   lifespan --;
 

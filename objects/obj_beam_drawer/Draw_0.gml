@@ -7,7 +7,7 @@ if (activated) {
   var x2 = target.x;
   var y2 = target.y;
 
-  if (point_distance(x1, y1, x2, y2) <= max_range) {
+  if (point_distance(x1, y1, x2, y2) <= max_range * 1.5) {
     if (draw_muzzle_and_impact) {
       part_particles_create(global.particles, shooter.x + gun_x, shooter.y + gun_y, muzzle_particle, 1);
       part_particles_create(global.particles, target.x, target.y, impact_particle, 1);
