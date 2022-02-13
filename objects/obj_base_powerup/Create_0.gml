@@ -1,5 +1,8 @@
 spawn_in(0.5);
 fading = false;
+seeking = true;
+
+ungettable_timer = 0;
 
 sprite_index = powerup.sprite;
 rotation_speed = random_range(-1, 1);

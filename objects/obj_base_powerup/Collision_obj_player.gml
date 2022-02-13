@@ -1,3 +1,5 @@
+if (ungettable_timer > 0) { return; }
+
 audio_play_sound(powerup.collect_sound, 5, 0);
 if (typeof(powerup.popup_message) == "string") {
   display_popup(

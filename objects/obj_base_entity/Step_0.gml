@@ -23,6 +23,8 @@ if (current_shields == max_shields) && (shield_bar_opacity > 0) {
 // Regenerate Shields
 if (shielded && (current_shields < max_shields)) {
   current_shields = min(current_shields + max_shields / 1800, max_shields);
+  
+  if current_shields == max_shields { on_shields_repaired() }
 }
 
 // Apply inertia if necessary

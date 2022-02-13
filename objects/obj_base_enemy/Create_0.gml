@@ -30,6 +30,8 @@ function show_body_damage() {
   var _current_sprite = sprite_index;
   var _new_sprite = sprite_based_on_damage(enemy.sprites);
   if (_current_sprite != _new_sprite) {
+    on_body_damage_increased();  // available hook
+    
     generate_debris(
       x, y,
       enemy.type,
@@ -44,7 +46,7 @@ function show_body_damage() {
 
 function shields_down() {
   shielded = false
-  sprite_index = enemy.sprites[0];
+  sprite_index = sprite_based_on_damage(enemy.sprites);
   flash_colour = c_teal;
   audio_play_sound(snd_enemy_shields_down, 0, 0);
   draw_shield_pop(self);

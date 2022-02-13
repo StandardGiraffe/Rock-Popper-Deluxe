@@ -12,6 +12,10 @@ max_hitpoints = stats.max_hitpoints;
 current_hitpoints = max_hitpoints;
 
 powerups_inventory = new EmptyPowerupsInventory();
+powerups_cannons_modules = [ ];
+powerups_engines_modules = [ ];
+powerups_shields_modules = [ ];
+powerups_weapon_modules = [ ];
 
 faction = factions.players;
 invulnerable_while_spawning = true;
@@ -57,4 +61,28 @@ function shields_down() {
   
   spawn_in(0.005, 0.5);
   shielded = false;
+}
+
+function collect_exchangeable_module(module) {
+  var powerup_module_collection;
+  
+  switch (module.group) {
+    case powerup_module_types.cannons:
+      powerup_module_collection = powerups_cannons_modules;
+      break;
+      
+    case powerup_module_types.engines:
+      powerup_module_collection = powerups_engines_modules;
+      break;
+      
+    case powerup_module_types.shields:
+      powerup_module_collection = powerups_shields_modules;
+      break;
+
+    case powerup_module_types.weapon:
+      powerup_module_collection = powerups_weapon_modules;      
+      break;
+  }
+  
+  
 }

@@ -9,47 +9,57 @@ function be_shoved(_direction, _length, _account_for_mass = false, _afterimage_d
 
 function eject_fragment(_bullet) {
   if irandom(3) == 0 {
-  var selection = irandom(3);
+    var selection = irandom(2);
   
-  switch selection {
-    case 0:
-      var ast = spawn_entity(x, y, obj_asteroid_gravel_large, undefined, _bullet.get_direction() + random_range(-10, 10));
-      ast.points_value = 0;
-      spawn_in_complete(ast);
-      break;
+    switch selection {
+      case 0:
+        var ast = spawn_entity(x, y, obj_asteroid_gravel_large, undefined, _bullet.get_direction() + random_range(-10, 10));
+        ast.points_value = 0;
+        spawn_in_complete(ast);
+        break;
     
-    case 1:
-      var ast = spawn_entity(x, y, obj_asteroid_gravel, undefined, _bullet.get_direction() + random_range(-10, 10));
-      ast.points_value = 0;
-      spawn_in_complete(ast);
-      var ast = spawn_entity(x, y, obj_asteroid_gravel, undefined, _bullet.get_direction() + random_range(-10, 10));
-      ast.points_value = 0;
-      spawn_in_complete(ast);
-      var ast = spawn_entity(x, y, obj_asteroid_gravel_large, undefined, _bullet.get_direction());
-      ast.points_value = 0;
-      spawn_in_complete(ast);
-      break;
+      case 1:
+        var ast = spawn_entity(x, y, obj_asteroid_gravel, undefined, _bullet.get_direction() + random_range(-10, 10));
+        ast.points_value = 0;
+        spawn_in_complete(ast);
+        var ast = spawn_entity(x, y, obj_asteroid_gravel, undefined, _bullet.get_direction() + random_range(-10, 10));
+        ast.points_value = 0;
+        spawn_in_complete(ast);
+        var ast = spawn_entity(x, y, obj_asteroid_gravel_large, undefined, _bullet.get_direction());
+        ast.points_value = 0;
+        spawn_in_complete(ast);
+        break;
       
-    case 2:
-      var ast = spawn_entity(x, y, obj_asteroid_gravel_large, undefined, _bullet.get_direction() + random_range(-10, 10));
-      ast.points_value = 0;
-      spawn_in_complete(ast);
-      var ast = spawn_entity(x, y, obj_asteroid_gravel_large, undefined, _bullet.get_direction() + random_range(-10, 10));
-      ast.points_value = 0;
-      spawn_in_complete(ast);
-      break;
+      case 2:
+        var ast = spawn_entity(x, y, obj_asteroid_gravel_large, undefined, _bullet.get_direction() + random_range(-10, 10));
+        ast.points_value = 0;
+        spawn_in_complete(ast);
+        var ast = spawn_entity(x, y, obj_asteroid_gravel_large, undefined, _bullet.get_direction() + random_range(-10, 10));
+        ast.points_value = 0;
+        spawn_in_complete(ast);
+        break;
       
-    case 3:
-      var ast = spawn_entity(x, y, obj_asteroid_splitter_medium_fragment, undefined, _bullet.get_direction() + random_range(-10, 10));
-      ast.points_value = 0;
-      spawn_in_complete(ast);
-      var ast = spawn_entity(x, y, obj_asteroid_splitter_medium_fragment, undefined, _bullet.get_direction() + random_range(-10, 10));
-      ast.points_value = 0;
-      spawn_in_complete(ast);
-      var ast = spawn_entity(x, y, obj_asteroid_gravel, undefined, _bullet.get_direction() + random_range(-10, 10));
-      ast.points_value = 0;
-      spawn_in_complete(ast);
-      break;
+      //case 3:
+      //  var ast = spawn_entity(x, y, obj_asteroid_splitter_medium_fragment, undefined, _bullet.get_direction() + random_range(-10, 10));
+      //  ast.points_value = 0;
+      //  spawn_in_complete(ast);
+      //  var ast = spawn_entity(x, y, obj_asteroid_splitter_medium_fragment, undefined, _bullet.get_direction() + random_range(-10, 10));
+      //  ast.points_value = 0;
+      //  spawn_in_complete(ast);
+      //  var ast = spawn_entity(x, y, obj_asteroid_gravel, undefined, _bullet.get_direction() + random_range(-10, 10));
+      //  ast.points_value = 0;
+      //  spawn_in_complete(ast);
+      //  break;
+    }
   }
 }
+
+function on_body_damage_increased() {
+  spawn_formation_starburst(
+    obj_asteroid_gravel, x, y, undefined, irandom_range(4, 8)
+  )
+  
+  spawn_formation_starburst(
+    obj_asteroid_gravel_large, x, y, undefined, irandom_range(4, 8)
+  )
 }

@@ -1,5 +1,7 @@
 global.powerup_collection = {
-  bullet_dual_shot: obj_powerup_dual_shot,
+  cannon_dual: obj_powerup_dual_cannon,
+  cannon_rear: obj_powerup_rear_cannon,
+  cannon_spread: obj_powerup_spread_cannon,
   bullet_power_shot: obj_powerup_power_shot,
   bullet_speed_shot: obj_powerup_speed_shot,
   bullet_void_shot: obj_powerup_void_shot,
@@ -12,7 +14,9 @@ global.powerup_collection = {
 }
 
 global.powerup_collection_weapons = {
-  bullet_dual_shot: obj_powerup_dual_shot,
+  cannon_dual: obj_powerup_dual_cannon,
+  cannon_rear: obj_powerup_rear_cannon,
+  cannon_spread: obj_powerup_spread_cannon,
   bullet_power_shot: obj_powerup_power_shot,
   bullet_speed_shot: obj_powerup_speed_shot,
   bullet_void_shot: obj_powerup_void_shot
@@ -33,6 +37,12 @@ global.powerup_collection_shields = {
   module_points: obj_powerup_points,
   module_repulsor_shields: obj_powerup_repulsor_shields,
   module_shields: obj_powerup_shields
+}
+
+global.powerup_modules_cannons = {
+  cannon_dual: obj_powerup_dual_cannon,
+  cannon_spread: obj_powerup_spread_cannon,
+  cannon_rear: obj_powerup_rear_cannon
 }
 
 /// Returns a powerup object name based on certain criteria

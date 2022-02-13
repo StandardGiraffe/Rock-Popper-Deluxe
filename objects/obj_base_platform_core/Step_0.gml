@@ -13,7 +13,7 @@ event_inherited();
   }
 
   // Shield-Drain close-by players
-  if ((shield_drain_range > 0) and (shielded)) {
+  if ((shield_drain_range > 0)) {
     with obj_base_player {
       if ((distance_to_object(me) <= me.shield_drain_range) and shielded) {
         shoot_drain_shields(me, self, me.shield_drain_range);

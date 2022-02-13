@@ -54,6 +54,8 @@ function is_currently_vulnerable() {
 }
 
 function be_shot(bullet) {
+  on_shot();  // available hook
+  
   var own_velocity = new vector_lengthdir(speed, direction);
   
   var impact_direction = bullet.get_direction();
@@ -148,6 +150,19 @@ function damage_shields(damage_taken, _shooter) {
   shield_bar_damage_opacity = 1;
   current_shields -= damage_taken;
   
+  // Shields-Damaged Hooks
+  on_shields_damaged();  // available hook
+  
+  if (current_shields <= 25) {
+    on_shields_damaged_25(); // available hook
+  } else if (current_shields <= 50) {
+    on_shields_damaged_50(); // available hook
+  } else if (current_shields <= 75) {
+    on_shields_damaged_75(); // available hook
+  } else if (current_shields <= 90) {
+    on_shields_damaged_90(); // available hook
+  }
+    
   if (current_shields <= 0) {
     screen_shake(10, 2);
     shields_down();
@@ -164,6 +179,21 @@ function damage_body(damage_taken, _shooter) {
   flash_alpha = 1;  // Start the damage flash animation
   
   current_hitpoints -= damage_taken;
+  
+  // Body Damaged Hooks
+  var hitpoints_percentage = floor(current_hitpoints / max_hitpoints * 100);
+  
+  on_damaged();  // available hook
+  if (hitpoints_percentage <= 25) {
+    on_damaged_25(); // available hook
+  } else if (hitpoints_percentage <= 50) {
+    on_damaged_50(); // available hook
+  } else if (hitpoints_percentage <= 75) {
+    on_damaged_75(); // available hook
+  } else if (hitpoints_percentage <= 90) {
+    on_damaged_90(); // available hook
+  }
+  
   show_body_damage();
 
   if (current_hitpoints <= 0) {
@@ -182,6 +212,7 @@ function show_body_damage() { }
 
 function be_shoved(_direction, _length, _account_for_mass = false, _afterimage_drawing_time_in_seconds = 0, _afterimage_fade_time_in_seconds = 0.3) {
   motion_add(_direction, _length);
+  on_shoved();  // available hook
   
   if (_afterimage_drawing_time_in_seconds > 0) {
     afterimage_drawing_time = room_speed * _afterimage_drawing_time_in_seconds;
@@ -194,16 +225,37 @@ function be_shoved(_direction, _length, _account_for_mass = false, _afterimage_d
 function be_killed(_killer = noone) {
   killer = _killer;
   
+  on_destroyed();  // available hook
   instance_destroy();
 }
 
 function shields_down() {
-  shielded = false
+  shielded = false;
   flash_colour = c_teal;
   audio_play_sound(snd_enemy_shields_down, 0, 0);
   draw_shield_pop(self);
+  on_shields_down();  // available_hook
 }
 
 function apply_inertia(_inertia_rate) {
   speed = max(speed - _inertia_rate, 0);
 }
+
+// Hooks
+function on_shields_damaged() { }
+function on_shields_damaged_90() { }
+function on_shields_damaged_75() { }
+function on_shields_damaged_50() { }
+function on_shields_damaged_25() { }
+function on_shields_down() { }
+function on_shields_repaired() { }
+function on_shot() { }
+function on_shoved() { }
+function on_damaged() { }
+function on_damaged_90() { }
+function on_damaged_75() { }
+function on_damaged_50() { }
+function on_damaged_25() { }
+function on_body_damage_increased() { }
+function on_destroyed() { }
+function on_collided_with_player() { }

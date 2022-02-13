@@ -88,12 +88,12 @@ function generate_debris(_x, _y, _enemy_type, _quantity, _angle, _sprite_height,
     case "capsule":
       draw_particle_on_sprite(
         _x, _y, global.particle_debris_droid,
-        _quantity / 5, _angle, _sprite_height, _sprite_width
+        _quantity / 2, _angle, _sprite_height, _sprite_width
       );
       
       draw_particle_on_sprite(
         _x, _y, global.particle_powerup_gold_sparkle,
-        _quantity / 2, _angle, _sprite_height * 2, _sprite_width * 2
+        _quantity, _angle, _sprite_height * 2, _sprite_width * 2
       );
       
       draw_particle_on_sprite(

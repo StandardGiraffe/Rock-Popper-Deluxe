@@ -6,4 +6,11 @@ instance_create_layer(0, 0, "Invisibles", obj_screen_effects);
 instance_create_layer(0, 0, "Invisibles", obj_particle_system);
 instance_create_layer(0, 0, "Invisibles", obj_projectiles);
 
+enum powerup_module_types {
+  cannons,
+  engines,
+  shields,
+  weapon
+}
+
 room_goto_next();
