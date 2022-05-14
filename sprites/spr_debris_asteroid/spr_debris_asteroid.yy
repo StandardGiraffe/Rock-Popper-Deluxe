@@ -175,7 +175,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_debris_asteroid","path":"sprites/spr_debris_asteroid/spr_debris_asteroid.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_debris_asteroid",
     "tags": [],
     "resourceType": "GMSequence",

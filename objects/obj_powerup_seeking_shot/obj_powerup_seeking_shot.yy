@@ -1,10 +1,16 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_powerup_seeking_shot",
+    "path": "sprites/spr_powerup_seeking_shot/spr_powerup_seeking_shot.yy",
+  },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
-  "persistent": true,
-  "parentObjectId": null,
+  "persistent": false,
+  "parentObjectId": {
+    "name": "obj_base_powerup",
+    "path": "objects/obj_base_powerup/obj_base_powerup.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -23,11 +29,11 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Housekeeping",
-    "path": "folders/Objects/Housekeeping.yy",
+    "name": "Seeking-Shot",
+    "path": "folders/Objects/Powerups/Weapons/Seeking-Shot.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_projectiles",
+  "name": "obj_powerup_seeking_shot",
   "tags": [],
   "resourceType": "GMObject",
 }

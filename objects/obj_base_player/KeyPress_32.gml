@@ -51,23 +51,49 @@ if powerups_inventory.cannon_dual {
   );
   setup_player_shot(b, self);
   
-  var b = shoot_projectile(
-    obj_bullet_player, self,
-    x, y, image_angle + random_range(15, 45),
-    snd_shoot,
-    my_vector
-  );
-  setup_player_shot(b, self);
-  b.fading = true;
+  if (irandom(1) == 1) {
+    var b = shoot_projectile(
+      obj_bullet_player, self,
+      x, y, image_angle + random_range(15, 45),
+      snd_shoot,
+      my_vector
+    );
+    setup_player_shot(b, self);
+    b.fading = true;  
+  }
   
-  var b = shoot_projectile(
-    obj_bullet_player, self,
-    x, y, image_angle - random_range(15, 45),
-    snd_shoot,
-    my_vector
-  );
-  setup_player_shot(b, self);
-  b.fading = true;
+  if (irandom(1) == 1) {
+    var b = shoot_projectile(
+      obj_bullet_player, self,
+      x, y, image_angle + random_range(15, 45),
+      snd_shoot,
+      my_vector
+    );
+    setup_player_shot(b, self);
+    b.fading = true;  
+  }
+  
+  if (irandom(1) == 1) {
+    var b = shoot_projectile(
+      obj_bullet_player, self,
+      x, y, image_angle - random_range(15, 45),
+      snd_shoot,
+      my_vector
+    );
+    setup_player_shot(b, self);
+    b.fading = true;  
+  }
+  
+  if (irandom(1) == 1) {
+    var b = shoot_projectile(
+      obj_bullet_player, self,
+      x, y, image_angle - random_range(15, 45),
+      snd_shoot,
+      my_vector
+    );
+    setup_player_shot(b, self);
+    b.fading = true;  
+  }
   
   add_recoil(b.base_speed * 1.5, b.base_power * 1.5);
   

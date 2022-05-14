@@ -75,7 +75,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_powerup_extra_life","path":"sprites/spr_powerup_extra_life/spr_powerup_extra_life.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_powerup_extra_life",
     "tags": [],
     "resourceType": "GMSequence",

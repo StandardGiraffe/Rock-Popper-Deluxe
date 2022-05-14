@@ -95,7 +95,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_powerup_spread_cannon","path":"sprites/spr_powerup_spread_cannon/spr_powerup_spread_cannon.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_powerup_spread_cannon",
     "tags": [],
     "resourceType": "GMSequence",

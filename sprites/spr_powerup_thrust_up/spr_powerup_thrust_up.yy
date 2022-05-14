@@ -71,7 +71,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_powerup_thrust_up","path":"sprites/spr_powerup_thrust_up/spr_powerup_thrust_up.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_powerup_thrust_up",
     "tags": [],
     "resourceType": "GMSequence",

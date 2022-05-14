@@ -3,6 +3,7 @@ global.powerup_collection = {
   cannon_rear: obj_powerup_rear_cannon,
   cannon_spread: obj_powerup_spread_cannon,
   bullet_power_shot: obj_powerup_power_shot,
+  bullet_seeking_shot: obj_powerup_seeking_shot,
   bullet_speed_shot: obj_powerup_speed_shot,
   bullet_void_shot: obj_powerup_void_shot,
   engine_thrust_up: obj_powerup_thrust_up,
@@ -18,6 +19,7 @@ global.powerup_collection_weapons = {
   cannon_rear: obj_powerup_rear_cannon,
   cannon_spread: obj_powerup_spread_cannon,
   bullet_power_shot: obj_powerup_power_shot,
+  bullet_seeking_shot: obj_powerup_seeking_shot,
   bullet_speed_shot: obj_powerup_speed_shot,
   bullet_void_shot: obj_powerup_void_shot
 }

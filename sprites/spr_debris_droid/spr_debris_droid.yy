@@ -191,7 +191,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_debris_droid","path":"sprites/spr_debris_droid/spr_debris_droid.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_debris_droid",
     "tags": [],
     "resourceType": "GMSequence",

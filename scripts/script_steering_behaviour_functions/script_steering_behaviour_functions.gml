@@ -10,6 +10,15 @@ function seek_force(_x, _y) {
 	return _vec;
 }
 
+function seek_force_for_non_steering(_x, _y, _max_speed, _max_force) {
+  var _vec = new vector(_x, _y);
+	_vec.subtract(new vector(self.x, self.y));
+	_vec.set_magnitude(_max_speed);
+	_vec.subtract(new vector_lengthdir(self.speed, self.direction));
+	_vec.limit_magnitude(_max_force);
+	return _vec;
+}
+
 function flee_force(_x, _y) {	
 	var _vec = new vector(_x, _y);
 	_vec.subtract(position);
@@ -25,6 +34,13 @@ function pursue_force(_inst) {
 	_vec.multiply(30);
 	_vec.add(_inst.position);
 	return seek_force(_vec.x, _vec.y);
+}
+
+function pursue_force_for_non_steering(_inst, _look_ahead = 30, _max_speed, _max_force) {
+  var _vec = new vector_lengthdir(_inst.speed, _inst.direction);
+  _vec.multiply(_look_ahead);
+	_vec.add(new vector(_inst.x, _inst.y));
+	return seek_force_for_non_steering(_vec.x, _vec.y, _max_speed, _max_force);
 }
 
 function evade_force(_inst) {

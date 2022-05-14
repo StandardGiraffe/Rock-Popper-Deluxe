@@ -87,7 +87,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_powerup_capsule_shields","path":"sprites/spr_powerup_capsule_shields/spr_powerup_capsule_shields.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_powerup_capsule_shields",
     "tags": [],
     "resourceType": "GMSequence",

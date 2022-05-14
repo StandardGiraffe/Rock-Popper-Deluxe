@@ -75,7 +75,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_powerup_points","path":"sprites/spr_powerup_points/spr_powerup_points.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_powerup_points",
     "tags": [],
     "resourceType": "GMSequence",

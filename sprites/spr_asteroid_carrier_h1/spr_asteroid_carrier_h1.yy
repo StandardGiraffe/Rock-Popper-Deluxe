@@ -143,7 +143,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_asteroid_carrier_h1","path":"sprites/spr_asteroid_carrier_h1/spr_asteroid_carrier_h1.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_asteroid_carrier_h1",
     "tags": [],
     "resourceType": "GMSequence",

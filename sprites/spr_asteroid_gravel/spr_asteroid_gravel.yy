@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_asteroid_gravel","path":"sprites/spr_asteroid_gravel/spr_asteroid_gravel.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_asteroid_gravel",
     "tags": [],
     "resourceType": "GMSequence",

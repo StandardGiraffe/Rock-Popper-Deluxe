@@ -87,7 +87,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_powerup_capsule_weapon","path":"sprites/spr_powerup_capsule_weapon/spr_powerup_capsule_weapon.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_powerup_capsule_weapon",
     "tags": [],
     "resourceType": "GMSequence",

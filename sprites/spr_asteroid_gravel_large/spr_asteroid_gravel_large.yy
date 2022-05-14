@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_asteroid_gravel_large","path":"sprites/spr_asteroid_gravel_large/spr_asteroid_gravel_large.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_asteroid_gravel_large",
     "tags": [],
     "resourceType": "GMSequence",

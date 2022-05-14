@@ -2,6 +2,14 @@ if (enabled) {
   if (point_distance(source.x, source.y, recipient.x, recipient.y) > max_range * 1.5) { clean_up(); }
   
   lifespan --;
+  
+  // Relocate to somewhere on the source
+  var coords = coords_on_sprite(source.x, source.y, source.image_angle, source.sprite_height, source.sprite_width)
+  x = coords[0];
+  y = coords[1];
+  //x = source.x + irandom_range(-source.sprite_width / 2, source.sprite_width / 2);
+  //y = source.y + irandom_range(-source.sprite_height / 2, source.sprite_height / 2);
+
 
   var drawn_particles = array_sample(
     [

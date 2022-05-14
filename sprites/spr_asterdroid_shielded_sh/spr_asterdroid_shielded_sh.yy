@@ -103,7 +103,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_asterdroid_shielded_sh","path":"sprites/spr_asterdroid_shielded_sh/spr_asterdroid_shielded_sh.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_asterdroid_shielded_sh",
     "tags": [],
     "resourceType": "GMSequence",

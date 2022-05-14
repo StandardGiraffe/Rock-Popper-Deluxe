@@ -71,7 +71,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_powerup_recoil_damping","path":"sprites/spr_powerup_recoil_damping/spr_powerup_recoil_damping.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_powerup_recoil_damping",
     "tags": [],
     "resourceType": "GMSequence",

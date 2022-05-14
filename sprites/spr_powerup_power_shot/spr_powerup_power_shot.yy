@@ -135,7 +135,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_powerup_power_shot","path":"sprites/spr_powerup_power_shot/spr_powerup_power_shot.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_powerup_power_shot",
     "tags": [],
     "resourceType": "GMSequence",

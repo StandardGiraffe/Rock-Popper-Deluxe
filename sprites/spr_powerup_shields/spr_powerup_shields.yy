@@ -75,7 +75,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_powerup_shields","path":"sprites/spr_powerup_shields/spr_powerup_shields.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_powerup_shields",
     "tags": [],
     "resourceType": "GMSequence",

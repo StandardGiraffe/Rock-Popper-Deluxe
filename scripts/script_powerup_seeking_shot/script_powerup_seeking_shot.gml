@@ -1,0 +1,13 @@
+function collect_powerup_seeking_shot(_x, _y, _collector) {
+  _collector.powerups_inventory.bullet_seeking_shot = true;
+}
+
+global.powerup_seeking_shot = {
+  inventory_name: "bullet_seeking_shot",
+  object_name: obj_powerup_seeking_shot,
+  sprite: spr_powerup_seeking_shot,
+  collect_sound: snd_shields_up,
+  popup_message: "Seeking-Shot!",
+  popup_colours: [ c_red, c_red, c_orange, c_orange ],
+  collect_function: collect_powerup_seeking_shot
+}

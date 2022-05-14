@@ -103,7 +103,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_asterdroid_shooter_small_h3","path":"sprites/spr_asterdroid_shooter_small_h3/spr_asterdroid_shooter_small_h3.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_asterdroid_shooter_small_h3",
     "tags": [],
     "resourceType": "GMSequence",

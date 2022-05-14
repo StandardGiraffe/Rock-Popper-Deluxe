@@ -1,5 +1,4 @@
 /// @description Healthbar
-
 if (shield_bar_opacity > 0) {
   if shielded {
     var full_bar = get_shield_bar_location();

@@ -4,7 +4,10 @@
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_base_insubstantial",
+    "path": "objects/obj_base_insubstantial/obj_base_insubstantial.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,

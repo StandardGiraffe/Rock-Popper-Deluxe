@@ -83,7 +83,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_bullet_enemy_small","path":"sprites/spr_bullet_enemy_small/spr_bullet_enemy_small.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_bullet_enemy_small",
     "tags": [],
     "resourceType": "GMSequence",

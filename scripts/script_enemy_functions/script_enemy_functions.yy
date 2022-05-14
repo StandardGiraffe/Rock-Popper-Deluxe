@@ -3,7 +3,7 @@
   "isCompatibility": false,
   "parent": {
     "name": "Enemies",
-    "path": "folders/Scripts/Enemies.yy",
+    "path": "folders/Scripts/Entities/Enemies.yy",
   },
   "resourceVersion": "1.0",
   "name": "script_enemy_functions",

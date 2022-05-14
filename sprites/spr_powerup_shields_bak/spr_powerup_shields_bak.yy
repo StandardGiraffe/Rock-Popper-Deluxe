@@ -99,7 +99,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_powerup_shields_bak","path":"sprites/spr_powerup_shields_bak/spr_powerup_shields_bak.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_powerup_shields_bak",
     "tags": [],
     "resourceType": "GMSequence",

@@ -1,6 +1,7 @@
 // Setup Movement:
 faction = factions.neutrals;
 shooter = noone;
+target = noone;
 
 position = new vector(x, y);
 steering_force = new vector_zero();
@@ -21,7 +22,6 @@ power_shot = false;
 seeking_shot = false;
 
 //// Setup Particle Effects
-//impact_particles = projectile.impact_particles;
 
 // Functions:
 set_direction = function(_dir, others_velocity = new vector_zero()) {

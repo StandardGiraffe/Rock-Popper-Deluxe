@@ -111,7 +111,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_powerup_repulsor_shields","path":"sprites/spr_powerup_repulsor_shields/spr_powerup_repulsor_shields.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_powerup_repulsor_shields",
     "tags": [],
     "resourceType": "GMSequence",

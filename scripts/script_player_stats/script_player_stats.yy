@@ -3,7 +3,7 @@
   "isCompatibility": false,
   "parent": {
     "name": "Player",
-    "path": "folders/Scripts/Player.yy",
+    "path": "folders/Scripts/Entities/Player.yy",
   },
   "resourceVersion": "1.0",
   "name": "script_player_stats",

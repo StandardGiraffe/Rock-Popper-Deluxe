@@ -79,7 +79,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_droid_straight_shoot_h3","path":"sprites/spr_droid_straight_shoot_h3/spr_droid_straight_shoot_h3.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_droid_straight_shoot_h3",
     "tags": [],
     "resourceType": "GMSequence",

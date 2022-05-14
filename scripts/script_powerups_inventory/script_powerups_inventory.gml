@@ -2,6 +2,7 @@ function EmptyPowerupsInventory() constructor {
   bullet_power_shot = false;
   bullet_speed_shot = false;
   bullet_void_shot = false;
+  bullet_seeking_shot = false;
   bullet_pulse_shot = false;
   
   cannon_dual = false;

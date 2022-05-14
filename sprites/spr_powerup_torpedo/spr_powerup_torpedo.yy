@@ -99,7 +99,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_powerup_torpedo","path":"sprites/spr_powerup_torpedo/spr_powerup_torpedo.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_powerup_torpedo",
     "tags": [],
     "resourceType": "GMSequence",

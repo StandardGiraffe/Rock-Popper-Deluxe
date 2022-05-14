@@ -259,7 +259,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_platform_core_mini_grey_sh","path":"sprites/spr_platform_core_mini_grey_sh/spr_platform_core_mini_grey_sh.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_platform_core_mini_grey_sh",
     "tags": [],
     "resourceType": "GMSequence",

@@ -111,7 +111,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_asteroid_cluster_mega_h2","path":"sprites/spr_asteroid_cluster_mega_h2/spr_asteroid_cluster_mega_h2.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_asteroid_cluster_mega_h2",
     "tags": [],
     "resourceType": "GMSequence",

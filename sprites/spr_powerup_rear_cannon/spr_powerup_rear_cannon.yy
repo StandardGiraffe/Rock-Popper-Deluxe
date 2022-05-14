@@ -111,7 +111,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_powerup_rear_cannon","path":"sprites/spr_powerup_rear_cannon/spr_powerup_rear_cannon.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_powerup_rear_cannon",
     "tags": [],
     "resourceType": "GMSequence",

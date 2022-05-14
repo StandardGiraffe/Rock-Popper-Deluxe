@@ -83,6 +83,4 @@ function collect_exchangeable_module(module) {
       powerup_module_collection = powerups_weapon_modules;      
       break;
   }
-  
-  
 }

@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_asteroid_splitter_medium_fragment_h0","path":"sprites/spr_asteroid_splitter_medium_fragment_h0/spr_asteroid_splitter_medium_fragment_h0.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_asteroid_splitter_medium_fragment_h0",
     "tags": [],
     "resourceType": "GMSequence",

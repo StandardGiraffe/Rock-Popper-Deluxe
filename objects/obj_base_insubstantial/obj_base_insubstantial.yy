@@ -17,19 +17,15 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Utility Objects",
-    "path": "folders/Objects/Utility Objects.yy",
+    "name": "Categories",
+    "path": "folders/Objects/Base Objects/Categories.yy",
   },
   "resourceVersion": "1.0",
-  "name": "_obj_shield_effect",
+  "name": "obj_base_insubstantial",
   "tags": [],
   "resourceType": "GMObject",
 }

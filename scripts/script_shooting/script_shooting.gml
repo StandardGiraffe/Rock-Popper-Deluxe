@@ -28,6 +28,7 @@ function setup_player_shot(_bullet, _shooter) {
   
   _bullet.void_persistent = _shooter.powerups_inventory.bullet_void_shot;
   _bullet.power_shot = _shooter.powerups_inventory.bullet_power_shot;
+  _bullet.seeking_shot = _shooter.powerups_inventory.bullet_seeking_shot;
 
   return _bullet
 }

@@ -107,7 +107,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_droid_rammer_medium_h1","path":"sprites/spr_droid_rammer_medium_h1/spr_droid_rammer_medium_h1.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_droid_rammer_medium_h1",
     "tags": [],
     "resourceType": "GMSequence",

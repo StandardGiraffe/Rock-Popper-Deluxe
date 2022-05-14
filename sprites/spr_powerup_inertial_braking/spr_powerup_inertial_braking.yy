@@ -75,7 +75,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_powerup_inertial_braking","path":"sprites/spr_powerup_inertial_braking/spr_powerup_inertial_braking.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_powerup_inertial_braking",
     "tags": [],
     "resourceType": "GMSequence",
