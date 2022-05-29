@@ -59,7 +59,7 @@ function draw_projectile_special_properties_trails(_projectile) {
   }
   
   // Seeking Shot Trails
-  if (_projectile.seeking_shot) {
+  if (_projectile.seeking_shot && _projectile.target) {
     part_particles_create(
       global.particles,
       _projectile.x, _projectile.y,
