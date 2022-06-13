@@ -1,11 +1,11 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
-function spawn_entity_randomly(_object_name, _safe_distance = true) {
+function spawn_entity_randomly(_object_name, _spawn_at_safe_distance = true, _safety_target = obj_base_player) {
   var _x = random(room_width);
   var _y = random(room_height);
   
-  if _safe_distance {
-    while (distance_to_object(obj_base_player) < 100){
+  if _spawn_at_safe_distance {
+    while (point_distance(_safety_target.x, _safety_target.y, _x, _y) < 100) {
       _x = random(room_width)
       _y = random(room_height)
     }  
