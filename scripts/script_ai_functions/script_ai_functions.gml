@@ -1,5 +1,39 @@
+function fov_first_hit(view_angle = 15, range = (sqrt(sqr(room_width) + sqr(room_height))), resolution = 5, observer = self, search_dir = self.image_angle) {
+  var closest_candidate = noone;
+  for (var angle_spread = -(view_angle / 2); angle_spread <= (view_angle / 2); angle_spread += (view_angle / resolution)) {
+    var current_angle = search_dir + angle_spread;
+    var current_line = ds_list_create();
+    ds_list_clear(current_line);
+    
+    var instances_found = collision_line_list(
+      observer.x, observer.y,
+      observer.x + lengthdir_x(range, current_angle), observer.y + lengthdir_y(range, current_angle),
+      obj_base_entity, false, true,
+      current_line, true
+    );
+    
+    if instances_found > 0 {
+      var candidate = current_line[| 0];
+      
+      if (candidate != obj_base_insubstantial) && (candidate.faction != factions.neutrals) && (candidate.faction != observer.faction) {
+        if closest_candidate {
+          if candidate.distance_to_object(observer) < closest_candidate.distance_to_object(observer) {
+            closest_candidate = candidate;
+          }
+        } else {
+          closest_candidate = candidate;
+        }
+      }
+    }
+    
+    ds_list_destroy(current_line);
+  }
+  
+  return closest_candidate;
+}
+
 // Warning, this is an expensive function, especially at high-resolution/width.
-function fov_first_hit(view_angle = 15, range = (sqrt(sqr(room_width) + sqr(room_height))), resolution = 5, observer = self, search_dir = self.image_angle){
+function fov_first_hit_bak(view_angle = 15, range = (sqrt(sqr(room_width) + sqr(room_height))), resolution = 5, observer = self, search_dir = self.image_angle){
   var current_angle = search_dir;
   var angle_flipper = 1;
   
