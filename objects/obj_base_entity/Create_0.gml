@@ -17,6 +17,9 @@ shield_bar_opacity = 0;
 shield_bar_damage_opacity = 0;
 previous_shields = 0;
 
+shield_glow_radius = 1;
+shield_glow_progress = 0;
+
 void_persistent = true;
 grappled = 0; 
 
@@ -153,13 +156,13 @@ function damage_shields(damage_taken, _shooter) {
   // Shields-Damaged Hooks
   on_shields_damaged();  // available hook
   
-  if (current_shields <= 25) {
+  if (current_shield_percentage() <= 25) {
     on_shields_damaged_25(); // available hook
-  } else if (current_shields <= 50) {
+  } else if (current_shield_percentage() <= 50) {
     on_shields_damaged_50(); // available hook
-  } else if (current_shields <= 75) {
+  } else if (current_shield_percentage() <= 75) {
     on_shields_damaged_75(); // available hook
-  } else if (current_shields <= 90) {
+  } else if (current_shield_percentage() <= 90) {
     on_shields_damaged_90(); // available hook
   }
     
@@ -239,6 +242,12 @@ function shields_down() {
 
 function apply_inertia(_inertia_rate) {
   speed = max(speed - _inertia_rate, 0);
+}
+
+function current_shield_percentage() {
+  if (!shielded) { return 0 };
+  
+  return ceil(current_shields / max_shields * 100);
 }
 
 // Hooks

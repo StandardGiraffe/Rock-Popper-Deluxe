@@ -32,7 +32,7 @@ function fov_first_hit(view_angle = 15, range = (sqrt(sqr(room_width) + sqr(room
   return closest_candidate;
 }
 
-// Warning, this is an expensive function, especially at high-resolution/width.
+// (Replaced with a superior version.)  Warning, this is an expensive function, especially at high-resolution/width.
 function fov_first_hit_bak(view_angle = 15, range = (sqrt(sqr(room_width) + sqr(room_height))), resolution = 5, observer = self, search_dir = self.image_angle){
   var current_angle = search_dir;
   var angle_flipper = 1;

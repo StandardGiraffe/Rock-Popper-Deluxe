@@ -49,6 +49,7 @@
     {"id":{"name":"obj_asteroid_armoured","path":"objects/obj_asteroid_armoured/obj_asteroid_armoured.yy",},"order":0,},
     {"id":{"name":"spr_debris_asteroid","path":"sprites/spr_debris_asteroid/spr_debris_asteroid.yy",},"order":0,},
     {"id":{"name":"script_iterator_functions","path":"scripts/script_iterator_functions/script_iterator_functions.yy",},"order":0,},
+    {"id":{"name":"ac_shield_pulse","path":"animcurves/ac_shield_pulse/ac_shield_pulse.yy",},"order":1,},
     {"id":{"name":"script_powerup_speed_shot","path":"scripts/script_powerup_speed_shot/script_powerup_speed_shot.yy",},"order":1,},
     {"id":{"name":"obj_powerup_power_shot","path":"objects/obj_powerup_power_shot/obj_powerup_power_shot.yy",},"order":2,},
     {"id":{"name":"obj_powerup_void_shot","path":"objects/obj_powerup_void_shot/obj_powerup_void_shot.yy",},"order":3,},
@@ -371,7 +372,7 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2022.5.0.8",
+    "IDEVersion": "2022.6.0.23",
   },
   "resourceVersion": "1.5",
   "name": "Rock Popper Deluxe",
