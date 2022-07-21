@@ -1,10 +1,10 @@
 {
   "spriteId": null,
   "solid": false,
-  "visible": true,
+  "visible": false,
   "managed": true,
   "spriteMaskId": null,
-  "persistent": false,
+  "persistent": true,
   "parentObjectId": {
     "name": "obj_base_game_management",
     "path": "objects/obj_base_game_management/obj_base_game_management.yy",
@@ -24,17 +24,15 @@
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":2,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Housekeeping",
-    "path": "folders/Housekeeping.yy",
+    "name": "Background Features",
+    "path": "folders/Background Machinery/Background Features.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_message_popup",
+  "name": "obj_base_background_feature_manager",
   "tags": [],
   "resourceType": "GMObject",
 }

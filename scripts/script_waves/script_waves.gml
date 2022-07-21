@@ -2,6 +2,31 @@ global.waves = [
   function(spawner) {
     global.wave ++;
     spawn_entity_randomly(obj_asteroid_basic);
+    
+    global.background_feature_manager_near.change_background_features(
+      10,
+      [
+        global.background_features.gravel,
+        global.background_features.gravel_large
+      ]
+    );
+    
+    global.background_feature_manager_mid.change_background_features(
+      20,
+      [
+        global.background_features.gravel,
+        global.background_features.basic
+      ]
+    );
+    
+    global.background_feature_manager_far.change_background_features(
+      20,
+      [
+        global.background_features.gravel,
+        global.background_features.basic,
+        global.background_features.basic_large
+      ]
+    );
   },
   
   function(spawner) {
@@ -115,11 +140,17 @@ global.waves = [
   
   function(spawner) {
     global.wave ++;
+    
+    global.background_colour_manager.change_background_colour(#400000, room_speed * 5);
+    
     spawn_entity_randomly(obj_platform_core_mini_red);
   },
   
   function(spawner) {
     global.wave ++;
+    
+    global.background_colour_manager.change_background_colour(#004000, room_speed * 10);
+    
     spawn_entity_randomly(obj_asterdroid_shielded);
     spawn_entity_randomly(obj_asterdroid_shielded);
     spawn_entity_randomly(obj_powerup_capsule_weapon);
@@ -139,6 +170,8 @@ global.waves = [
   },
   
   function(spawner) {
+    global.background_colour_manager.change_background_colour(#006000, room_speed * 3);
+    
     var locus = new central_spawn_region();
     spawn_formation_starburst(
       obj_droid_straight_shoot, locus.x, locus.y, random_range(1, 2), 3
@@ -177,12 +210,18 @@ global.waves = [
 
   function(spawner) {
     global.wave ++;
+    
+    global.background_colour_manager.change_background_colour(#660066, room_speed * 5);
+    
     spawn_entity_randomly(obj_platform_core_mini_red);
     spawn_entity_randomly(obj_platform_core_mini_blue);
   },
 
   function(spawner) {
     global.wave ++;
+    
+    global.background_colour_manager.change_background_colour(#111111, room_speed * 5);
+    
     spawn_entity_randomly(obj_asteroid_carrier);
     spawn_entity_randomly(obj_asteroid_carrier);
   },
@@ -194,6 +233,9 @@ global.waves = [
   
   function(spawner) {
     global.wave ++;
+    
+    global.background_colour_manager.change_background_colour(#333333, room_speed * 5);
+    
     spawn_entity_randomly(obj_droid_rammer_mini);
     spawn_entity_randomly(obj_droid_rammer_mini);
     spawn_entity_randomly(obj_droid_rammer_mini);
@@ -201,6 +243,9 @@ global.waves = [
   
   function(spawner) {
     global.wave ++;
+    
+    global.background_colour_manager.change_background_colour(#3c2727, room_speed * 3);
+    
     spawn_entity_randomly(obj_droid_rammer_medium);
     spawn_entity_randomly(obj_droid_rammer_mini);
     spawn_entity_randomly(obj_asteroid_armoured);
@@ -208,13 +253,17 @@ global.waves = [
 
   function(spawner) {
     global.wave ++;
+    
+    global.background_colour_manager.change_background_colour(#383b5a, room_speed * 5);
+    
     spawn_entity_randomly(obj_platform_core_mini_grey);
     spawn_entity_randomly(obj_platform_core_mini_grey);
     spawn_entity_randomly(obj_platform_core_mini_blue);
   },
 
   function(spawner) {
-    background_sprite_set();
+    global.background_colour_manager.change_background_colour(#006000, room_speed * 10);
+    
     spawn_entity_randomly(obj_powerup_capsule_engine);
     spawn_entity_randomly(obj_powerup_capsule_weapon);
     spawn_entity_randomly(obj_powerup_capsule_shields);
@@ -268,6 +317,8 @@ global.waves = [
   },
   
   function(spawner) {
+    global.background_colour_manager.change_background_colour(#660099, room_speed * 10);
+    
     spawn_entity_randomly(obj_powerup_capsule_shields);
   },
   
@@ -301,7 +352,8 @@ global.waves = [
   function(spawner) {
     global.wave ++;
 
-    background_sprite_set(spr_background_boss_1);
+    //background_sprite_set(spr_background_boss_1);
+    global.background_colour_manager.change_background_colour(#140019, room_speed * 5);
     
     var locus = new central_spawn_region();
     
@@ -313,7 +365,8 @@ global.waves = [
   },
   
   function(spawner) {
-    background_sprite_set(spr_background_boss_2);
+    //background_sprite_set(spr_background_boss_2);
+    global.background_colour_manager.change_background_colour(#190015, room_speed * 5);
     
     var locus = new central_spawn_region();
 
@@ -325,7 +378,8 @@ global.waves = [
   },
   
   function(spawner) {
-    background_sprite_set(spr_background_boss_3);
+    //background_sprite_set(spr_background_boss_3);
+    global.background_colour_manager.change_background_colour(#230015, room_speed * 5);
     
     var locus = new central_spawn_region();
 
@@ -337,7 +391,8 @@ global.waves = [
   },
   
   function(spawner) {
-    background_sprite_set(spr_background_boss_4);
+    //background_sprite_set(spr_background_boss_4);
+    global.background_colour_manager.change_background_colour(#330001, room_speed * 5);
     spawn_entity_randomly(obj_asteroid_gravel);
     spawn_entity_randomly(obj_asteroid_gravel);
     spawn_entity_randomly(obj_asteroid_gravel);
@@ -352,7 +407,8 @@ global.waves = [
   },
     
   function(spawner) {
-    background_sprite_set(spr_background_boss_5);
+    //background_sprite_set(spr_background_boss_5);
+    global.background_colour_manager.change_background_colour(#4C0000, room_speed * 5);
     
     var locus = new central_spawn_region();
     
@@ -364,10 +420,14 @@ global.waves = [
     spawner.resume_spawning();
   },
   
+  // You Win!
   function(spawner) {
     global.wave ++;
     
-    background_sprite_set();
+    //background_sprite_set();
+    global.background_colour_manager.change_background_colour(#3771c7, 10);
+    global.background_feature_manager.expire_background_features();
+    
     spawner.pause_spawning();
     
     with obj_base_player {

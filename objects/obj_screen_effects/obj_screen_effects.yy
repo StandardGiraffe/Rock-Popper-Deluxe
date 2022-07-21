@@ -2,6 +2,7 @@
   "spriteId": null,
   "solid": false,
   "visible": false,
+  "managed": true,
   "spriteMaskId": null,
   "persistent": true,
   "parentObjectId": {
@@ -28,7 +29,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Housekeeping",
-    "path": "folders/Objects/Housekeeping.yy",
+    "path": "folders/Housekeeping.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_screen_effects",
