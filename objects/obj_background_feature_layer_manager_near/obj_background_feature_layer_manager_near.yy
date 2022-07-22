@@ -6,8 +6,8 @@
   "spriteMaskId": null,
   "persistent": true,
   "parentObjectId": {
-    "name": "obj_base_game_management",
-    "path": "objects/obj_base_game_management/obj_base_game_management.yy",
+    "name": "obj_base_background_feature_layer_manager",
+    "path": "objects/obj_base_background_feature_layer_manager/obj_base_background_feature_layer_manager.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -27,11 +27,11 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Colour Control",
-    "path": "folders/Background Machinery/Colour Control.yy",
+    "name": "Background Features",
+    "path": "folders/Background Machinery/Background Features.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_background_colour_manager",
+  "name": "obj_background_feature_layer_manager_near",
   "tags": [],
   "resourceType": "GMObject",
 }

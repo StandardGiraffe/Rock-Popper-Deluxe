@@ -11,18 +11,22 @@ instance_create_layer(0, 0, "Invisibles", obj_particle_system);
 global.background_colour_near = instance_create_layer(0, 0, "near_colour", obj_background_colour_layer);
 global.background_colour_mid = instance_create_layer(0, 0, "mid_colour", obj_background_colour_layer);
 global.background_colour_far = instance_create_layer(0, 0, "far_colour", obj_background_colour_layer);
-global.background_colour_manager = instance_create_layer(0, 0, "Invisibles", obj_background_colour_manager);
 
 global.background_colour_near.current_alpha = 0.8;
 global.background_colour_mid.current_alpha = 0.3;
 global.background_colour_far.current_alpha = 0.3;
 
-global.background_colour_manager.change_background_colour(#0C0019, room_speed * 5);
-
 //// Features
-global.background_feature_manager_near = instance_create_layer(0, 0, "Invisibles", obj_background_feature_manager_near);
-global.background_feature_manager_mid = instance_create_layer(0, 0, "Invisibles", obj_background_feature_manager_mid);
-global.background_feature_manager_far = instance_create_layer(0, 0, "Invisibles", obj_background_feature_manager_far);
+global.background_feature_layer_manager_near = instance_create_layer(0, 0, "Invisibles", obj_background_feature_layer_manager_near);
+global.background_feature_layer_manager_mid = instance_create_layer(0, 0, "Invisibles", obj_background_feature_layer_manager_mid);
+global.background_feature_layer_manager_far = instance_create_layer(0, 0, "Invisibles", obj_background_feature_layer_manager_far);
+
+//// Manager and Starting Effects
+global.background_manager = instance_create_layer(0, 0, "Invisibles", obj_background_manager);
+
+global.background_manager.change_colour(#0C0019, room_speed * 5);
+
+//global.background_feature_manager = instance_create_layer(0, 0, "Invisibles", obj_background_feature_manager);
 
 enum powerup_module_types {
   cannons,

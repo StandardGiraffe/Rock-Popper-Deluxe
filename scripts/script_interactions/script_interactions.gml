@@ -23,6 +23,8 @@ function player_game_over(_player) {
   
   if (array_match_all_func(global.players, 0, function(p) { return p.stats.lives; })) {
     instance_create_layer(0, 0, "Invisibles", obj_game_over);
+    global.background_manager.expire_features();
+    global.background_manager.change_colour(#000001, room_speed * 10);
   }
 }
 

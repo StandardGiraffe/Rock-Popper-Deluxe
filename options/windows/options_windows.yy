@@ -1,7 +1,7 @@
 {
   "option_windows_display_name": "Rock Popper Deluxe",
-  "option_windows_executable_name": "${project_name} 0.0.22.0718.exe",
-  "option_windows_version": "0.0.22.718",
+  "option_windows_executable_name": "${project_name} 0.0.22.0721.exe",
+  "option_windows_version": "0.0.22.721",
   "option_windows_company_info": "Neck-Deep Development",
   "option_windows_product_info": "",
   "option_windows_copyright_info": "Danny Fekete",

@@ -1,4 +1,5 @@
 void_persistent = true;
+background_layer = noone;
 
 sprite_index = sprite;
 scale_factor = random_range(scale_factor_min, scale_factor_max);

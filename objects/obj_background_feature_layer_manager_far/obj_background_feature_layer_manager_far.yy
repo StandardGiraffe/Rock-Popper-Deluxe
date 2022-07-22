@@ -6,8 +6,8 @@
   "spriteMaskId": null,
   "persistent": true,
   "parentObjectId": {
-    "name": "obj_base_background_feature_manager",
-    "path": "objects/obj_base_background_feature_manager/obj_base_background_feature_manager.yy",
+    "name": "obj_base_background_feature_layer_manager",
+    "path": "objects/obj_base_background_feature_layer_manager/obj_base_background_feature_layer_manager.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -31,7 +31,7 @@
     "path": "folders/Background Machinery/Background Features.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_background_feature_manager_near",
+  "name": "obj_background_feature_layer_manager_far",
   "tags": [],
   "resourceType": "GMObject",
 }

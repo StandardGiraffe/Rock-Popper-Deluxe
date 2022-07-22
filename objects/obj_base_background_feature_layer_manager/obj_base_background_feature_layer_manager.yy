@@ -6,8 +6,8 @@
   "spriteMaskId": null,
   "persistent": true,
   "parentObjectId": {
-    "name": "obj_base_background_feature_manager",
-    "path": "objects/obj_base_background_feature_manager/obj_base_background_feature_manager.yy",
+    "name": "obj_base_game_management",
+    "path": "objects/obj_base_game_management/obj_base_game_management.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -23,6 +23,7 @@
   "physicsShapePoints": [],
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -31,7 +32,7 @@
     "path": "folders/Background Machinery/Background Features.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_background_feature_manager_mid",
+  "name": "obj_base_background_feature_layer_manager",
   "tags": [],
   "resourceType": "GMObject",
 }
