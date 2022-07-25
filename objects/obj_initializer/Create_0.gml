@@ -12,14 +12,29 @@ global.background_colour_near = instance_create_layer(0, 0, "near_colour", obj_b
 global.background_colour_mid = instance_create_layer(0, 0, "mid_colour", obj_background_colour_layer);
 global.background_colour_far = instance_create_layer(0, 0, "far_colour", obj_background_colour_layer);
 
-global.background_colour_near.current_alpha = 0.8;
+global.background_colour_near.current_alpha = 0.5;
 global.background_colour_mid.current_alpha = 0.3;
 global.background_colour_far.current_alpha = 0.3;
 
 //// Features
-global.background_feature_layer_manager_near = instance_create_layer(0, 0, "Invisibles", obj_background_feature_layer_manager_near);
-global.background_feature_layer_manager_mid = instance_create_layer(0, 0, "Invisibles", obj_background_feature_layer_manager_mid);
-global.background_feature_layer_manager_far = instance_create_layer(0, 0, "Invisibles", obj_background_feature_layer_manager_far);
+global.background_feature_manager_near = instance_create_layer(0, 0, "Invisibles", obj_background_feature_manager);
+with global.background_feature_manager_near {
+  target_layer = "near_background_entities";
+  layer_speed_factor = 1; 
+}
+
+global.background_feature_manager_mid = instance_create_layer(0, 0, "Invisibles", obj_background_feature_manager);
+with global.background_feature_manager_mid {
+  target_layer = "mid_background_entities";
+  layer_speed_factor = 0.75; 
+}
+
+global.background_feature_manager_far = instance_create_layer(0, 0, "Invisibles", obj_background_feature_manager);
+with global.background_feature_manager_far {
+  target_layer = "far_background_entities";
+  layer_speed_factor = 0.3; 
+}
+
 
 //// Manager and Starting Effects
 global.background_manager = instance_create_layer(0, 0, "Invisibles", obj_background_manager);

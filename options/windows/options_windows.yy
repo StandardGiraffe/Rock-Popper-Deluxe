@@ -1,9 +1,9 @@
 {
   "option_windows_display_name": "Rock Popper Deluxe",
-  "option_windows_executable_name": "${project_name} 0.0.22.0721.exe",
-  "option_windows_version": "0.0.22.721",
+  "option_windows_executable_name": "${project_name} 0.0.22.0724.exe",
+  "option_windows_version": "0.0.22.724",
   "option_windows_company_info": "Neck-Deep Development",
-  "option_windows_product_info": "",
+  "option_windows_product_info": "Rock Popper Deluxe",
   "option_windows_copyright_info": "Danny Fekete",
   "option_windows_description_info": "An Asteroids-Style Game with a Bottomless Planned Features List",
   "option_windows_display_cursor": false,

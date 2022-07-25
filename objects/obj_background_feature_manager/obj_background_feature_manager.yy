@@ -1,16 +1,13 @@
 {
-  "spriteId": {
-    "name": "spr_powerup_power_shot",
-    "path": "sprites/spr_powerup_power_shot/spr_powerup_power_shot.yy",
-  },
+  "spriteId": null,
   "solid": false,
-  "visible": true,
+  "visible": false,
   "managed": true,
   "spriteMaskId": null,
-  "persistent": false,
+  "persistent": true,
   "parentObjectId": {
-    "name": "obj_base_powerup",
-    "path": "objects/obj_base_powerup/obj_base_powerup.yy",
+    "name": "obj_base_game_management",
+    "path": "objects/obj_base_game_management/obj_base_game_management.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -26,15 +23,16 @@
   "physicsShapePoints": [],
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Power-Shot",
-    "path": "folders/Objects/Powerups/Weapons/Power-Shot.yy",
+    "name": "Background Features",
+    "path": "folders/Background Machinery/Background Features.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_powerup_power_shot",
+  "name": "obj_background_feature_manager",
   "tags": [],
   "resourceType": "GMObject",
 }

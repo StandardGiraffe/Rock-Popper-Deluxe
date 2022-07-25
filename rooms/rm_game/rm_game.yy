@@ -37,7 +37,7 @@
         {"visible":true,"depth":1300,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[
             {"instances":[],"visible":true,"depth":1400,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],"resourceVersion":"1.0","name":"mid_colour","tags":[],"resourceType":"GMRInstanceLayer",},
             {"visible":true,"depth":1500,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":"_filter_large_blur","properties":[
-                {"type":0,"name":"g_Radius","value":"5",},
+                {"type":0,"name":"g_Radius","value":"2",},
                 {"type":2,"name":"g_NoiseTexture","value":"_filter_large_blur_noise",},
               ],"resourceVersion":"1.0","name":"mid_blur","tags":[],"resourceType":"GMREffectLayer",},
             {"instances":[],"visible":true,"depth":1600,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],"resourceVersion":"1.0","name":"mid_background_entities","tags":[],"resourceType":"GMRInstanceLayer",},
@@ -45,7 +45,7 @@
         {"visible":true,"depth":1700,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[
             {"instances":[],"visible":true,"depth":1800,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],"resourceVersion":"1.0","name":"far_colour","tags":[],"resourceType":"GMRInstanceLayer",},
             {"visible":true,"depth":1900,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":"_filter_large_blur","properties":[
-                {"type":0,"name":"g_Radius","value":"5",},
+                {"type":0,"name":"g_Radius","value":"3",},
                 {"type":2,"name":"g_NoiseTexture","value":"_filter_large_blur_noise",},
               ],"resourceVersion":"1.0","name":"far_blur","tags":[],"resourceType":"GMREffectLayer",},
             {"instances":[],"visible":true,"depth":2000,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],"resourceVersion":"1.0","name":"far_background_entities","tags":[],"resourceType":"GMRInstanceLayer",},
