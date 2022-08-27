@@ -15,10 +15,13 @@ if spawning {
 
 
 // Handle Decay
-if (decay_timer > 0) {
+if (decay_timer > -1) {
   decay_timer --;
   
-  if (decay_timer == 0) { decaying = true }
+  if (decay_timer < 1) {
+    decaying = true;
+    spawning = false;
+  }
 }
 
 if decaying {

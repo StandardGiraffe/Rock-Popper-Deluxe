@@ -37,7 +37,7 @@ function expire_features(_target = "all") {
 
 function decay_features(_target = "all") {
   with delegate_to_feature_layer(_target) {
-    self.start_feature_decay(0, room_speed * 3);
+    self.start_feature_decay();
   }
 }
 

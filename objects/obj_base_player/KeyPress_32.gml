@@ -25,22 +25,24 @@ if powerups_inventory.cannon_dual {
   add_recoil(b.base_speed, b.base_power);
   
 } else if powerups_inventory.cannon_rear {
-  var b = shoot_projectile(
+  var b_front = shoot_projectile(
     obj_bullet_player, self,
     x, y, image_angle,
     snd_shoot,
     my_vector
   );
-  setup_player_shot(b, self);
+  b_front = setup_player_shot(b_front, self);
   
-  var b = shoot_projectile(
+  var b_rear = shoot_projectile(
     obj_bullet_player, self,
-    x, y, image_angle + 180,
+    x, y, b_front.get_direction() + 180,
     snd_shoot,
     my_vector
   );
-  setup_player_shot(b, self);
-  add_recoil(b.base_speed * 0.75, b.base_power * 0.75);
+  setup_player_shot(b_rear, self);
+  b_rear.base_power *= 1.75;  // Rear-fire bonus for the bold
+  
+  //add_recoil(b_rear.base_speed * 0.75, b_rear.base_power * 0.75);  
   
 } else if powerups_inventory.cannon_spread {
   var b = shoot_projectile(

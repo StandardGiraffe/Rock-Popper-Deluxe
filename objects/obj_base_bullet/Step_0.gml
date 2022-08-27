@@ -1,6 +1,12 @@
 // Prepare Bullet Movement:
 if (seeking_shot) {
-  if (target) {
+  if (permanent_target) {
+  var current_speed = get_current_speed();
+    velocity.add(pursue_force_for_non_steering(permanent_target, 5, current_speed, 0.025 * abs(current_speed)));
+    //velocity.add(pursue_force_for_non_steering(target, target.speed, current_speed, 10));
+
+    velocity.limit_magnitude(current_speed)
+  } else if (target) {
     if (fov_first_hit(30, , 10) == target) {
       var current_speed = get_current_speed();
       velocity.add(pursue_force_for_non_steering(target, 5, current_speed, 0.1 * abs(current_speed)));

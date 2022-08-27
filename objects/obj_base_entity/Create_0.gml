@@ -86,6 +86,8 @@ function be_shot(bullet) {
   if (shielded && is_repulsor_shielded()) {
     display_shielded_impact(bullet);
     
+    var original_shooter = bullet.shooter;
+    
     bullet.shooter = self;
     bullet.faction = self.faction;
     bullet.base_power *= 2.5;
@@ -93,6 +95,8 @@ function be_shot(bullet) {
     bullet.set_direction(angle_of_deflection(
       bullet.x, bullet.y, self, impact_direction
     ));
+    bullet.seeking_shot = true;
+    bullet.permanent_target = original_shooter;
   } else {
     instance_destroy(bullet);
   }

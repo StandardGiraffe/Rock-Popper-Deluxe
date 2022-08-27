@@ -99,3 +99,7 @@ function vector_add(_vector_a, _vector_b) {
 function vector_subtract(_vector_a, _vector_b) {
 	return new vector((_vector_a.x - _vector_b.x), (_vector_a.y - _vector_b.y));
 }
+
+function vector_inverse(_vector) {
+  return new vector(-_vector.x, -_vector.y);
+}

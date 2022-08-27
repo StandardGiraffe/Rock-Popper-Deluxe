@@ -2,6 +2,7 @@
 faction = factions.neutrals;
 shooter = noone;
 target = noone;
+permanent_target = noone;
 
 position = new vector(x, y);
 steering_force = new vector_zero();

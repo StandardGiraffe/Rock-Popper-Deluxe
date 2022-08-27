@@ -63,24 +63,24 @@ function shields_down() {
   shielded = false;
 }
 
-function collect_exchangeable_module(module) {
-  var powerup_module_collection;
+//function collect_exchangeable_module(module) {
+//  var powerup_module_collection;
   
-  switch (module.group) {
-    case powerup_module_types.cannons:
-      powerup_module_collection = powerups_cannons_modules;
-      break;
+//  switch (module.group) {
+//    case powerup_module_types.cannons:
+//      powerup_module_collection = powerups_cannons_modules;
+//      break;
       
-    case powerup_module_types.engines:
-      powerup_module_collection = powerups_engines_modules;
-      break;
+//    case powerup_module_types.engines:
+//      powerup_module_collection = powerups_engines_modules;
+//      break;
       
-    case powerup_module_types.shields:
-      powerup_module_collection = powerups_shields_modules;
-      break;
+//    case powerup_module_types.shields:
+//      powerup_module_collection = powerups_shields_modules;
+//      break;
 
-    case powerup_module_types.weapon:
-      powerup_module_collection = powerups_weapon_modules;      
-      break;
-  }
-}
+//    case powerup_module_types.weapon:
+//      powerup_module_collection = powerups_weapon_modules;      
+//      break;
+//  }
+//}
