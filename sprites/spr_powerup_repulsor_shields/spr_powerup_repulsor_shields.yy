@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_powerup_repulsor_shields",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -14,6 +17,7 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
+  "DynamicTexturePage": false,
   "width": 28,
   "height": 28,
   "textureGroupId": {
@@ -24,51 +28,25 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"c0e735de-4f2e-4359-8061-5c1fe3e77adf","path":"sprites/spr_powerup_repulsor_shields/spr_powerup_repulsor_shields.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"c0e735de-4f2e-4359-8061-5c1fe3e77adf","path":"sprites/spr_powerup_repulsor_shields/spr_powerup_repulsor_shields.yy",},"LayerId":{"name":"16d97f62-4c6d-483a-bc35-bdc81fc6af1c","path":"sprites/spr_powerup_repulsor_shields/spr_powerup_repulsor_shields.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_powerup_repulsor_shields","path":"sprites/spr_powerup_repulsor_shields/spr_powerup_repulsor_shields.yy",},"resourceVersion":"1.0","name":"c0e735de-4f2e-4359-8061-5c1fe3e77adf","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"4d089fac-82a3-4c10-a457-1f6911660a83","path":"sprites/spr_powerup_repulsor_shields/spr_powerup_repulsor_shields.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"4d089fac-82a3-4c10-a457-1f6911660a83","path":"sprites/spr_powerup_repulsor_shields/spr_powerup_repulsor_shields.yy",},"LayerId":{"name":"16d97f62-4c6d-483a-bc35-bdc81fc6af1c","path":"sprites/spr_powerup_repulsor_shields/spr_powerup_repulsor_shields.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_powerup_repulsor_shields","path":"sprites/spr_powerup_repulsor_shields/spr_powerup_repulsor_shields.yy",},"resourceVersion":"1.0","name":"4d089fac-82a3-4c10-a457-1f6911660a83","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"0bb83137-48f3-4c23-9c99-3bb4132c72c9","path":"sprites/spr_powerup_repulsor_shields/spr_powerup_repulsor_shields.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"0bb83137-48f3-4c23-9c99-3bb4132c72c9","path":"sprites/spr_powerup_repulsor_shields/spr_powerup_repulsor_shields.yy",},"LayerId":{"name":"16d97f62-4c6d-483a-bc35-bdc81fc6af1c","path":"sprites/spr_powerup_repulsor_shields/spr_powerup_repulsor_shields.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_powerup_repulsor_shields","path":"sprites/spr_powerup_repulsor_shields/spr_powerup_repulsor_shields.yy",},"resourceVersion":"1.0","name":"0bb83137-48f3-4c23-9c99-3bb4132c72c9","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"8efc970e-b438-4d32-b45c-128317702d79","path":"sprites/spr_powerup_repulsor_shields/spr_powerup_repulsor_shields.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"8efc970e-b438-4d32-b45c-128317702d79","path":"sprites/spr_powerup_repulsor_shields/spr_powerup_repulsor_shields.yy",},"LayerId":{"name":"16d97f62-4c6d-483a-bc35-bdc81fc6af1c","path":"sprites/spr_powerup_repulsor_shields/spr_powerup_repulsor_shields.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_powerup_repulsor_shields","path":"sprites/spr_powerup_repulsor_shields/spr_powerup_repulsor_shields.yy",},"resourceVersion":"1.0","name":"8efc970e-b438-4d32-b45c-128317702d79","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"0f273829-e23d-4a5a-927f-c83eda606864","path":"sprites/spr_powerup_repulsor_shields/spr_powerup_repulsor_shields.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"0f273829-e23d-4a5a-927f-c83eda606864","path":"sprites/spr_powerup_repulsor_shields/spr_powerup_repulsor_shields.yy",},"LayerId":{"name":"16d97f62-4c6d-483a-bc35-bdc81fc6af1c","path":"sprites/spr_powerup_repulsor_shields/spr_powerup_repulsor_shields.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_powerup_repulsor_shields","path":"sprites/spr_powerup_repulsor_shields/spr_powerup_repulsor_shields.yy",},"resourceVersion":"1.0","name":"0f273829-e23d-4a5a-927f-c83eda606864","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"94c50dfc-10b0-4c14-9f86-a3888e94f5d9","path":"sprites/spr_powerup_repulsor_shields/spr_powerup_repulsor_shields.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"94c50dfc-10b0-4c14-9f86-a3888e94f5d9","path":"sprites/spr_powerup_repulsor_shields/spr_powerup_repulsor_shields.yy",},"LayerId":{"name":"16d97f62-4c6d-483a-bc35-bdc81fc6af1c","path":"sprites/spr_powerup_repulsor_shields/spr_powerup_repulsor_shields.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_powerup_repulsor_shields","path":"sprites/spr_powerup_repulsor_shields/spr_powerup_repulsor_shields.yy",},"resourceVersion":"1.0","name":"94c50dfc-10b0-4c14-9f86-a3888e94f5d9","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"7a46ac8f-0c56-48d7-ad16-af6bb54cd11e","path":"sprites/spr_powerup_repulsor_shields/spr_powerup_repulsor_shields.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"7a46ac8f-0c56-48d7-ad16-af6bb54cd11e","path":"sprites/spr_powerup_repulsor_shields/spr_powerup_repulsor_shields.yy",},"LayerId":{"name":"16d97f62-4c6d-483a-bc35-bdc81fc6af1c","path":"sprites/spr_powerup_repulsor_shields/spr_powerup_repulsor_shields.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_powerup_repulsor_shields","path":"sprites/spr_powerup_repulsor_shields/spr_powerup_repulsor_shields.yy",},"resourceVersion":"1.0","name":"7a46ac8f-0c56-48d7-ad16-af6bb54cd11e","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"da1c9049-c452-42e8-a5ea-3b1b39bf45e9","path":"sprites/spr_powerup_repulsor_shields/spr_powerup_repulsor_shields.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"da1c9049-c452-42e8-a5ea-3b1b39bf45e9","path":"sprites/spr_powerup_repulsor_shields/spr_powerup_repulsor_shields.yy",},"LayerId":{"name":"16d97f62-4c6d-483a-bc35-bdc81fc6af1c","path":"sprites/spr_powerup_repulsor_shields/spr_powerup_repulsor_shields.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_powerup_repulsor_shields","path":"sprites/spr_powerup_repulsor_shields/spr_powerup_repulsor_shields.yy",},"resourceVersion":"1.0","name":"da1c9049-c452-42e8-a5ea-3b1b39bf45e9","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"60ef4cfc-0db2-4a2e-8fc3-66ddca10a973","path":"sprites/spr_powerup_repulsor_shields/spr_powerup_repulsor_shields.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"60ef4cfc-0db2-4a2e-8fc3-66ddca10a973","path":"sprites/spr_powerup_repulsor_shields/spr_powerup_repulsor_shields.yy",},"LayerId":{"name":"16d97f62-4c6d-483a-bc35-bdc81fc6af1c","path":"sprites/spr_powerup_repulsor_shields/spr_powerup_repulsor_shields.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_powerup_repulsor_shields","path":"sprites/spr_powerup_repulsor_shields/spr_powerup_repulsor_shields.yy",},"resourceVersion":"1.0","name":"60ef4cfc-0db2-4a2e-8fc3-66ddca10a973","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"335463fe-e7fc-4fbf-9cfe-80be6b84bbf1","path":"sprites/spr_powerup_repulsor_shields/spr_powerup_repulsor_shields.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"335463fe-e7fc-4fbf-9cfe-80be6b84bbf1","path":"sprites/spr_powerup_repulsor_shields/spr_powerup_repulsor_shields.yy",},"LayerId":{"name":"16d97f62-4c6d-483a-bc35-bdc81fc6af1c","path":"sprites/spr_powerup_repulsor_shields/spr_powerup_repulsor_shields.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_powerup_repulsor_shields","path":"sprites/spr_powerup_repulsor_shields/spr_powerup_repulsor_shields.yy",},"resourceVersion":"1.0","name":"335463fe-e7fc-4fbf-9cfe-80be6b84bbf1","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"e36a44ca-ba21-4259-acc7-117a149084bc","path":"sprites/spr_powerup_repulsor_shields/spr_powerup_repulsor_shields.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"e36a44ca-ba21-4259-acc7-117a149084bc","path":"sprites/spr_powerup_repulsor_shields/spr_powerup_repulsor_shields.yy",},"LayerId":{"name":"16d97f62-4c6d-483a-bc35-bdc81fc6af1c","path":"sprites/spr_powerup_repulsor_shields/spr_powerup_repulsor_shields.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_powerup_repulsor_shields","path":"sprites/spr_powerup_repulsor_shields/spr_powerup_repulsor_shields.yy",},"resourceVersion":"1.0","name":"e36a44ca-ba21-4259-acc7-117a149084bc","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"c0431d13-9a03-47c7-9384-c35ce56c3c89","path":"sprites/spr_powerup_repulsor_shields/spr_powerup_repulsor_shields.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"c0431d13-9a03-47c7-9384-c35ce56c3c89","path":"sprites/spr_powerup_repulsor_shields/spr_powerup_repulsor_shields.yy",},"LayerId":{"name":"16d97f62-4c6d-483a-bc35-bdc81fc6af1c","path":"sprites/spr_powerup_repulsor_shields/spr_powerup_repulsor_shields.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_powerup_repulsor_shields","path":"sprites/spr_powerup_repulsor_shields/spr_powerup_repulsor_shields.yy",},"resourceVersion":"1.0","name":"c0431d13-9a03-47c7-9384-c35ce56c3c89","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"bfb61d48-969d-4c21-921c-be59b450dcf8","path":"sprites/spr_powerup_repulsor_shields/spr_powerup_repulsor_shields.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"bfb61d48-969d-4c21-921c-be59b450dcf8","path":"sprites/spr_powerup_repulsor_shields/spr_powerup_repulsor_shields.yy",},"LayerId":{"name":"16d97f62-4c6d-483a-bc35-bdc81fc6af1c","path":"sprites/spr_powerup_repulsor_shields/spr_powerup_repulsor_shields.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_powerup_repulsor_shields","path":"sprites/spr_powerup_repulsor_shields/spr_powerup_repulsor_shields.yy",},"resourceVersion":"1.0","name":"bfb61d48-969d-4c21-921c-be59b450dcf8","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"1d40cbd6-4bcd-4c3a-b108-402f196f37bc","path":"sprites/spr_powerup_repulsor_shields/spr_powerup_repulsor_shields.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"1d40cbd6-4bcd-4c3a-b108-402f196f37bc","path":"sprites/spr_powerup_repulsor_shields/spr_powerup_repulsor_shields.yy",},"LayerId":{"name":"16d97f62-4c6d-483a-bc35-bdc81fc6af1c","path":"sprites/spr_powerup_repulsor_shields/spr_powerup_repulsor_shields.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_powerup_repulsor_shields","path":"sprites/spr_powerup_repulsor_shields/spr_powerup_repulsor_shields.yy",},"resourceVersion":"1.0","name":"1d40cbd6-4bcd-4c3a-b108-402f196f37bc","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"c0e735de-4f2e-4359-8061-5c1fe3e77adf",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"4d089fac-82a3-4c10-a457-1f6911660a83",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"0bb83137-48f3-4c23-9c99-3bb4132c72c9",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"8efc970e-b438-4d32-b45c-128317702d79",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"0f273829-e23d-4a5a-927f-c83eda606864",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"94c50dfc-10b0-4c14-9f86-a3888e94f5d9",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"7a46ac8f-0c56-48d7-ad16-af6bb54cd11e",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"da1c9049-c452-42e8-a5ea-3b1b39bf45e9",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"60ef4cfc-0db2-4a2e-8fc3-66ddca10a973",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"335463fe-e7fc-4fbf-9cfe-80be6b84bbf1",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"e36a44ca-ba21-4259-acc7-117a149084bc",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"c0431d13-9a03-47c7-9384-c35ce56c3c89",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"bfb61d48-969d-4c21-921c-be59b450dcf8",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"1d40cbd6-4bcd-4c3a-b108-402f196f37bc",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_powerup_repulsor_shields","path":"sprites/spr_powerup_repulsor_shields/spr_powerup_repulsor_shields.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "spr_powerup_repulsor_shields",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 10.0,
@@ -79,7 +57,7 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"e9a4a6b6-36f3-440a-b853-5d2c7fcd8381","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"c0e735de-4f2e-4359-8061-5c1fe3e77adf","path":"sprites/spr_powerup_repulsor_shields/spr_powerup_repulsor_shields.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"f81d8659-357f-4ace-b282-a99fdd7afcac","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"4d089fac-82a3-4c10-a457-1f6911660a83","path":"sprites/spr_powerup_repulsor_shields/spr_powerup_repulsor_shields.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"769c35db-cbf0-4090-ba75-0e059a230ae1","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"0bb83137-48f3-4c23-9c99-3bb4132c72c9","path":"sprites/spr_powerup_repulsor_shields/spr_powerup_repulsor_shields.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
@@ -94,7 +72,7 @@
             {"id":"b68513fc-4e07-4557-89ca-031f77da78b5","Key":11.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"c0431d13-9a03-47c7-9384-c35ce56c3c89","path":"sprites/spr_powerup_repulsor_shields/spr_powerup_repulsor_shields.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"176e72dd-0c92-4257-8678-783beed910c6","Key":12.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"bfb61d48-969d-4c21-921c-be59b450dcf8","path":"sprites/spr_powerup_repulsor_shields/spr_powerup_repulsor_shields.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"389f7577-62d6-426d-9f91-432017469684","Key":13.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"1d40cbd6-4bcd-4c3a-b108-402f196f37bc","path":"sprites/spr_powerup_repulsor_shields/spr_powerup_repulsor_shields.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -110,22 +88,13 @@
     "yorigin": 14,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_powerup_repulsor_shields","path":"sprites/spr_powerup_repulsor_shields/spr_powerup_repulsor_shields.yy",},
-    "resourceVersion": "1.4",
-    "name": "spr_powerup_repulsor_shields",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"16d97f62-4c6d-483a-bc35-bdc81fc6af1c","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"16d97f62-4c6d-483a-bc35-bdc81fc6af1c","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Repulsor Shields",
     "path": "folders/Objects/Powerups/Modules/Repulsor Shields.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_powerup_repulsor_shields",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

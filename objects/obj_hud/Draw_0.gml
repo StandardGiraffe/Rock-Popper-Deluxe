@@ -40,6 +40,8 @@ if (draw_hud) {
   }
 
   draw_set_halign(fa_center);
-  draw_set_color(c_dkgrey);
+  draw_set_color(c_white);
+  draw_set_alpha(0.3);
   draw_text(room_width / 2, room_height - 24, "Press R to Restart or Press Q to Quit");
+  draw_set_alpha(1);
 }

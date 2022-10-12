@@ -1,4 +1,8 @@
 {
+  "resourceType": "GMSound",
+  "resourceVersion": "1.0",
+  "name": "snd_enemy_bullet_medium_shoot",
+  "conversionMode": 0,
   "compression": 0,
   "volume": 1.0,
   "preload": false,
@@ -11,13 +15,9 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "snd_enemy_bullet_medium_shoot.wav",
-  "duration": 0.183379,
+  "duration": 0.330998,
   "parent": {
     "name": "Sound Effects",
     "path": "folders/Objects/Projectiles/Sound Effects.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "snd_enemy_bullet_medium_shoot",
-  "tags": [],
-  "resourceType": "GMSound",
 }

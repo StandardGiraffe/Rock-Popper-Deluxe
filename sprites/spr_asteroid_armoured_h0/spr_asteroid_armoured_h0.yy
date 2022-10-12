@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_asteroid_armoured_h0",
   "bboxMode": 2,
   "collisionKind": 5,
   "type": 0,
@@ -14,6 +17,7 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
+  "DynamicTexturePage": false,
   "width": 48,
   "height": 48,
   "textureGroupId": {
@@ -24,12 +28,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"2234c19a-0489-4436-9850-436d54896548","path":"sprites/spr_asteroid_armoured_h0/spr_asteroid_armoured_h0.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"2234c19a-0489-4436-9850-436d54896548","path":"sprites/spr_asteroid_armoured_h0/spr_asteroid_armoured_h0.yy",},"LayerId":{"name":"f050b0be-44bd-4bf8-b0c3-4959e0d523f0","path":"sprites/spr_asteroid_armoured_h0/spr_asteroid_armoured_h0.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_asteroid_armoured_h0","path":"sprites/spr_asteroid_armoured_h0/spr_asteroid_armoured_h0.yy",},"resourceVersion":"1.0","name":"2234c19a-0489-4436-9850-436d54896548","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"2234c19a-0489-4436-9850-436d54896548",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_asteroid_armoured_h0","path":"sprites/spr_asteroid_armoured_h0/spr_asteroid_armoured_h0.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "spr_asteroid_armoured_h0",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 0.0,
@@ -40,9 +44,9 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"e8b09c68-3a5f-4d04-8ff6-b53909b8843e","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"2234c19a-0489-4436-9850-436d54896548","path":"sprites/spr_asteroid_armoured_h0/spr_asteroid_armoured_h0.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -58,22 +62,13 @@
     "yorigin": 24,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_asteroid_armoured_h0","path":"sprites/spr_asteroid_armoured_h0/spr_asteroid_armoured_h0.yy",},
-    "resourceVersion": "1.4",
-    "name": "spr_asteroid_armoured_h0",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"f050b0be-44bd-4bf8-b0c3-4959e0d523f0","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"f050b0be-44bd-4bf8-b0c3-4959e0d523f0","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "asteroid_armoured",
     "path": "folders/Objects/Enemies/Asteroids/asteroid_armoured.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_asteroid_armoured_h0",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

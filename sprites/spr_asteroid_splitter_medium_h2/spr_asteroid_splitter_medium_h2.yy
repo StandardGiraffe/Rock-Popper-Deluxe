@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_asteroid_splitter_medium_h2",
   "bboxMode": 2,
   "collisionKind": 5,
   "type": 0,
@@ -14,6 +17,7 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
+  "DynamicTexturePage": false,
   "width": 64,
   "height": 48,
   "textureGroupId": {
@@ -24,63 +28,29 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"edd962fd-d290-44d0-9469-a8a5a6ee8c07","path":"sprites/spr_asteroid_splitter_medium_h2/spr_asteroid_splitter_medium_h2.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"edd962fd-d290-44d0-9469-a8a5a6ee8c07","path":"sprites/spr_asteroid_splitter_medium_h2/spr_asteroid_splitter_medium_h2.yy",},"LayerId":{"name":"094dd2a8-9cbe-4006-b253-6cdaffbf5a89","path":"sprites/spr_asteroid_splitter_medium_h2/spr_asteroid_splitter_medium_h2.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_asteroid_splitter_medium_h2","path":"sprites/spr_asteroid_splitter_medium_h2/spr_asteroid_splitter_medium_h2.yy",},"resourceVersion":"1.0","name":"edd962fd-d290-44d0-9469-a8a5a6ee8c07","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"fa37fc57-89f7-45e1-b440-37d9a6dac0d4","path":"sprites/spr_asteroid_splitter_medium_h2/spr_asteroid_splitter_medium_h2.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"fa37fc57-89f7-45e1-b440-37d9a6dac0d4","path":"sprites/spr_asteroid_splitter_medium_h2/spr_asteroid_splitter_medium_h2.yy",},"LayerId":{"name":"094dd2a8-9cbe-4006-b253-6cdaffbf5a89","path":"sprites/spr_asteroid_splitter_medium_h2/spr_asteroid_splitter_medium_h2.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_asteroid_splitter_medium_h2","path":"sprites/spr_asteroid_splitter_medium_h2/spr_asteroid_splitter_medium_h2.yy",},"resourceVersion":"1.0","name":"fa37fc57-89f7-45e1-b440-37d9a6dac0d4","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"dc8f96fa-1262-4cea-9aa5-55a83343b731","path":"sprites/spr_asteroid_splitter_medium_h2/spr_asteroid_splitter_medium_h2.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"dc8f96fa-1262-4cea-9aa5-55a83343b731","path":"sprites/spr_asteroid_splitter_medium_h2/spr_asteroid_splitter_medium_h2.yy",},"LayerId":{"name":"094dd2a8-9cbe-4006-b253-6cdaffbf5a89","path":"sprites/spr_asteroid_splitter_medium_h2/spr_asteroid_splitter_medium_h2.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_asteroid_splitter_medium_h2","path":"sprites/spr_asteroid_splitter_medium_h2/spr_asteroid_splitter_medium_h2.yy",},"resourceVersion":"1.0","name":"dc8f96fa-1262-4cea-9aa5-55a83343b731","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"aa518c10-03a8-4117-b507-7c15cb2d2235","path":"sprites/spr_asteroid_splitter_medium_h2/spr_asteroid_splitter_medium_h2.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"aa518c10-03a8-4117-b507-7c15cb2d2235","path":"sprites/spr_asteroid_splitter_medium_h2/spr_asteroid_splitter_medium_h2.yy",},"LayerId":{"name":"094dd2a8-9cbe-4006-b253-6cdaffbf5a89","path":"sprites/spr_asteroid_splitter_medium_h2/spr_asteroid_splitter_medium_h2.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_asteroid_splitter_medium_h2","path":"sprites/spr_asteroid_splitter_medium_h2/spr_asteroid_splitter_medium_h2.yy",},"resourceVersion":"1.0","name":"aa518c10-03a8-4117-b507-7c15cb2d2235","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"cdda4dcf-1015-4404-91c8-b877be3eedca","path":"sprites/spr_asteroid_splitter_medium_h2/spr_asteroid_splitter_medium_h2.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"cdda4dcf-1015-4404-91c8-b877be3eedca","path":"sprites/spr_asteroid_splitter_medium_h2/spr_asteroid_splitter_medium_h2.yy",},"LayerId":{"name":"094dd2a8-9cbe-4006-b253-6cdaffbf5a89","path":"sprites/spr_asteroid_splitter_medium_h2/spr_asteroid_splitter_medium_h2.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_asteroid_splitter_medium_h2","path":"sprites/spr_asteroid_splitter_medium_h2/spr_asteroid_splitter_medium_h2.yy",},"resourceVersion":"1.0","name":"cdda4dcf-1015-4404-91c8-b877be3eedca","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"44da55f3-181b-4a39-aab4-aad61a217c7c","path":"sprites/spr_asteroid_splitter_medium_h2/spr_asteroid_splitter_medium_h2.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"44da55f3-181b-4a39-aab4-aad61a217c7c","path":"sprites/spr_asteroid_splitter_medium_h2/spr_asteroid_splitter_medium_h2.yy",},"LayerId":{"name":"094dd2a8-9cbe-4006-b253-6cdaffbf5a89","path":"sprites/spr_asteroid_splitter_medium_h2/spr_asteroid_splitter_medium_h2.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_asteroid_splitter_medium_h2","path":"sprites/spr_asteroid_splitter_medium_h2/spr_asteroid_splitter_medium_h2.yy",},"resourceVersion":"1.0","name":"44da55f3-181b-4a39-aab4-aad61a217c7c","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"336828fb-02a6-467c-97e4-f467bcb183d2","path":"sprites/spr_asteroid_splitter_medium_h2/spr_asteroid_splitter_medium_h2.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"336828fb-02a6-467c-97e4-f467bcb183d2","path":"sprites/spr_asteroid_splitter_medium_h2/spr_asteroid_splitter_medium_h2.yy",},"LayerId":{"name":"094dd2a8-9cbe-4006-b253-6cdaffbf5a89","path":"sprites/spr_asteroid_splitter_medium_h2/spr_asteroid_splitter_medium_h2.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_asteroid_splitter_medium_h2","path":"sprites/spr_asteroid_splitter_medium_h2/spr_asteroid_splitter_medium_h2.yy",},"resourceVersion":"1.0","name":"336828fb-02a6-467c-97e4-f467bcb183d2","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"a7a716c9-6267-4b6b-9dba-890bf654443d","path":"sprites/spr_asteroid_splitter_medium_h2/spr_asteroid_splitter_medium_h2.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"a7a716c9-6267-4b6b-9dba-890bf654443d","path":"sprites/spr_asteroid_splitter_medium_h2/spr_asteroid_splitter_medium_h2.yy",},"LayerId":{"name":"094dd2a8-9cbe-4006-b253-6cdaffbf5a89","path":"sprites/spr_asteroid_splitter_medium_h2/spr_asteroid_splitter_medium_h2.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_asteroid_splitter_medium_h2","path":"sprites/spr_asteroid_splitter_medium_h2/spr_asteroid_splitter_medium_h2.yy",},"resourceVersion":"1.0","name":"a7a716c9-6267-4b6b-9dba-890bf654443d","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"51acd87c-e1a8-4b8f-9f3a-7faa1c4a4bcd","path":"sprites/spr_asteroid_splitter_medium_h2/spr_asteroid_splitter_medium_h2.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"51acd87c-e1a8-4b8f-9f3a-7faa1c4a4bcd","path":"sprites/spr_asteroid_splitter_medium_h2/spr_asteroid_splitter_medium_h2.yy",},"LayerId":{"name":"094dd2a8-9cbe-4006-b253-6cdaffbf5a89","path":"sprites/spr_asteroid_splitter_medium_h2/spr_asteroid_splitter_medium_h2.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_asteroid_splitter_medium_h2","path":"sprites/spr_asteroid_splitter_medium_h2/spr_asteroid_splitter_medium_h2.yy",},"resourceVersion":"1.0","name":"51acd87c-e1a8-4b8f-9f3a-7faa1c4a4bcd","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"2ad029ea-559d-4b44-9bc9-de703616dfc5","path":"sprites/spr_asteroid_splitter_medium_h2/spr_asteroid_splitter_medium_h2.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"2ad029ea-559d-4b44-9bc9-de703616dfc5","path":"sprites/spr_asteroid_splitter_medium_h2/spr_asteroid_splitter_medium_h2.yy",},"LayerId":{"name":"094dd2a8-9cbe-4006-b253-6cdaffbf5a89","path":"sprites/spr_asteroid_splitter_medium_h2/spr_asteroid_splitter_medium_h2.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_asteroid_splitter_medium_h2","path":"sprites/spr_asteroid_splitter_medium_h2/spr_asteroid_splitter_medium_h2.yy",},"resourceVersion":"1.0","name":"2ad029ea-559d-4b44-9bc9-de703616dfc5","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"def27d28-d883-4031-9f0f-cedd11c16fb8","path":"sprites/spr_asteroid_splitter_medium_h2/spr_asteroid_splitter_medium_h2.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"def27d28-d883-4031-9f0f-cedd11c16fb8","path":"sprites/spr_asteroid_splitter_medium_h2/spr_asteroid_splitter_medium_h2.yy",},"LayerId":{"name":"094dd2a8-9cbe-4006-b253-6cdaffbf5a89","path":"sprites/spr_asteroid_splitter_medium_h2/spr_asteroid_splitter_medium_h2.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_asteroid_splitter_medium_h2","path":"sprites/spr_asteroid_splitter_medium_h2/spr_asteroid_splitter_medium_h2.yy",},"resourceVersion":"1.0","name":"def27d28-d883-4031-9f0f-cedd11c16fb8","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"d5e42dcb-9293-4e87-94a3-f2a2f9ab3e4a","path":"sprites/spr_asteroid_splitter_medium_h2/spr_asteroid_splitter_medium_h2.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"d5e42dcb-9293-4e87-94a3-f2a2f9ab3e4a","path":"sprites/spr_asteroid_splitter_medium_h2/spr_asteroid_splitter_medium_h2.yy",},"LayerId":{"name":"094dd2a8-9cbe-4006-b253-6cdaffbf5a89","path":"sprites/spr_asteroid_splitter_medium_h2/spr_asteroid_splitter_medium_h2.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_asteroid_splitter_medium_h2","path":"sprites/spr_asteroid_splitter_medium_h2/spr_asteroid_splitter_medium_h2.yy",},"resourceVersion":"1.0","name":"d5e42dcb-9293-4e87-94a3-f2a2f9ab3e4a","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"36ba8f1d-bfda-49b5-951a-bc15bbf4655e","path":"sprites/spr_asteroid_splitter_medium_h2/spr_asteroid_splitter_medium_h2.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"36ba8f1d-bfda-49b5-951a-bc15bbf4655e","path":"sprites/spr_asteroid_splitter_medium_h2/spr_asteroid_splitter_medium_h2.yy",},"LayerId":{"name":"094dd2a8-9cbe-4006-b253-6cdaffbf5a89","path":"sprites/spr_asteroid_splitter_medium_h2/spr_asteroid_splitter_medium_h2.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_asteroid_splitter_medium_h2","path":"sprites/spr_asteroid_splitter_medium_h2/spr_asteroid_splitter_medium_h2.yy",},"resourceVersion":"1.0","name":"36ba8f1d-bfda-49b5-951a-bc15bbf4655e","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"25860bd0-0bc6-489b-994e-a8dde1b1cc19","path":"sprites/spr_asteroid_splitter_medium_h2/spr_asteroid_splitter_medium_h2.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"25860bd0-0bc6-489b-994e-a8dde1b1cc19","path":"sprites/spr_asteroid_splitter_medium_h2/spr_asteroid_splitter_medium_h2.yy",},"LayerId":{"name":"094dd2a8-9cbe-4006-b253-6cdaffbf5a89","path":"sprites/spr_asteroid_splitter_medium_h2/spr_asteroid_splitter_medium_h2.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_asteroid_splitter_medium_h2","path":"sprites/spr_asteroid_splitter_medium_h2/spr_asteroid_splitter_medium_h2.yy",},"resourceVersion":"1.0","name":"25860bd0-0bc6-489b-994e-a8dde1b1cc19","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"ae5951cc-1c7e-4906-9691-188ffc80247f","path":"sprites/spr_asteroid_splitter_medium_h2/spr_asteroid_splitter_medium_h2.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"ae5951cc-1c7e-4906-9691-188ffc80247f","path":"sprites/spr_asteroid_splitter_medium_h2/spr_asteroid_splitter_medium_h2.yy",},"LayerId":{"name":"094dd2a8-9cbe-4006-b253-6cdaffbf5a89","path":"sprites/spr_asteroid_splitter_medium_h2/spr_asteroid_splitter_medium_h2.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_asteroid_splitter_medium_h2","path":"sprites/spr_asteroid_splitter_medium_h2/spr_asteroid_splitter_medium_h2.yy",},"resourceVersion":"1.0","name":"ae5951cc-1c7e-4906-9691-188ffc80247f","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"785bd53b-8a51-4335-b67a-6c1b7cf103e4","path":"sprites/spr_asteroid_splitter_medium_h2/spr_asteroid_splitter_medium_h2.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"785bd53b-8a51-4335-b67a-6c1b7cf103e4","path":"sprites/spr_asteroid_splitter_medium_h2/spr_asteroid_splitter_medium_h2.yy",},"LayerId":{"name":"094dd2a8-9cbe-4006-b253-6cdaffbf5a89","path":"sprites/spr_asteroid_splitter_medium_h2/spr_asteroid_splitter_medium_h2.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_asteroid_splitter_medium_h2","path":"sprites/spr_asteroid_splitter_medium_h2/spr_asteroid_splitter_medium_h2.yy",},"resourceVersion":"1.0","name":"785bd53b-8a51-4335-b67a-6c1b7cf103e4","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"d7c4857f-47a9-490f-a29c-35bc40a03f94","path":"sprites/spr_asteroid_splitter_medium_h2/spr_asteroid_splitter_medium_h2.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"d7c4857f-47a9-490f-a29c-35bc40a03f94","path":"sprites/spr_asteroid_splitter_medium_h2/spr_asteroid_splitter_medium_h2.yy",},"LayerId":{"name":"094dd2a8-9cbe-4006-b253-6cdaffbf5a89","path":"sprites/spr_asteroid_splitter_medium_h2/spr_asteroid_splitter_medium_h2.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_asteroid_splitter_medium_h2","path":"sprites/spr_asteroid_splitter_medium_h2/spr_asteroid_splitter_medium_h2.yy",},"resourceVersion":"1.0","name":"d7c4857f-47a9-490f-a29c-35bc40a03f94","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"cb4b53f2-6083-47eb-a22f-51a9bc84ca20","path":"sprites/spr_asteroid_splitter_medium_h2/spr_asteroid_splitter_medium_h2.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"cb4b53f2-6083-47eb-a22f-51a9bc84ca20","path":"sprites/spr_asteroid_splitter_medium_h2/spr_asteroid_splitter_medium_h2.yy",},"LayerId":{"name":"094dd2a8-9cbe-4006-b253-6cdaffbf5a89","path":"sprites/spr_asteroid_splitter_medium_h2/spr_asteroid_splitter_medium_h2.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_asteroid_splitter_medium_h2","path":"sprites/spr_asteroid_splitter_medium_h2/spr_asteroid_splitter_medium_h2.yy",},"resourceVersion":"1.0","name":"cb4b53f2-6083-47eb-a22f-51a9bc84ca20","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"edd962fd-d290-44d0-9469-a8a5a6ee8c07",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"fa37fc57-89f7-45e1-b440-37d9a6dac0d4",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"dc8f96fa-1262-4cea-9aa5-55a83343b731",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"aa518c10-03a8-4117-b507-7c15cb2d2235",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"cdda4dcf-1015-4404-91c8-b877be3eedca",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"44da55f3-181b-4a39-aab4-aad61a217c7c",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"336828fb-02a6-467c-97e4-f467bcb183d2",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"a7a716c9-6267-4b6b-9dba-890bf654443d",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"51acd87c-e1a8-4b8f-9f3a-7faa1c4a4bcd",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"2ad029ea-559d-4b44-9bc9-de703616dfc5",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"def27d28-d883-4031-9f0f-cedd11c16fb8",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"d5e42dcb-9293-4e87-94a3-f2a2f9ab3e4a",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"36ba8f1d-bfda-49b5-951a-bc15bbf4655e",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"25860bd0-0bc6-489b-994e-a8dde1b1cc19",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"ae5951cc-1c7e-4906-9691-188ffc80247f",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"785bd53b-8a51-4335-b67a-6c1b7cf103e4",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"d7c4857f-47a9-490f-a29c-35bc40a03f94",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"cb4b53f2-6083-47eb-a22f-51a9bc84ca20",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_asteroid_splitter_medium_h2","path":"sprites/spr_asteroid_splitter_medium_h2/spr_asteroid_splitter_medium_h2.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "spr_asteroid_splitter_medium_h2",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 15.0,
@@ -91,7 +61,7 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"942235f0-a141-4b69-a5f2-e52c8e1dfb20","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"edd962fd-d290-44d0-9469-a8a5a6ee8c07","path":"sprites/spr_asteroid_splitter_medium_h2/spr_asteroid_splitter_medium_h2.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"877f0c9d-78d8-4e56-9298-3b661a5a9f83","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"fa37fc57-89f7-45e1-b440-37d9a6dac0d4","path":"sprites/spr_asteroid_splitter_medium_h2/spr_asteroid_splitter_medium_h2.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"fa16e701-02a2-4e66-83c4-3d36647bcc33","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"dc8f96fa-1262-4cea-9aa5-55a83343b731","path":"sprites/spr_asteroid_splitter_medium_h2/spr_asteroid_splitter_medium_h2.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
@@ -110,7 +80,7 @@
             {"id":"bf7da1ca-6cfa-40e6-b9cc-50906041c634","Key":15.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"785bd53b-8a51-4335-b67a-6c1b7cf103e4","path":"sprites/spr_asteroid_splitter_medium_h2/spr_asteroid_splitter_medium_h2.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"6379e209-6162-45d2-889d-cebc3c673015","Key":16.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"d7c4857f-47a9-490f-a29c-35bc40a03f94","path":"sprites/spr_asteroid_splitter_medium_h2/spr_asteroid_splitter_medium_h2.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"692f76af-7b15-4ddf-b027-431448f9da08","Key":17.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"cb4b53f2-6083-47eb-a22f-51a9bc84ca20","path":"sprites/spr_asteroid_splitter_medium_h2/spr_asteroid_splitter_medium_h2.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -126,22 +96,13 @@
     "yorigin": 24,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_asteroid_splitter_medium_h2","path":"sprites/spr_asteroid_splitter_medium_h2/spr_asteroid_splitter_medium_h2.yy",},
-    "resourceVersion": "1.4",
-    "name": "spr_asteroid_splitter_medium_h2",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"094dd2a8-9cbe-4006-b253-6cdaffbf5a89","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"094dd2a8-9cbe-4006-b253-6cdaffbf5a89","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "asteroid_splitter_medium",
     "path": "folders/Objects/Enemies/Asteroids/asteroid_splitter_medium.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_asteroid_splitter_medium_h2",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

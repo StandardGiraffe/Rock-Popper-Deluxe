@@ -1,7 +1,10 @@
 {
+  "resourceType": "GMWindowsOptions",
+  "resourceVersion": "1.1",
+  "name": "Windows",
   "option_windows_display_name": "Rock Popper Deluxe",
-  "option_windows_executable_name": "${project_name} 0.0.22.0826.exe",
-  "option_windows_version": "0.0.22.826",
+  "option_windows_executable_name": "${project_name} 0.0.22.1011.exe",
+  "option_windows_version": "0.0.22.1011",
   "option_windows_company_info": "Neck-Deep Development",
   "option_windows_product_info": "Rock Popper Deluxe",
   "option_windows_copyright_info": "Danny Fekete",
@@ -28,9 +31,4 @@
   "option_windows_enable_steam": false,
   "option_windows_disable_sandbox": false,
   "option_windows_steam_use_alternative_launcher": false,
-  "option_windows_use_x64": true,
-  "resourceVersion": "1.1",
-  "name": "Windows",
-  "tags": [],
-  "resourceType": "GMWindowsOptions",
 }

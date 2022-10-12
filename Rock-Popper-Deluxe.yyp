@@ -1,0 +1,2579 @@
+{
+  resources: [
+    {
+      id: {
+        name: "ac_droid_rammer",
+        path: "animcurves/ac_droid_rammer/ac_droid_rammer.yy",
+      },
+      order: 0,
+    },
+    {
+      id: {
+        name: "ac_shield_pulse",
+        path: "animcurves/ac_shield_pulse/ac_shield_pulse.yy",
+      },
+      order: 1,
+    },
+    {
+      id: {
+        name: "fnt_huge",
+        path: "fonts/fnt_huge/fnt_huge.yy",
+      },
+      order: 0,
+    },
+    {
+      id: {
+        name: "fnt_large",
+        path: "fonts/fnt_large/fnt_large.yy",
+      },
+      order: 1,
+    },
+    {
+      id: {
+        name: "fnt_small",
+        path: "fonts/fnt_small/fnt_small.yy",
+      },
+      order: 2,
+    },
+    {
+      id: {
+        name: "obj_afterimage",
+        path: "objects/obj_afterimage/obj_afterimage.yy",
+      },
+      order: 0,
+    },
+    {
+      id: {
+        name: "obj_asterdroid_shielded",
+        path: "objects/obj_asterdroid_shielded/obj_asterdroid_shielded.yy",
+      },
+      order: 0,
+    },
+    {
+      id: {
+        name: "obj_asterdroid_shooter_small",
+        path: "objects/obj_asterdroid_shooter_small/obj_asterdroid_shooter_small.yy",
+      },
+      order: 0,
+    },
+    {
+      id: {
+        name: "obj_asteroid_armoured",
+        path: "objects/obj_asteroid_armoured/obj_asteroid_armoured.yy",
+      },
+      order: 0,
+    },
+    {
+      id: {
+        name: "obj_asteroid_basic",
+        path: "objects/obj_asteroid_basic/obj_asteroid_basic.yy",
+      },
+      order: 0,
+    },
+    {
+      id: {
+        name: "obj_asteroid_carrier",
+        path: "objects/obj_asteroid_carrier/obj_asteroid_carrier.yy",
+      },
+      order: 0,
+    },
+    {
+      id: {
+        name: "obj_asteroid_cluster_mega",
+        path: "objects/obj_asteroid_cluster_mega/obj_asteroid_cluster_mega.yy",
+      },
+      order: 0,
+    },
+    {
+      id: {
+        name: "obj_asteroid_gravel",
+        path: "objects/obj_asteroid_gravel/obj_asteroid_gravel.yy",
+      },
+      order: 0,
+    },
+    {
+      id: {
+        name: "obj_asteroid_gravel_large",
+        path: "objects/obj_asteroid_gravel_large/obj_asteroid_gravel_large.yy",
+      },
+      order: 0,
+    },
+    {
+      id: {
+        name: "obj_asteroid_splitter_medium",
+        path: "objects/obj_asteroid_splitter_medium/obj_asteroid_splitter_medium.yy",
+      },
+      order: 0,
+    },
+    {
+      id: {
+        name: "obj_asteroid_splitter_medium_fragment",
+        path: "objects/obj_asteroid_splitter_medium_fragment/obj_asteroid_splitter_medium_fragment.yy",
+      },
+      order: 0,
+    },
+    {
+      id: {
+        name: "obj_background_colour_layer",
+        path: "objects/obj_background_colour_layer/obj_background_colour_layer.yy",
+      },
+      order: 0,
+    },
+    {
+      id: {
+        name: "obj_background_feature",
+        path: "objects/obj_background_feature/obj_background_feature.yy",
+      },
+      order: 0,
+    },
+    {
+      id: {
+        name: "obj_background_feature_manager",
+        path: "objects/obj_background_feature_manager/obj_background_feature_manager.yy",
+      },
+      order: 1,
+    },
+    {
+      id: {
+        name: "obj_background_manager",
+        path: "objects/obj_background_manager/obj_background_manager.yy",
+      },
+      order: 2,
+    },
+    {
+      id: {
+        name: "obj_base_bullet",
+        path: "objects/obj_base_bullet/obj_base_bullet.yy",
+      },
+      order: 0,
+    },
+    {
+      id: {
+        name: "obj_base_bullet_enemy",
+        path: "objects/obj_base_bullet_enemy/obj_base_bullet_enemy.yy",
+      },
+      order: 1,
+    },
+    {
+      id: {
+        name: "obj_base_capsule",
+        path: "objects/obj_base_capsule/obj_base_capsule.yy",
+      },
+      order: 2,
+    },
+    {
+      id: {
+        name: "obj_base_enemy",
+        path: "objects/obj_base_enemy/obj_base_enemy.yy",
+      },
+      order: 3,
+    },
+    {
+      id: {
+        name: "obj_base_enemy_with_thrusters",
+        path: "objects/obj_base_enemy_with_thrusters/obj_base_enemy_with_thrusters.yy",
+      },
+      order: 4,
+    },
+    {
+      id: {
+        name: "obj_base_entity",
+        path: "objects/obj_base_entity/obj_base_entity.yy",
+      },
+      order: 5,
+    },
+    {
+      id: {
+        name: "obj_base_game_management",
+        path: "objects/obj_base_game_management/obj_base_game_management.yy",
+      },
+      order: 0,
+    },
+    {
+      id: {
+        name: "obj_base_insubstantial",
+        path: "objects/obj_base_insubstantial/obj_base_insubstantial.yy",
+      },
+      order: 1,
+    },
+    {
+      id: {
+        name: "obj_base_platform_core",
+        path: "objects/obj_base_platform_core/obj_base_platform_core.yy",
+      },
+      order: 7,
+    },
+    {
+      id: {
+        name: "obj_base_player",
+        path: "objects/obj_base_player/obj_base_player.yy",
+      },
+      order: 8,
+    },
+    {
+      id: {
+        name: "obj_base_powerup",
+        path: "objects/obj_base_powerup/obj_base_powerup.yy",
+      },
+      order: 9,
+    },
+    {
+      id: {
+        name: "obj_beam_drawer",
+        path: "objects/obj_beam_drawer/obj_beam_drawer.yy",
+      },
+      order: 0,
+    },
+    {
+      id: {
+        name: "obj_beam_shield_drain",
+        path: "objects/obj_beam_shield_drain/obj_beam_shield_drain.yy",
+      },
+      order: 1,
+    },
+    {
+      id: {
+        name: "obj_bullet_enemy_small",
+        path: "objects/obj_bullet_enemy_small/obj_bullet_enemy_small.yy",
+      },
+      order: 0,
+    },
+    {
+      id: {
+        name: "obj_bullet_enemy_tiny",
+        path: "objects/obj_bullet_enemy_tiny/obj_bullet_enemy_tiny.yy",
+      },
+      order: 1,
+    },
+    {
+      id: {
+        name: "obj_bullet_player",
+        path: "objects/obj_bullet_player/obj_bullet_player.yy",
+      },
+      order: 0,
+    },
+    {
+      id: {
+        name: "obj_controls",
+        path: "objects/obj_controls/obj_controls.yy",
+      },
+      order: 0,
+    },
+    {
+      id: {
+        name: "obj_dead_player",
+        path: "objects/obj_dead_player/obj_dead_player.yy",
+      },
+      order: 0,
+    },
+    {
+      id: {
+        name: "obj_droid_rammer_medium",
+        path: "objects/obj_droid_rammer_medium/obj_droid_rammer_medium.yy",
+      },
+      order: 0,
+    },
+    {
+      id: {
+        name: "obj_droid_rammer_mini",
+        path: "objects/obj_droid_rammer_mini/obj_droid_rammer_mini.yy",
+      },
+      order: 0,
+    },
+    {
+      id: {
+        name: "obj_droid_straight_shoot",
+        path: "objects/obj_droid_straight_shoot/obj_droid_straight_shoot.yy",
+      },
+      order: 0,
+    },
+    {
+      id: {
+        name: "obj_droid_straight_shoot_spread",
+        path: "objects/obj_droid_straight_shoot_spread/obj_droid_straight_shoot_spread.yy",
+      },
+      order: 0,
+    },
+    {
+      id: {
+        name: "obj_game_over",
+        path: "objects/obj_game_over/obj_game_over.yy",
+      },
+      order: 1,
+    },
+    {
+      id: {
+        name: "obj_hud",
+        path: "objects/obj_hud/obj_hud.yy",
+      },
+      order: 2,
+    },
+    {
+      id: {
+        name: "obj_initializer",
+        path: "objects/obj_initializer/obj_initializer.yy",
+      },
+      order: 3,
+    },
+    {
+      id: {
+        name: "obj_message_popup",
+        path: "objects/obj_message_popup/obj_message_popup.yy",
+      },
+      order: 4,
+    },
+    {
+      id: {
+        name: "obj_muffel",
+        path: "objects/obj_muffel/obj_muffel.yy",
+      },
+      order: 0,
+    },
+    {
+      id: {
+        name: "obj_particle_system",
+        path: "objects/obj_particle_system/obj_particle_system.yy",
+      },
+      order: 5,
+    },
+    {
+      id: {
+        name: "obj_platform_core",
+        path: "objects/obj_platform_core/obj_platform_core.yy",
+      },
+      order: 0,
+    },
+    {
+      id: {
+        name: "obj_platform_core_mini_blue",
+        path: "objects/obj_platform_core_mini_blue/obj_platform_core_mini_blue.yy",
+      },
+      order: 0,
+    },
+    {
+      id: {
+        name: "obj_platform_core_mini_grey",
+        path: "objects/obj_platform_core_mini_grey/obj_platform_core_mini_grey.yy",
+      },
+      order: 0,
+    },
+    {
+      id: {
+        name: "obj_platform_core_mini_red",
+        path: "objects/obj_platform_core_mini_red/obj_platform_core_mini_red.yy",
+      },
+      order: 0,
+    },
+    {
+      id: {
+        name: "obj_player",
+        path: "objects/obj_player/obj_player.yy",
+      },
+      order: 1,
+    },
+    {
+      id: {
+        name: "obj_player_initializer",
+        path: "objects/obj_player_initializer/obj_player_initializer.yy",
+      },
+      order: 6,
+    },
+    {
+      id: {
+        name: "obj_powerup_capsule_engine",
+        path: "objects/obj_powerup_capsule_engine/obj_powerup_capsule_engine.yy",
+      },
+      order: 0,
+    },
+    {
+      id: {
+        name: "obj_powerup_capsule_shields",
+        path: "objects/obj_powerup_capsule_shields/obj_powerup_capsule_shields.yy",
+      },
+      order: 0,
+    },
+    {
+      id: {
+        name: "obj_powerup_capsule_weapon",
+        path: "objects/obj_powerup_capsule_weapon/obj_powerup_capsule_weapon.yy",
+      },
+      order: 0,
+    },
+    {
+      id: {
+        name: "obj_powerup_dual_cannon",
+        path: "objects/obj_powerup_dual_cannon/obj_powerup_dual_cannon.yy",
+      },
+      order: 0,
+    },
+    {
+      id: {
+        name: "obj_powerup_extra_life",
+        path: "objects/obj_powerup_extra_life/obj_powerup_extra_life.yy",
+      },
+      order: 0,
+    },
+    {
+      id: {
+        name: "obj_powerup_points",
+        path: "objects/obj_powerup_points/obj_powerup_points.yy",
+      },
+      order: 0,
+    },
+    {
+      id: {
+        name: "obj_powerup_power_shot",
+        path: "objects/obj_powerup_power_shot/obj_powerup_power_shot.yy",
+      },
+      order: 0,
+    },
+    {
+      id: {
+        name: "obj_powerup_rear_cannon",
+        path: "objects/obj_powerup_rear_cannon/obj_powerup_rear_cannon.yy",
+      },
+      order: 0,
+    },
+    {
+      id: {
+        name: "obj_powerup_recoil_damping",
+        path: "objects/obj_powerup_recoil_damping/obj_powerup_recoil_damping.yy",
+      },
+      order: 0,
+    },
+    {
+      id: {
+        name: "obj_powerup_repulsor_shields",
+        path: "objects/obj_powerup_repulsor_shields/obj_powerup_repulsor_shields.yy",
+      },
+      order: 0,
+    },
+    {
+      id: {
+        name: "obj_powerup_seeking_shot",
+        path: "objects/obj_powerup_seeking_shot/obj_powerup_seeking_shot.yy",
+      },
+      order: 0,
+    },
+    {
+      id: {
+        name: "obj_powerup_shields",
+        path: "objects/obj_powerup_shields/obj_powerup_shields.yy",
+      },
+      order: 0,
+    },
+    {
+      id: {
+        name: "obj_powerup_speed_shot",
+        path: "objects/obj_powerup_speed_shot/obj_powerup_speed_shot.yy",
+      },
+      order: 0,
+    },
+    {
+      id: {
+        name: "obj_powerup_spread_cannon",
+        path: "objects/obj_powerup_spread_cannon/obj_powerup_spread_cannon.yy",
+      },
+      order: 0,
+    },
+    {
+      id: {
+        name: "obj_powerup_thrust_up",
+        path: "objects/obj_powerup_thrust_up/obj_powerup_thrust_up.yy",
+      },
+      order: 0,
+    },
+    {
+      id: {
+        name: "obj_powerup_turning_up",
+        path: "objects/obj_powerup_turning_up/obj_powerup_turning_up.yy",
+      },
+      order: 0,
+    },
+    {
+      id: {
+        name: "obj_powerup_void_shot",
+        path: "objects/obj_powerup_void_shot/obj_powerup_void_shot.yy",
+      },
+      order: 0,
+    },
+    {
+      id: {
+        name: "obj_screen_effects",
+        path: "objects/obj_screen_effects/obj_screen_effects.yy",
+      },
+      order: 7,
+    },
+    {
+      id: {
+        name: "obj_shock_line",
+        path: "objects/obj_shock_line/obj_shock_line.yy",
+      },
+      order: 1,
+    },
+    {
+      id: {
+        name: "obj_spawner",
+        path: "objects/obj_spawner/obj_spawner.yy",
+      },
+      order: 8,
+    },
+    {
+      id: {
+        name: "rm_game",
+        path: "rooms/rm_game/rm_game.yy",
+      },
+      order: 0,
+    },
+    {
+      id: {
+        name: "rm_initialization",
+        path: "rooms/rm_initialization/rm_initialization.yy",
+      },
+      order: 1,
+    },
+    {
+      id: {
+        name: "muffel",
+        path: "scripts/muffel/muffel.yy",
+      },
+      order: 1,
+    },
+    {
+      id: {
+        name: "script_afterimage_effect",
+        path: "scripts/script_afterimage_effect/script_afterimage_effect.yy",
+      },
+      order: 0,
+    },
+    {
+      id: {
+        name: "script_ai_functions",
+        path: "scripts/script_ai_functions/script_ai_functions.yy",
+      },
+      order: 0,
+    },
+    {
+      id: {
+        name: "script_background_features",
+        path: "scripts/script_background_features/script_background_features.yy",
+      },
+      order: 2,
+    },
+    {
+      id: {
+        name: "script_beams",
+        path: "scripts/script_beams/script_beams.yy",
+      },
+      order: 2,
+    },
+    {
+      id: {
+        name: "script_calculations",
+        path: "scripts/script_calculations/script_calculations.yy",
+      },
+      order: 0,
+    },
+    {
+      id: {
+        name: "script_collision_normal",
+        path: "scripts/script_collision_normal/script_collision_normal.yy",
+      },
+      order: 0,
+    },
+    {
+      id: {
+        name: "script_crystal_sparkle",
+        path: "scripts/script_crystal_sparkle/script_crystal_sparkle.yy",
+      },
+      order: 0,
+    },
+    {
+      id: {
+        name: "script_debris_functions",
+        path: "scripts/script_debris_functions/script_debris_functions.yy",
+      },
+      order: 1,
+    },
+    {
+      id: {
+        name: "script_enemies",
+        path: "scripts/script_enemies/script_enemies.yy",
+      },
+      order: 0,
+    },
+    {
+      id: {
+        name: "script_enemy_functions",
+        path: "scripts/script_enemy_functions/script_enemy_functions.yy",
+      },
+      order: 1,
+    },
+    {
+      id: {
+        name: "script_entity_spawning_effects",
+        path: "scripts/script_entity_spawning_effects/script_entity_spawning_effects.yy",
+      },
+      order: 2,
+    },
+    {
+      id: {
+        name: "script_enum_declarations",
+        path: "scripts/script_enum_declarations/script_enum_declarations.yy",
+      },
+      order: 3,
+    },
+    {
+      id: {
+        name: "script_environment_functions",
+        path: "scripts/script_environment_functions/script_environment_functions.yy",
+      },
+      order: 4,
+    },
+    {
+      id: {
+        name: "script_hyperspace",
+        path: "scripts/script_hyperspace/script_hyperspace.yy",
+      },
+      order: 1,
+    },
+    {
+      id: {
+        name: "script_interactions",
+        path: "scripts/script_interactions/script_interactions.yy",
+      },
+      order: 0,
+    },
+    {
+      id: {
+        name: "script_iterator_functions",
+        path: "scripts/script_iterator_functions/script_iterator_functions.yy",
+      },
+      order: 2,
+    },
+    {
+      id: {
+        name: "script_movement",
+        path: "scripts/script_movement/script_movement.yy",
+      },
+      order: 1,
+    },
+    {
+      id: {
+        name: "script_particle_functions",
+        path: "scripts/script_particle_functions/script_particle_functions.yy",
+      },
+      order: 5,
+    },
+    {
+      id: {
+        name: "script_player_stats",
+        path: "scripts/script_player_stats/script_player_stats.yy",
+      },
+      order: 2,
+    },
+    {
+      id: {
+        name: "script_powerups_inventory",
+        path: "scripts/script_powerups_inventory/script_powerups_inventory.yy",
+      },
+      order: 0,
+    },
+    {
+      id: {
+        name: "script_powerup_drop_controls",
+        path: "scripts/script_powerup_drop_controls/script_powerup_drop_controls.yy",
+      },
+      order: 1,
+    },
+    {
+      id: {
+        name: "script_powerup_dual_cannon",
+        path: "scripts/script_powerup_dual_cannon/script_powerup_dual_cannon.yy",
+      },
+      order: 1,
+    },
+    {
+      id: {
+        name: "script_powerup_extra_life",
+        path: "scripts/script_powerup_extra_life/script_powerup_extra_life.yy",
+      },
+      order: 1,
+    },
+    {
+      id: {
+        name: "script_powerup_physics",
+        path: "scripts/script_powerup_physics/script_powerup_physics.yy",
+      },
+      order: 2,
+    },
+    {
+      id: {
+        name: "script_powerup_points",
+        path: "scripts/script_powerup_points/script_powerup_points.yy",
+      },
+      order: 1,
+    },
+    {
+      id: {
+        name: "script_powerup_power_shot",
+        path: "scripts/script_powerup_power_shot/script_powerup_power_shot.yy",
+      },
+      order: 1,
+    },
+    {
+      id: {
+        name: "script_powerup_rear_cannon",
+        path: "scripts/script_powerup_rear_cannon/script_powerup_rear_cannon.yy",
+      },
+      order: 1,
+    },
+    {
+      id: {
+        name: "script_powerup_recoil_damping",
+        path: "scripts/script_powerup_recoil_damping/script_powerup_recoil_damping.yy",
+      },
+      order: 1,
+    },
+    {
+      id: {
+        name: "script_powerup_repulsor_shields",
+        path: "scripts/script_powerup_repulsor_shields/script_powerup_repulsor_shields.yy",
+      },
+      order: 1,
+    },
+    {
+      id: {
+        name: "script_powerup_seeking_shot",
+        path: "scripts/script_powerup_seeking_shot/script_powerup_seeking_shot.yy",
+      },
+      order: 1,
+    },
+    {
+      id: {
+        name: "script_powerup_shields",
+        path: "scripts/script_powerup_shields/script_powerup_shields.yy",
+      },
+      order: 1,
+    },
+    {
+      id: {
+        name: "script_powerup_speed_shot",
+        path: "scripts/script_powerup_speed_shot/script_powerup_speed_shot.yy",
+      },
+      order: 1,
+    },
+    {
+      id: {
+        name: "script_powerup_spread_cannon",
+        path: "scripts/script_powerup_spread_cannon/script_powerup_spread_cannon.yy",
+      },
+      order: 1,
+    },
+    {
+      id: {
+        name: "script_powerup_thrust_up",
+        path: "scripts/script_powerup_thrust_up/script_powerup_thrust_up.yy",
+      },
+      order: 1,
+    },
+    {
+      id: {
+        name: "script_powerup_turning_up",
+        path: "scripts/script_powerup_turning_up/script_powerup_turning_up.yy",
+      },
+      order: 1,
+    },
+    {
+      id: {
+        name: "script_powerup_void_shot",
+        path: "scripts/script_powerup_void_shot/script_powerup_void_shot.yy",
+      },
+      order: 1,
+    },
+    {
+      id: {
+        name: "script_projectiles",
+        path: "scripts/script_projectiles/script_projectiles.yy",
+      },
+      order: 2,
+    },
+    {
+      id: {
+        name: "script_projectile_particles",
+        path: "scripts/script_projectile_particles/script_projectile_particles.yy",
+      },
+      order: 3,
+    },
+    {
+      id: {
+        name: "script_screen_shake_effect",
+        path: "scripts/script_screen_shake_effect/script_screen_shake_effect.yy",
+      },
+      order: 1,
+    },
+    {
+      id: {
+        name: "script_shooting",
+        path: "scripts/script_shooting/script_shooting.yy",
+      },
+      order: 3,
+    },
+    {
+      id: {
+        name: "script_steering_behaviour_functions",
+        path: "scripts/script_steering_behaviour_functions/script_steering_behaviour_functions.yy",
+      },
+      order: 0,
+    },
+    {
+      id: {
+        name: "script_vector_functions",
+        path: "scripts/script_vector_functions/script_vector_functions.yy",
+      },
+      order: 1,
+    },
+    {
+      id: {
+        name: "script_waves",
+        path: "scripts/script_waves/script_waves.yy",
+      },
+      order: 0,
+    },
+    {
+      id: {
+        name: "script_wave_spawning_utilities",
+        path: "scripts/script_wave_spawning_utilities/script_wave_spawning_utilities.yy",
+      },
+      order: 1,
+    },
+    {
+      id: {
+        name: "_script_shielded_effect",
+        path: "scripts/_script_shielded_effect/_script_shielded_effect.yy",
+      },
+      order: 2,
+    },
+    {
+      id: {
+        name: "sh_flash",
+        path: "shaders/sh_flash/sh_flash.yy",
+      },
+      order: 0,
+    },
+    {
+      id: {
+        name: "snd_destroyed",
+        path: "sounds/snd_destroyed/snd_destroyed.yy",
+      },
+      order: 0,
+    },
+    {
+      id: {
+        name: "snd_died",
+        path: "sounds/snd_died/snd_died.yy",
+      },
+      order: 1,
+    },
+    {
+      id: {
+        name: "snd_enemy_bullet_large_shoot",
+        path: "sounds/snd_enemy_bullet_large_shoot/snd_enemy_bullet_large_shoot.yy",
+      },
+      order: 0,
+    },
+    {
+      id: {
+        name: "snd_enemy_bullet_massive_shoot",
+        path: "sounds/snd_enemy_bullet_massive_shoot/snd_enemy_bullet_massive_shoot.yy",
+      },
+      order: 1,
+    },
+    {
+      id: {
+        name: "snd_enemy_bullet_medium_shoot",
+        path: "sounds/snd_enemy_bullet_medium_shoot/snd_enemy_bullet_medium_shoot.yy",
+      },
+      order: 2,
+    },
+    {
+      id: {
+        name: "snd_enemy_bullet_small_shoot",
+        path: "sounds/snd_enemy_bullet_small_shoot/snd_enemy_bullet_small_shoot.yy",
+      },
+      order: 3,
+    },
+    {
+      id: {
+        name: "snd_enemy_bullet_tiny_shoot",
+        path: "sounds/snd_enemy_bullet_tiny_shoot/snd_enemy_bullet_tiny_shoot.yy",
+      },
+      order: 4,
+    },
+    {
+      id: {
+        name: "snd_enemy_shields_down",
+        path: "sounds/snd_enemy_shields_down/snd_enemy_shields_down.yy",
+      },
+      order: 2,
+    },
+    {
+      id: {
+        name: "snd_enemy_shields_hit",
+        path: "sounds/snd_enemy_shields_hit/snd_enemy_shields_hit.yy",
+      },
+      order: 3,
+    },
+    {
+      id: {
+        name: "snd_extra_life",
+        path: "sounds/snd_extra_life/snd_extra_life.yy",
+      },
+      order: 4,
+    },
+    {
+      id: {
+        name: "snd_level_up",
+        path: "sounds/snd_level_up/snd_level_up.yy",
+      },
+      order: 5,
+    },
+    {
+      id: {
+        name: "snd_platform_core_destroyed",
+        path: "sounds/snd_platform_core_destroyed/snd_platform_core_destroyed.yy",
+      },
+      order: 6,
+    },
+    {
+      id: {
+        name: "snd_platform_core_impact",
+        path: "sounds/snd_platform_core_impact/snd_platform_core_impact.yy",
+      },
+      order: 7,
+    },
+    {
+      id: {
+        name: "snd_platform_core_mini_destroyed",
+        path: "sounds/snd_platform_core_mini_destroyed/snd_platform_core_mini_destroyed.yy",
+      },
+      order: 8,
+    },
+    {
+      id: {
+        name: "snd_powerup",
+        path: "sounds/snd_powerup/snd_powerup.yy",
+      },
+      order: 9,
+    },
+    {
+      id: {
+        name: "snd_powerup_break",
+        path: "sounds/snd_powerup_break/snd_powerup_break.yy",
+      },
+      order: 10,
+    },
+    {
+      id: {
+        name: "snd_shields_down",
+        path: "sounds/snd_shields_down/snd_shields_down.yy",
+      },
+      order: 11,
+    },
+    {
+      id: {
+        name: "snd_shields_up",
+        path: "sounds/snd_shields_up/snd_shields_up.yy",
+      },
+      order: 12,
+    },
+    {
+      id: {
+        name: "snd_shoot",
+        path: "sounds/snd_shoot/snd_shoot.yy",
+      },
+      order: 13,
+    },
+    {
+      id: {
+        name: "snd_split",
+        path: "sounds/snd_split/snd_split.yy",
+      },
+      order: 14,
+    },
+    {
+      id: {
+        name: "snd_struck",
+        path: "sounds/snd_struck/snd_struck.yy",
+      },
+      order: 15,
+    },
+    {
+      id: {
+        name: "snd_tink",
+        path: "sounds/snd_tink/snd_tink.yy",
+      },
+      order: 16,
+    },
+    {
+      id: {
+        name: "snd_zoom",
+        path: "sounds/snd_zoom/snd_zoom.yy",
+      },
+      order: 17,
+    },
+    {
+      id: {
+        name: "snd_zoom_mega",
+        path: "sounds/snd_zoom_mega/snd_zoom_mega.yy",
+      },
+      order: 18,
+    },
+    {
+      id: {
+        name: "snd_zoom_mini",
+        path: "sounds/snd_zoom_mini/snd_zoom_mini.yy",
+      },
+      order: 19,
+    },
+    {
+      id: {
+        name: "spr_asterdroid_shielded_h0",
+        path: "sprites/spr_asterdroid_shielded_h0/spr_asterdroid_shielded_h0.yy",
+      },
+      order: 1,
+    },
+    {
+      id: {
+        name: "spr_asterdroid_shielded_h1",
+        path: "sprites/spr_asterdroid_shielded_h1/spr_asterdroid_shielded_h1.yy",
+      },
+      order: 2,
+    },
+    {
+      id: {
+        name: "spr_asterdroid_shielded_h2",
+        path: "sprites/spr_asterdroid_shielded_h2/spr_asterdroid_shielded_h2.yy",
+      },
+      order: 3,
+    },
+    {
+      id: {
+        name: "spr_asterdroid_shielded_h3",
+        path: "sprites/spr_asterdroid_shielded_h3/spr_asterdroid_shielded_h3.yy",
+      },
+      order: 4,
+    },
+    {
+      id: {
+        name: "spr_asterdroid_shielded_sh",
+        path: "sprites/spr_asterdroid_shielded_sh/spr_asterdroid_shielded_sh.yy",
+      },
+      order: 5,
+    },
+    {
+      id: {
+        name: "spr_asterdroid_shooter_small_h0",
+        path: "sprites/spr_asterdroid_shooter_small_h0/spr_asterdroid_shooter_small_h0.yy",
+      },
+      order: 1,
+    },
+    {
+      id: {
+        name: "spr_asterdroid_shooter_small_h1",
+        path: "sprites/spr_asterdroid_shooter_small_h1/spr_asterdroid_shooter_small_h1.yy",
+      },
+      order: 2,
+    },
+    {
+      id: {
+        name: "spr_asterdroid_shooter_small_h2",
+        path: "sprites/spr_asterdroid_shooter_small_h2/spr_asterdroid_shooter_small_h2.yy",
+      },
+      order: 3,
+    },
+    {
+      id: {
+        name: "spr_asterdroid_shooter_small_h3",
+        path: "sprites/spr_asterdroid_shooter_small_h3/spr_asterdroid_shooter_small_h3.yy",
+      },
+      order: 4,
+    },
+    {
+      id: {
+        name: "spr_asteroid_armoured_h0",
+        path: "sprites/spr_asteroid_armoured_h0/spr_asteroid_armoured_h0.yy",
+      },
+      order: 1,
+    },
+    {
+      id: {
+        name: "spr_asteroid_armoured_h1",
+        path: "sprites/spr_asteroid_armoured_h1/spr_asteroid_armoured_h1.yy",
+      },
+      order: 2,
+    },
+    {
+      id: {
+        name: "spr_asteroid_armoured_h2",
+        path: "sprites/spr_asteroid_armoured_h2/spr_asteroid_armoured_h2.yy",
+      },
+      order: 3,
+    },
+    {
+      id: {
+        name: "spr_asteroid_armoured_h3",
+        path: "sprites/spr_asteroid_armoured_h3/spr_asteroid_armoured_h3.yy",
+      },
+      order: 4,
+    },
+    {
+      id: {
+        name: "spr_asteroid_basic_h0",
+        path: "sprites/spr_asteroid_basic_h0/spr_asteroid_basic_h0.yy",
+      },
+      order: 1,
+    },
+    {
+      id: {
+        name: "spr_asteroid_basic_h1",
+        path: "sprites/spr_asteroid_basic_h1/spr_asteroid_basic_h1.yy",
+      },
+      order: 2,
+    },
+    {
+      id: {
+        name: "spr_asteroid_basic_h2",
+        path: "sprites/spr_asteroid_basic_h2/spr_asteroid_basic_h2.yy",
+      },
+      order: 3,
+    },
+    {
+      id: {
+        name: "spr_asteroid_basic_h3",
+        path: "sprites/spr_asteroid_basic_h3/spr_asteroid_basic_h3.yy",
+      },
+      order: 4,
+    },
+    {
+      id: {
+        name: "spr_asteroid_carrier_h0",
+        path: "sprites/spr_asteroid_carrier_h0/spr_asteroid_carrier_h0.yy",
+      },
+      order: 1,
+    },
+    {
+      id: {
+        name: "spr_asteroid_carrier_h1",
+        path: "sprites/spr_asteroid_carrier_h1/spr_asteroid_carrier_h1.yy",
+      },
+      order: 2,
+    },
+    {
+      id: {
+        name: "spr_asteroid_carrier_h2",
+        path: "sprites/spr_asteroid_carrier_h2/spr_asteroid_carrier_h2.yy",
+      },
+      order: 3,
+    },
+    {
+      id: {
+        name: "spr_asteroid_carrier_h3",
+        path: "sprites/spr_asteroid_carrier_h3/spr_asteroid_carrier_h3.yy",
+      },
+      order: 4,
+    },
+    {
+      id: {
+        name: "spr_asteroid_cluster_mega_h0",
+        path: "sprites/spr_asteroid_cluster_mega_h0/spr_asteroid_cluster_mega_h0.yy",
+      },
+      order: 2,
+    },
+    {
+      id: {
+        name: "spr_asteroid_cluster_mega_h1",
+        path: "sprites/spr_asteroid_cluster_mega_h1/spr_asteroid_cluster_mega_h1.yy",
+      },
+      order: 3,
+    },
+    {
+      id: {
+        name: "spr_asteroid_cluster_mega_h2",
+        path: "sprites/spr_asteroid_cluster_mega_h2/spr_asteroid_cluster_mega_h2.yy",
+      },
+      order: 4,
+    },
+    {
+      id: {
+        name: "spr_asteroid_cluster_mega_h3",
+        path: "sprites/spr_asteroid_cluster_mega_h3/spr_asteroid_cluster_mega_h3.yy",
+      },
+      order: 5,
+    },
+    {
+      id: {
+        name: "spr_asteroid_gravel",
+        path: "sprites/spr_asteroid_gravel/spr_asteroid_gravel.yy",
+      },
+      order: 1,
+    },
+    {
+      id: {
+        name: "spr_asteroid_gravel_large",
+        path: "sprites/spr_asteroid_gravel_large/spr_asteroid_gravel_large.yy",
+      },
+      order: 1,
+    },
+    {
+      id: {
+        name: "spr_asteroid_splitter_medium_fragment_h0",
+        path: "sprites/spr_asteroid_splitter_medium_fragment_h0/spr_asteroid_splitter_medium_fragment_h0.yy",
+      },
+      order: 1,
+    },
+    {
+      id: {
+        name: "spr_asteroid_splitter_medium_fragment_h1",
+        path: "sprites/spr_asteroid_splitter_medium_fragment_h1/spr_asteroid_splitter_medium_fragment_h1.yy",
+      },
+      order: 2,
+    },
+    {
+      id: {
+        name: "spr_asteroid_splitter_medium_fragment_h2",
+        path: "sprites/spr_asteroid_splitter_medium_fragment_h2/spr_asteroid_splitter_medium_fragment_h2.yy",
+      },
+      order: 3,
+    },
+    {
+      id: {
+        name: "spr_asteroid_splitter_medium_fragment_h3",
+        path: "sprites/spr_asteroid_splitter_medium_fragment_h3/spr_asteroid_splitter_medium_fragment_h3.yy",
+      },
+      order: 4,
+    },
+    {
+      id: {
+        name: "spr_asteroid_splitter_medium_h0",
+        path: "sprites/spr_asteroid_splitter_medium_h0/spr_asteroid_splitter_medium_h0.yy",
+      },
+      order: 1,
+    },
+    {
+      id: {
+        name: "spr_asteroid_splitter_medium_h1",
+        path: "sprites/spr_asteroid_splitter_medium_h1/spr_asteroid_splitter_medium_h1.yy",
+      },
+      order: 2,
+    },
+    {
+      id: {
+        name: "spr_asteroid_splitter_medium_h2",
+        path: "sprites/spr_asteroid_splitter_medium_h2/spr_asteroid_splitter_medium_h2.yy",
+      },
+      order: 3,
+    },
+    {
+      id: {
+        name: "spr_asteroid_splitter_medium_h3",
+        path: "sprites/spr_asteroid_splitter_medium_h3/spr_asteroid_splitter_medium_h3.yy",
+      },
+      order: 4,
+    },
+    {
+      id: {
+        name: "spr_background_feature_bright_star",
+        path: "sprites/spr_background_feature_bright_star/spr_background_feature_bright_star.yy",
+      },
+      order: 0,
+    },
+    {
+      id: {
+        name: "spr_background_feature_dim_star",
+        path: "sprites/spr_background_feature_dim_star/spr_background_feature_dim_star.yy",
+      },
+      order: 1,
+    },
+    {
+      id: {
+        name: "spr_bullet",
+        path: "sprites/spr_bullet/spr_bullet.yy",
+      },
+      order: 0,
+    },
+    {
+      id: {
+        name: "spr_bullet_enemy_small",
+        path: "sprites/spr_bullet_enemy_small/spr_bullet_enemy_small.yy",
+      },
+      order: 2,
+    },
+    {
+      id: {
+        name: "spr_bullet_enemy_tiny",
+        path: "sprites/spr_bullet_enemy_tiny/spr_bullet_enemy_tiny.yy",
+      },
+      order: 3,
+    },
+    {
+      id: {
+        name: "spr_dead_player",
+        path: "sprites/spr_dead_player/spr_dead_player.yy",
+      },
+      order: 1,
+    },
+    {
+      id: {
+        name: "spr_debris_asteroid",
+        path: "sprites/spr_debris_asteroid/spr_debris_asteroid.yy",
+      },
+      order: 0,
+    },
+    {
+      id: {
+        name: "spr_debris_droid",
+        path: "sprites/spr_debris_droid/spr_debris_droid.yy",
+      },
+      order: 1,
+    },
+    {
+      id: {
+        name: "spr_debris_platform_core",
+        path: "sprites/spr_debris_platform_core/spr_debris_platform_core.yy",
+      },
+      order: 2,
+    },
+    {
+      id: {
+        name: "spr_droid_rammer_medium_h0",
+        path: "sprites/spr_droid_rammer_medium_h0/spr_droid_rammer_medium_h0.yy",
+      },
+      order: 1,
+    },
+    {
+      id: {
+        name: "spr_droid_rammer_medium_h1",
+        path: "sprites/spr_droid_rammer_medium_h1/spr_droid_rammer_medium_h1.yy",
+      },
+      order: 2,
+    },
+    {
+      id: {
+        name: "spr_droid_rammer_medium_h2",
+        path: "sprites/spr_droid_rammer_medium_h2/spr_droid_rammer_medium_h2.yy",
+      },
+      order: 3,
+    },
+    {
+      id: {
+        name: "spr_droid_rammer_medium_h3",
+        path: "sprites/spr_droid_rammer_medium_h3/spr_droid_rammer_medium_h3.yy",
+      },
+      order: 4,
+    },
+    {
+      id: {
+        name: "spr_droid_rammer_mini_h0",
+        path: "sprites/spr_droid_rammer_mini_h0/spr_droid_rammer_mini_h0.yy",
+      },
+      order: 1,
+    },
+    {
+      id: {
+        name: "spr_droid_rammer_mini_h1",
+        path: "sprites/spr_droid_rammer_mini_h1/spr_droid_rammer_mini_h1.yy",
+      },
+      order: 2,
+    },
+    {
+      id: {
+        name: "spr_droid_rammer_mini_h2",
+        path: "sprites/spr_droid_rammer_mini_h2/spr_droid_rammer_mini_h2.yy",
+      },
+      order: 3,
+    },
+    {
+      id: {
+        name: "spr_droid_rammer_mini_h3",
+        path: "sprites/spr_droid_rammer_mini_h3/spr_droid_rammer_mini_h3.yy",
+      },
+      order: 4,
+    },
+    {
+      id: {
+        name: "spr_droid_straight_shoot_h0",
+        path: "sprites/spr_droid_straight_shoot_h0/spr_droid_straight_shoot_h0.yy",
+      },
+      order: 1,
+    },
+    {
+      id: {
+        name: "spr_droid_straight_shoot_h1",
+        path: "sprites/spr_droid_straight_shoot_h1/spr_droid_straight_shoot_h1.yy",
+      },
+      order: 2,
+    },
+    {
+      id: {
+        name: "spr_droid_straight_shoot_h2",
+        path: "sprites/spr_droid_straight_shoot_h2/spr_droid_straight_shoot_h2.yy",
+      },
+      order: 3,
+    },
+    {
+      id: {
+        name: "spr_droid_straight_shoot_h3",
+        path: "sprites/spr_droid_straight_shoot_h3/spr_droid_straight_shoot_h3.yy",
+      },
+      order: 4,
+    },
+    {
+      id: {
+        name: "spr_droid_straight_shoot_sh",
+        path: "sprites/spr_droid_straight_shoot_sh/spr_droid_straight_shoot_sh.yy",
+      },
+      order: 5,
+    },
+    {
+      id: {
+        name: "spr_droid_straight_shoot_spread_h0",
+        path: "sprites/spr_droid_straight_shoot_spread_h0/spr_droid_straight_shoot_spread_h0.yy",
+      },
+      order: 1,
+    },
+    {
+      id: {
+        name: "spr_droid_straight_shoot_spread_h1",
+        path: "sprites/spr_droid_straight_shoot_spread_h1/spr_droid_straight_shoot_spread_h1.yy",
+      },
+      order: 2,
+    },
+    {
+      id: {
+        name: "spr_droid_straight_shoot_spread_h2",
+        path: "sprites/spr_droid_straight_shoot_spread_h2/spr_droid_straight_shoot_spread_h2.yy",
+      },
+      order: 3,
+    },
+    {
+      id: {
+        name: "spr_droid_straight_shoot_spread_h3",
+        path: "sprites/spr_droid_straight_shoot_spread_h3/spr_droid_straight_shoot_spread_h3.yy",
+      },
+      order: 4,
+    },
+    {
+      id: {
+        name: "spr_droid_straight_shoot_spread_sh",
+        path: "sprites/spr_droid_straight_shoot_spread_sh/spr_droid_straight_shoot_spread_sh.yy",
+      },
+      order: 5,
+    },
+    {
+      id: {
+        name: "spr_pixel",
+        path: "sprites/spr_pixel/spr_pixel.yy",
+      },
+      order: 0,
+    },
+    {
+      id: {
+        name: "spr_platform_core_h0",
+        path: "sprites/spr_platform_core_h0/spr_platform_core_h0.yy",
+      },
+      order: 1,
+    },
+    {
+      id: {
+        name: "spr_platform_core_h1",
+        path: "sprites/spr_platform_core_h1/spr_platform_core_h1.yy",
+      },
+      order: 2,
+    },
+    {
+      id: {
+        name: "spr_platform_core_h2",
+        path: "sprites/spr_platform_core_h2/spr_platform_core_h2.yy",
+      },
+      order: 3,
+    },
+    {
+      id: {
+        name: "spr_platform_core_h3",
+        path: "sprites/spr_platform_core_h3/spr_platform_core_h3.yy",
+      },
+      order: 4,
+    },
+    {
+      id: {
+        name: "spr_platform_core_mini_blue_h0",
+        path: "sprites/spr_platform_core_mini_blue_h0/spr_platform_core_mini_blue_h0.yy",
+      },
+      order: 1,
+    },
+    {
+      id: {
+        name: "spr_platform_core_mini_blue_h1",
+        path: "sprites/spr_platform_core_mini_blue_h1/spr_platform_core_mini_blue_h1.yy",
+      },
+      order: 2,
+    },
+    {
+      id: {
+        name: "spr_platform_core_mini_blue_h2",
+        path: "sprites/spr_platform_core_mini_blue_h2/spr_platform_core_mini_blue_h2.yy",
+      },
+      order: 3,
+    },
+    {
+      id: {
+        name: "spr_platform_core_mini_blue_h3",
+        path: "sprites/spr_platform_core_mini_blue_h3/spr_platform_core_mini_blue_h3.yy",
+      },
+      order: 4,
+    },
+    {
+      id: {
+        name: "spr_platform_core_mini_blue_sh",
+        path: "sprites/spr_platform_core_mini_blue_sh/spr_platform_core_mini_blue_sh.yy",
+      },
+      order: 5,
+    },
+    {
+      id: {
+        name: "spr_platform_core_mini_grey_h0",
+        path: "sprites/spr_platform_core_mini_grey_h0/spr_platform_core_mini_grey_h0.yy",
+      },
+      order: 1,
+    },
+    {
+      id: {
+        name: "spr_platform_core_mini_grey_h1",
+        path: "sprites/spr_platform_core_mini_grey_h1/spr_platform_core_mini_grey_h1.yy",
+      },
+      order: 2,
+    },
+    {
+      id: {
+        name: "spr_platform_core_mini_grey_h2",
+        path: "sprites/spr_platform_core_mini_grey_h2/spr_platform_core_mini_grey_h2.yy",
+      },
+      order: 3,
+    },
+    {
+      id: {
+        name: "spr_platform_core_mini_grey_h3",
+        path: "sprites/spr_platform_core_mini_grey_h3/spr_platform_core_mini_grey_h3.yy",
+      },
+      order: 4,
+    },
+    {
+      id: {
+        name: "spr_platform_core_mini_grey_sh",
+        path: "sprites/spr_platform_core_mini_grey_sh/spr_platform_core_mini_grey_sh.yy",
+      },
+      order: 5,
+    },
+    {
+      id: {
+        name: "spr_platform_core_mini_red_h0",
+        path: "sprites/spr_platform_core_mini_red_h0/spr_platform_core_mini_red_h0.yy",
+      },
+      order: 1,
+    },
+    {
+      id: {
+        name: "spr_platform_core_mini_red_h1",
+        path: "sprites/spr_platform_core_mini_red_h1/spr_platform_core_mini_red_h1.yy",
+      },
+      order: 2,
+    },
+    {
+      id: {
+        name: "spr_platform_core_mini_red_h2",
+        path: "sprites/spr_platform_core_mini_red_h2/spr_platform_core_mini_red_h2.yy",
+      },
+      order: 3,
+    },
+    {
+      id: {
+        name: "spr_platform_core_mini_red_h3",
+        path: "sprites/spr_platform_core_mini_red_h3/spr_platform_core_mini_red_h3.yy",
+      },
+      order: 4,
+    },
+    {
+      id: {
+        name: "spr_platform_core_mini_red_sh",
+        path: "sprites/spr_platform_core_mini_red_sh/spr_platform_core_mini_red_sh.yy",
+      },
+      order: 5,
+    },
+    {
+      id: {
+        name: "spr_platform_core_sh",
+        path: "sprites/spr_platform_core_sh/spr_platform_core_sh.yy",
+      },
+      order: 5,
+    },
+    {
+      id: {
+        name: "spr_platform_ring_0",
+        path: "sprites/spr_platform_ring_0/spr_platform_ring_0.yy",
+      },
+      order: 0,
+    },
+    {
+      id: {
+        name: "spr_player",
+        path: "sprites/spr_player/spr_player.yy",
+      },
+      order: 2,
+    },
+    {
+      id: {
+        name: "spr_powerup_capsule_engine",
+        path: "sprites/spr_powerup_capsule_engine/spr_powerup_capsule_engine.yy",
+      },
+      order: 1,
+    },
+    {
+      id: {
+        name: "spr_powerup_capsule_shields",
+        path: "sprites/spr_powerup_capsule_shields/spr_powerup_capsule_shields.yy",
+      },
+      order: 1,
+    },
+    {
+      id: {
+        name: "spr_powerup_capsule_weapon",
+        path: "sprites/spr_powerup_capsule_weapon/spr_powerup_capsule_weapon.yy",
+      },
+      order: 1,
+    },
+    {
+      id: {
+        name: "spr_powerup_dual_cannon",
+        path: "sprites/spr_powerup_dual_cannon/spr_powerup_dual_cannon.yy",
+      },
+      order: 2,
+    },
+    {
+      id: {
+        name: "spr_powerup_extra_life",
+        path: "sprites/spr_powerup_extra_life/spr_powerup_extra_life.yy",
+      },
+      order: 2,
+    },
+    {
+      id: {
+        name: "spr_powerup_inertial_braking",
+        path: "sprites/spr_powerup_inertial_braking/spr_powerup_inertial_braking.yy",
+      },
+      order: 0,
+    },
+    {
+      id: {
+        name: "spr_powerup_points",
+        path: "sprites/spr_powerup_points/spr_powerup_points.yy",
+      },
+      order: 2,
+    },
+    {
+      id: {
+        name: "spr_powerup_power_shot",
+        path: "sprites/spr_powerup_power_shot/spr_powerup_power_shot.yy",
+      },
+      order: 2,
+    },
+    {
+      id: {
+        name: "spr_powerup_pulse_shot",
+        path: "sprites/spr_powerup_pulse_shot/spr_powerup_pulse_shot.yy",
+      },
+      order: 0,
+    },
+    {
+      id: {
+        name: "spr_powerup_rear_cannon",
+        path: "sprites/spr_powerup_rear_cannon/spr_powerup_rear_cannon.yy",
+      },
+      order: 2,
+    },
+    {
+      id: {
+        name: "spr_powerup_recoil_damping",
+        path: "sprites/spr_powerup_recoil_damping/spr_powerup_recoil_damping.yy",
+      },
+      order: 2,
+    },
+    {
+      id: {
+        name: "spr_powerup_repulsor_shields",
+        path: "sprites/spr_powerup_repulsor_shields/spr_powerup_repulsor_shields.yy",
+      },
+      order: 2,
+    },
+    {
+      id: {
+        name: "spr_powerup_seeking_shot",
+        path: "sprites/spr_powerup_seeking_shot/spr_powerup_seeking_shot.yy",
+      },
+      order: 2,
+    },
+    {
+      id: {
+        name: "spr_powerup_shields",
+        path: "sprites/spr_powerup_shields/spr_powerup_shields.yy",
+      },
+      order: 2,
+    },
+    {
+      id: {
+        name: "spr_powerup_shields_bak",
+        path: "sprites/spr_powerup_shields_bak/spr_powerup_shields_bak.yy",
+      },
+      order: 3,
+    },
+    {
+      id: {
+        name: "spr_powerup_shields_bak2",
+        path: "sprites/spr_powerup_shields_bak2/spr_powerup_shields_bak2.yy",
+      },
+      order: 4,
+    },
+    {
+      id: {
+        name: "spr_powerup_speed_shot",
+        path: "sprites/spr_powerup_speed_shot/spr_powerup_speed_shot.yy",
+      },
+      order: 2,
+    },
+    {
+      id: {
+        name: "spr_powerup_spread_cannon",
+        path: "sprites/spr_powerup_spread_cannon/spr_powerup_spread_cannon.yy",
+      },
+      order: 2,
+    },
+    {
+      id: {
+        name: "spr_powerup_thrust_up",
+        path: "sprites/spr_powerup_thrust_up/spr_powerup_thrust_up.yy",
+      },
+      order: 2,
+    },
+    {
+      id: {
+        name: "spr_powerup_torpedo",
+        path: "sprites/spr_powerup_torpedo/spr_powerup_torpedo.yy",
+      },
+      order: 0,
+    },
+    {
+      id: {
+        name: "spr_powerup_turning_up",
+        path: "sprites/spr_powerup_turning_up/spr_powerup_turning_up.yy",
+      },
+      order: 2,
+    },
+    {
+      id: {
+        name: "spr_powerup_void_shot",
+        path: "sprites/spr_powerup_void_shot/spr_powerup_void_shot.yy",
+      },
+      order: 2,
+    },
+  ],
+  Options: [
+    {
+      name: "HTML5",
+      path: "options/html5/options_html5.yy",
+    },
+    {
+      name: "Linux",
+      path: "options/linux/options_linux.yy",
+    },
+    {
+      name: "macOS",
+      path: "options/mac/options_mac.yy",
+    },
+    {
+      name: "Main",
+      path: "options/main/options_main.yy",
+    },
+    {
+      name: "operagx",
+      path: "options/operagx/options_operagx.yy",
+    },
+    {
+      name: "Windows",
+      path: "options/windows/options_windows.yy",
+    },
+  ],
+  isDnDProject: false,
+  isEcma: false,
+  tutorialPath: "",
+  configs: {
+    name: "Default",
+    children: [],
+  },
+  RoomOrderNodes: [
+    {
+      roomId: {
+        name: "rm_game",
+        path: "rooms/rm_game/rm_game.yy",
+      },
+    },
+    {
+      roomId: {
+        name: "rm_initialization",
+        path: "rooms/rm_initialization/rm_initialization.yy",
+      },
+    },
+  ],
+  Folders: [
+    {
+      folderPath: "folders/Animation Curves.yy",
+      order: 0,
+      resourceVersion: "",
+      name: "Animation Curves",
+      tags: [],
+      resourceType: "GMFolder",
+    },
+    {
+      folderPath: "folders/Fonts.yy",
+      order: 1,
+      resourceVersion: "",
+      name: "Fonts",
+      tags: [],
+      resourceType: "GMFolder",
+    },
+    {
+      folderPath: "folders/Objects.yy",
+      order: 2,
+      resourceVersion: "",
+      name: "Objects",
+      tags: [],
+      resourceType: "GMFolder",
+    },
+    {
+      folderPath: "folders/Objects/Utility Objects.yy",
+      order: 0,
+      resourceVersion: "",
+      name: "Utility Objects",
+      tags: [],
+      resourceType: "GMFolder",
+    },
+    {
+      folderPath: "folders/Objects/Enemies.yy",
+      order: 1,
+      resourceVersion: "",
+      name: "Enemies",
+      tags: [],
+      resourceType: "GMFolder",
+    },
+    {
+      folderPath: "folders/Objects/Enemies/Asterdroids.yy",
+      order: 0,
+      resourceVersion: "",
+      name: "Asterdroids",
+      tags: [],
+      resourceType: "GMFolder",
+    },
+    {
+      folderPath: "folders/Objects/Enemies/Asterdroids/asterdroid_shielded.yy",
+      order: 0,
+      resourceVersion: "",
+      name: "asterdroid_shielded",
+      tags: [],
+      resourceType: "GMFolder",
+    },
+    {
+      folderPath: "folders/Objects/Enemies/Asterdroids/asterdroid_shooter_small.yy",
+      order: 1,
+      resourceVersion: "",
+      name: "asterdroid_shooter_small",
+      tags: [],
+      resourceType: "GMFolder",
+    },
+    {
+      folderPath: "folders/Objects/Enemies/Asteroids.yy",
+      order: 1,
+      resourceVersion: "",
+      name: "Asteroids",
+      tags: [],
+      resourceType: "GMFolder",
+    },
+    {
+      folderPath: "folders/Objects/Enemies/Asteroids/asteroid_armoured.yy",
+      order: 0,
+      resourceVersion: "",
+      name: "asteroid_armoured",
+      tags: [],
+      resourceType: "GMFolder",
+    },
+    {
+      folderPath: "folders/Objects/Enemies/Asteroids/asteroid_basic.yy",
+      order: 1,
+      resourceVersion: "",
+      name: "asteroid_basic",
+      tags: [],
+      resourceType: "GMFolder",
+    },
+    {
+      folderPath: "folders/Objects/Enemies/Droids.yy",
+      order: 2,
+      resourceVersion: "",
+      name: "Droids",
+      tags: [],
+      resourceType: "GMFolder",
+    },
+    {
+      folderPath: "folders/Objects/Enemies/Droids/asteroid_carrier.yy",
+      order: 0,
+      resourceVersion: "",
+      name: "asteroid_carrier",
+      tags: [],
+      resourceType: "GMFolder",
+    },
+    {
+      folderPath: "folders/Objects/Enemies/Asteroids/asteroid_cluster_mega.yy",
+      order: 2,
+      resourceVersion: "",
+      name: "asteroid_cluster_mega",
+      tags: [],
+      resourceType: "GMFolder",
+    },
+    {
+      folderPath: "folders/Objects/Enemies/Asteroids/asteroid_gravel.yy",
+      order: 3,
+      resourceVersion: "",
+      name: "asteroid_gravel",
+      tags: [],
+      resourceType: "GMFolder",
+    },
+    {
+      folderPath: "folders/Objects/Enemies/Asteroids/asteroid_gravel_large.yy",
+      order: 4,
+      resourceVersion: "",
+      name: "asteroid_gravel_large",
+      tags: [],
+      resourceType: "GMFolder",
+    },
+    {
+      folderPath: "folders/Objects/Enemies/Asteroids/asteroid_splitter_medium.yy",
+      order: 5,
+      resourceVersion: "",
+      name: "asteroid_splitter_medium",
+      tags: [],
+      resourceType: "GMFolder",
+    },
+    {
+      folderPath: "folders/Objects/Enemies/Asteroids/asteroid_splitter_medium_fragment.yy",
+      order: 6,
+      resourceVersion: "",
+      name: "asteroid_splitter_medium_fragment",
+      tags: [],
+      resourceType: "GMFolder",
+    },
+    {
+      folderPath: "folders/Background Machinery.yy",
+      order: 3,
+      resourceVersion: "",
+      name: "Background Machinery",
+      tags: [],
+      resourceType: "GMFolder",
+    },
+    {
+      folderPath: "folders/Background Machinery/Colour Control.yy",
+      order: 0,
+      resourceVersion: "",
+      name: "Colour Control",
+      tags: [],
+      resourceType: "GMFolder",
+    },
+    {
+      folderPath: "folders/Background Machinery/Background Features.yy",
+      order: 1,
+      resourceVersion: "",
+      name: "Background Features",
+      tags: [],
+      resourceType: "GMFolder",
+    },
+    {
+      folderPath: "folders/Objects/Base Objects.yy",
+      order: 2,
+      resourceVersion: "",
+      name: "Base Objects",
+      tags: [],
+      resourceType: "GMFolder",
+    },
+    {
+      folderPath: "folders/Objects/Base Objects/Categories.yy",
+      order: 6,
+      resourceVersion: "",
+      name: "Categories",
+      tags: [],
+      resourceType: "GMFolder",
+    },
+    {
+      folderPath: "folders/Scripts.yy",
+      order: 4,
+      resourceVersion: "",
+      name: "Scripts",
+      tags: [],
+      resourceType: "GMFolder",
+    },
+    {
+      folderPath: "folders/Scripts/Attacks.yy",
+      order: 0,
+      resourceVersion: "",
+      name: "Attacks",
+      tags: [],
+      resourceType: "GMFolder",
+    },
+    {
+      folderPath: "folders/Objects/Projectiles.yy",
+      order: 3,
+      resourceVersion: "",
+      name: "Projectiles",
+      tags: [],
+      resourceType: "GMFolder",
+    },
+    {
+      folderPath: "folders/Objects/Projectiles/Enemy Bullets.yy",
+      order: 0,
+      resourceVersion: "",
+      name: "Enemy Bullets",
+      tags: [],
+      resourceType: "GMFolder",
+    },
+    {
+      folderPath: "folders/Objects/Projectiles/Player Projectiles.yy",
+      order: 1,
+      resourceVersion: "",
+      name: "Player Projectiles",
+      tags: [],
+      resourceType: "GMFolder",
+    },
+    {
+      folderPath: "folders/Housekeeping.yy",
+      order: 5,
+      resourceVersion: "",
+      name: "Housekeeping",
+      tags: [],
+      resourceType: "GMFolder",
+    },
+    {
+      folderPath: "folders/Objects/Player.yy",
+      order: 4,
+      resourceVersion: "",
+      name: "Player",
+      tags: [],
+      resourceType: "GMFolder",
+    },
+    {
+      folderPath: "folders/Objects/Enemies/Droids/droid_rammer_medium.yy",
+      order: 1,
+      resourceVersion: "",
+      name: "droid_rammer_medium",
+      tags: [],
+      resourceType: "GMFolder",
+    },
+    {
+      folderPath: "folders/Objects/Enemies/Droids/droid_rammer_mini.yy",
+      order: 2,
+      resourceVersion: "",
+      name: "droid_rammer_mini",
+      tags: [],
+      resourceType: "GMFolder",
+    },
+    {
+      folderPath: "folders/Objects/Enemies/Droids/droid_straight_shoot.yy",
+      order: 3,
+      resourceVersion: "",
+      name: "droid_straight_shoot",
+      tags: [],
+      resourceType: "GMFolder",
+    },
+    {
+      folderPath: "folders/Objects/Enemies/Droids/droid_straight_shoot_spread.yy",
+      order: 4,
+      resourceVersion: "",
+      name: "droid_straight_shoot_spread",
+      tags: [],
+      resourceType: "GMFolder",
+    },
+    {
+      folderPath: "folders/Packages.yy",
+      order: 6,
+      resourceVersion: "",
+      name: "Packages",
+      tags: [],
+      resourceType: "GMFolder",
+    },
+    {
+      folderPath: "folders/Objects/Enemies/Platforms.yy",
+      order: 3,
+      resourceVersion: "",
+      name: "Platforms",
+      tags: [],
+      resourceType: "GMFolder",
+    },
+    {
+      folderPath: "folders/Objects/Enemies/Platforms/Cores.yy",
+      order: 0,
+      resourceVersion: "",
+      name: "Cores",
+      tags: [],
+      resourceType: "GMFolder",
+    },
+    {
+      folderPath: "folders/Objects/Enemies/Platforms/Cores/Core.yy",
+      order: 0,
+      resourceVersion: "",
+      name: "Core",
+      tags: [],
+      resourceType: "GMFolder",
+    },
+    {
+      folderPath: "folders/Objects/Enemies/Platforms/Cores/Mini-Core: Blue.yy",
+      order: 1,
+      resourceVersion: "",
+      name: "Mini-Core: Blue",
+      tags: [],
+      resourceType: "GMFolder",
+    },
+    {
+      folderPath: "folders/Objects/Enemies/Platforms/Cores/Mini-Core: Grey.yy",
+      order: 2,
+      resourceVersion: "",
+      name: "Mini-Core: Grey",
+      tags: [],
+      resourceType: "GMFolder",
+    },
+    {
+      folderPath: "folders/Objects/Enemies/Platforms/Cores/Mini-Core: Red.yy",
+      order: 3,
+      resourceVersion: "",
+      name: "Mini-Core: Red",
+      tags: [],
+      resourceType: "GMFolder",
+    },
+    {
+      folderPath: "folders/Objects/Enemies/Powerup Capsules.yy",
+      order: 4,
+      resourceVersion: "",
+      name: "Powerup Capsules",
+      tags: [],
+      resourceType: "GMFolder",
+    },
+    {
+      folderPath: "folders/Objects/Enemies/Powerup Capsules/powerup_capsule_engines.yy",
+      order: 0,
+      resourceVersion: "",
+      name: "powerup_capsule_engines",
+      tags: [],
+      resourceType: "GMFolder",
+    },
+    {
+      folderPath: "folders/Objects/Enemies/Powerup Capsules/powerup_capsule_shields.yy",
+      order: 1,
+      resourceVersion: "",
+      name: "powerup_capsule_shields",
+      tags: [],
+      resourceType: "GMFolder",
+    },
+    {
+      folderPath: "folders/Objects/Enemies/Powerup Capsules/powerup_capsule_weapon.yy",
+      order: 2,
+      resourceVersion: "",
+      name: "powerup_capsule_weapon",
+      tags: [],
+      resourceType: "GMFolder",
+    },
+    {
+      folderPath: "folders/Objects/Powerups.yy",
+      order: 5,
+      resourceVersion: "",
+      name: "Powerups",
+      tags: [],
+      resourceType: "GMFolder",
+    },
+    {
+      folderPath: "folders/Objects/Powerups/Cannons.yy",
+      order: 0,
+      resourceVersion: "",
+      name: "Cannons",
+      tags: [],
+      resourceType: "GMFolder",
+    },
+    {
+      folderPath: "folders/Objects/Powerups/Cannons/Dual-Shot.yy",
+      order: 0,
+      resourceVersion: "",
+      name: "Dual-Shot",
+      tags: [],
+      resourceType: "GMFolder",
+    },
+    {
+      folderPath: "folders/Objects/Powerups/Modules.yy",
+      order: 1,
+      resourceVersion: "",
+      name: "Modules",
+      tags: [],
+      resourceType: "GMFolder",
+    },
+    {
+      folderPath: "folders/Objects/Powerups/Modules/Extra Life.yy",
+      order: 0,
+      resourceVersion: "",
+      name: "Extra Life",
+      tags: [],
+      resourceType: "GMFolder",
+    },
+    {
+      folderPath: "folders/Objects/Powerups/Modules/Points.yy",
+      order: 1,
+      resourceVersion: "",
+      name: "Points",
+      tags: [],
+      resourceType: "GMFolder",
+    },
+    {
+      folderPath: "folders/Objects/Powerups/Weapons.yy",
+      order: 2,
+      resourceVersion: "",
+      name: "Weapons",
+      tags: [],
+      resourceType: "GMFolder",
+    },
+    {
+      folderPath: "folders/Objects/Powerups/Weapons/Power-Shot.yy",
+      order: 0,
+      resourceVersion: "",
+      name: "Power-Shot",
+      tags: [],
+      resourceType: "GMFolder",
+    },
+    {
+      folderPath: "folders/Objects/Powerups/Cannons/Rear-Shot.yy",
+      order: 1,
+      resourceVersion: "",
+      name: "Rear-Shot",
+      tags: [],
+      resourceType: "GMFolder",
+    },
+    {
+      folderPath: "folders/Objects/Powerups/Engines.yy",
+      order: 3,
+      resourceVersion: "",
+      name: "Engines",
+      tags: [],
+      resourceType: "GMFolder",
+    },
+    {
+      folderPath: "folders/Objects/Powerups/Engines/Recoil Damping.yy",
+      order: 0,
+      resourceVersion: "",
+      name: "Recoil Damping",
+      tags: [],
+      resourceType: "GMFolder",
+    },
+    {
+      folderPath: "folders/Objects/Powerups/Modules/Repulsor Shields.yy",
+      order: 2,
+      resourceVersion: "",
+      name: "Repulsor Shields",
+      tags: [],
+      resourceType: "GMFolder",
+    },
+    {
+      folderPath: "folders/Objects/Powerups/Weapons/Seeking-Shot.yy",
+      order: 1,
+      resourceVersion: "",
+      name: "Seeking-Shot",
+      tags: [],
+      resourceType: "GMFolder",
+    },
+    {
+      folderPath: "folders/Objects/Powerups/Modules/Shields.yy",
+      order: 3,
+      resourceVersion: "",
+      name: "Shields",
+      tags: [],
+      resourceType: "GMFolder",
+    },
+    {
+      folderPath: "folders/Objects/Powerups/Weapons/Speed-Shot.yy",
+      order: 2,
+      resourceVersion: "",
+      name: "Speed-Shot",
+      tags: [],
+      resourceType: "GMFolder",
+    },
+    {
+      folderPath: "folders/Objects/Powerups/Cannons/Spread-Shot.yy",
+      order: 2,
+      resourceVersion: "",
+      name: "Spread-Shot",
+      tags: [],
+      resourceType: "GMFolder",
+    },
+    {
+      folderPath: "folders/Objects/Powerups/Engines/Thrust Up.yy",
+      order: 1,
+      resourceVersion: "",
+      name: "Thrust Up",
+      tags: [],
+      resourceType: "GMFolder",
+    },
+    {
+      folderPath: "folders/Objects/Powerups/Engines/Turning Up.yy",
+      order: 2,
+      resourceVersion: "",
+      name: "Turning Up",
+      tags: [],
+      resourceType: "GMFolder",
+    },
+    {
+      folderPath: "folders/Objects/Powerups/Weapons/Void-Shot.yy",
+      order: 3,
+      resourceVersion: "",
+      name: "Void-Shot",
+      tags: [],
+      resourceType: "GMFolder",
+    },
+    {
+      folderPath: "folders/Rooms.yy",
+      order: 7,
+      resourceVersion: "",
+      name: "Rooms",
+      tags: [],
+      resourceType: "GMFolder",
+    },
+    {
+      folderPath: "folders/Scripts/Environment.yy",
+      order: 1,
+      resourceVersion: "",
+      name: "Environment",
+      tags: [],
+      resourceType: "GMFolder",
+    },
+    {
+      folderPath: "folders/Scripts/Environment/Screen Effects.yy",
+      order: 0,
+      resourceVersion: "",
+      name: "Screen Effects",
+      tags: [],
+      resourceType: "GMFolder",
+    },
+    {
+      folderPath: "folders/Scripts/Entities.yy",
+      order: 2,
+      resourceVersion: "",
+      name: "Entities",
+      tags: [],
+      resourceType: "GMFolder",
+    },
+    {
+      folderPath: "folders/Scripts/Utilities.yy",
+      order: 3,
+      resourceVersion: "",
+      name: "Utilities",
+      tags: [],
+      resourceType: "GMFolder",
+    },
+    {
+      folderPath: "folders/Scripts/Utilities/Collisions.yy",
+      order: 1,
+      resourceVersion: "",
+      name: "Collisions",
+      tags: [],
+      resourceType: "GMFolder",
+    },
+    {
+      folderPath: "folders/Background Machinery/Scripts.yy",
+      order: 3,
+      resourceVersion: "",
+      name: "Scripts",
+      tags: [],
+      resourceType: "GMFolder",
+    },
+    {
+      folderPath: "folders/Scripts/Entities/Enemies.yy",
+      order: 1,
+      resourceVersion: "",
+      name: "Enemies",
+      tags: [],
+      resourceType: "GMFolder",
+    },
+    {
+      folderPath: "folders/Scripts/Entities/Player.yy",
+      order: 2,
+      resourceVersion: "",
+      name: "Player",
+      tags: [],
+      resourceType: "GMFolder",
+    },
+    {
+      folderPath: "folders/Scripts/Powerups.yy",
+      order: 4,
+      resourceVersion: "",
+      name: "Powerups",
+      tags: [],
+      resourceType: "GMFolder",
+    },
+    {
+      folderPath: "folders/Scripts/Utilities/Vectors.yy",
+      order: 3,
+      resourceVersion: "",
+      name: "Vectors",
+      tags: [],
+      resourceType: "GMFolder",
+    },
+    {
+      folderPath: "folders/Wave Spawning.yy",
+      order: 8,
+      resourceVersion: "",
+      name: "Wave Spawning",
+      tags: [],
+      resourceType: "GMFolder",
+    },
+    {
+      folderPath: "folders/Shaders.yy",
+      order: 9,
+      resourceVersion: "",
+      name: "Shaders",
+      tags: [],
+      resourceType: "GMFolder",
+    },
+    {
+      folderPath: "folders/Sounds.yy",
+      order: 10,
+      resourceVersion: "",
+      name: "Sounds",
+      tags: [],
+      resourceType: "GMFolder",
+    },
+    {
+      folderPath: "folders/Objects/Projectiles/Sound Effects.yy",
+      order: 4,
+      resourceVersion: "",
+      name: "Sound Effects",
+      tags: [],
+      resourceType: "GMFolder",
+    },
+    {
+      folderPath: "folders/Background Machinery/Background Features/Stand-Alone Sprites.yy",
+      order: 3,
+      resourceVersion: "",
+      name: "Stand-Alone Sprites",
+      tags: [],
+      resourceType: "GMFolder",
+    },
+    {
+      folderPath: "folders/Sprites.yy",
+      order: 11,
+      resourceVersion: "",
+      name: "Sprites",
+      tags: [],
+      resourceType: "GMFolder",
+    },
+    {
+      folderPath: "folders/Sprites/Player.yy",
+      order: 0,
+      resourceVersion: "",
+      name: "Player",
+      tags: [],
+      resourceType: "GMFolder",
+    },
+    {
+      folderPath: "folders/Sprites/Debris.yy",
+      order: 1,
+      resourceVersion: "",
+      name: "Debris",
+      tags: [],
+      resourceType: "GMFolder",
+    },
+    {
+      folderPath: "folders/Sprites/Utility Sprites.yy",
+      order: 2,
+      resourceVersion: "",
+      name: "Utility Sprites",
+      tags: [],
+      resourceType: "GMFolder",
+    },
+    {
+      folderPath: "folders/Objects/Enemies/Platforms/Rings.yy",
+      order: 1,
+      resourceVersion: "",
+      name: "Rings",
+      tags: [],
+      resourceType: "GMFolder",
+    },
+    {
+      folderPath: "folders/Objects/Enemies/Platforms/Rings/platform_ring_0.yy",
+      order: 0,
+      resourceVersion: "",
+      name: "platform_ring_0",
+      tags: [],
+      resourceType: "GMFolder",
+    },
+    {
+      folderPath: "folders/Objects/Powerups/Modules/Interial Braking.yy",
+      order: 4,
+      resourceVersion: "",
+      name: "Interial Braking",
+      tags: [],
+      resourceType: "GMFolder",
+    },
+    {
+      folderPath: "folders/Objects/Powerups/Weapons/Pulse-Shot.yy",
+      order: 4,
+      resourceVersion: "",
+      name: "Pulse-Shot",
+      tags: [],
+      resourceType: "GMFolder",
+    },
+    {
+      folderPath: "folders/Objects/Powerups/Weapons/Torpedo.yy",
+      order: 5,
+      resourceVersion: "",
+      name: "Torpedo",
+      tags: [],
+      resourceType: "GMFolder",
+    },
+  ],
+  AudioGroups: [
+    {
+      targets: -1,
+      resourceVersion: "",
+      name: "audiogroup_default",
+      resourceType: "GMAudioGroup",
+    },
+  ],
+  TextureGroups: [
+    {
+      isScaled: true,
+      autocrop: true,
+      border: 2,
+      mipsToGenerate: 0,
+      groupParent: null,
+      targets: -1,
+      resourceVersion: "",
+      name: "Default",
+      resourceType: "GMTextureGroup",
+    },
+  ],
+  IncludedFiles: [],
+  MetaData: {
+    IDEVersion: "",
+  },
+  resourceVersion: "",
+  name: "Rock-Popper-Deluxe",
+  tags: [],
+  resourceType: "GMProject",
+}

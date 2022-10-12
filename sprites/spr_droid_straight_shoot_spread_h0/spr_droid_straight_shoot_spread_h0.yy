@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_droid_straight_shoot_spread_h0",
   "bboxMode": 2,
   "collisionKind": 5,
   "type": 0,
@@ -14,6 +17,7 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
+  "DynamicTexturePage": false,
   "width": 70,
   "height": 70,
   "textureGroupId": {
@@ -24,57 +28,27 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"08e1f52d-f7b8-4505-8dc5-361bf1cbbb68","path":"sprites/spr_droid_straight_shoot_spread_h0/spr_droid_straight_shoot_spread_h0.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"08e1f52d-f7b8-4505-8dc5-361bf1cbbb68","path":"sprites/spr_droid_straight_shoot_spread_h0/spr_droid_straight_shoot_spread_h0.yy",},"LayerId":{"name":"fa2a7c98-6d8b-4531-811c-1d1aa30ea7bf","path":"sprites/spr_droid_straight_shoot_spread_h0/spr_droid_straight_shoot_spread_h0.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_droid_straight_shoot_spread_h0","path":"sprites/spr_droid_straight_shoot_spread_h0/spr_droid_straight_shoot_spread_h0.yy",},"resourceVersion":"1.0","name":"08e1f52d-f7b8-4505-8dc5-361bf1cbbb68","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"8ae95e82-9497-430f-b4cc-e27116e2dbb8","path":"sprites/spr_droid_straight_shoot_spread_h0/spr_droid_straight_shoot_spread_h0.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"8ae95e82-9497-430f-b4cc-e27116e2dbb8","path":"sprites/spr_droid_straight_shoot_spread_h0/spr_droid_straight_shoot_spread_h0.yy",},"LayerId":{"name":"fa2a7c98-6d8b-4531-811c-1d1aa30ea7bf","path":"sprites/spr_droid_straight_shoot_spread_h0/spr_droid_straight_shoot_spread_h0.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_droid_straight_shoot_spread_h0","path":"sprites/spr_droid_straight_shoot_spread_h0/spr_droid_straight_shoot_spread_h0.yy",},"resourceVersion":"1.0","name":"8ae95e82-9497-430f-b4cc-e27116e2dbb8","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"9e439f01-c28a-4a97-8256-654d031ee8c4","path":"sprites/spr_droid_straight_shoot_spread_h0/spr_droid_straight_shoot_spread_h0.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"9e439f01-c28a-4a97-8256-654d031ee8c4","path":"sprites/spr_droid_straight_shoot_spread_h0/spr_droid_straight_shoot_spread_h0.yy",},"LayerId":{"name":"fa2a7c98-6d8b-4531-811c-1d1aa30ea7bf","path":"sprites/spr_droid_straight_shoot_spread_h0/spr_droid_straight_shoot_spread_h0.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_droid_straight_shoot_spread_h0","path":"sprites/spr_droid_straight_shoot_spread_h0/spr_droid_straight_shoot_spread_h0.yy",},"resourceVersion":"1.0","name":"9e439f01-c28a-4a97-8256-654d031ee8c4","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"71c7449d-ad06-4d49-bc80-85efd0cff1d6","path":"sprites/spr_droid_straight_shoot_spread_h0/spr_droid_straight_shoot_spread_h0.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"71c7449d-ad06-4d49-bc80-85efd0cff1d6","path":"sprites/spr_droid_straight_shoot_spread_h0/spr_droid_straight_shoot_spread_h0.yy",},"LayerId":{"name":"fa2a7c98-6d8b-4531-811c-1d1aa30ea7bf","path":"sprites/spr_droid_straight_shoot_spread_h0/spr_droid_straight_shoot_spread_h0.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_droid_straight_shoot_spread_h0","path":"sprites/spr_droid_straight_shoot_spread_h0/spr_droid_straight_shoot_spread_h0.yy",},"resourceVersion":"1.0","name":"71c7449d-ad06-4d49-bc80-85efd0cff1d6","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"87f1a5e0-c707-4c87-b348-b55baa7231d4","path":"sprites/spr_droid_straight_shoot_spread_h0/spr_droid_straight_shoot_spread_h0.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"87f1a5e0-c707-4c87-b348-b55baa7231d4","path":"sprites/spr_droid_straight_shoot_spread_h0/spr_droid_straight_shoot_spread_h0.yy",},"LayerId":{"name":"fa2a7c98-6d8b-4531-811c-1d1aa30ea7bf","path":"sprites/spr_droid_straight_shoot_spread_h0/spr_droid_straight_shoot_spread_h0.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_droid_straight_shoot_spread_h0","path":"sprites/spr_droid_straight_shoot_spread_h0/spr_droid_straight_shoot_spread_h0.yy",},"resourceVersion":"1.0","name":"87f1a5e0-c707-4c87-b348-b55baa7231d4","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"50a0f586-b831-4088-bd0d-e94208313cd2","path":"sprites/spr_droid_straight_shoot_spread_h0/spr_droid_straight_shoot_spread_h0.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"50a0f586-b831-4088-bd0d-e94208313cd2","path":"sprites/spr_droid_straight_shoot_spread_h0/spr_droid_straight_shoot_spread_h0.yy",},"LayerId":{"name":"fa2a7c98-6d8b-4531-811c-1d1aa30ea7bf","path":"sprites/spr_droid_straight_shoot_spread_h0/spr_droid_straight_shoot_spread_h0.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_droid_straight_shoot_spread_h0","path":"sprites/spr_droid_straight_shoot_spread_h0/spr_droid_straight_shoot_spread_h0.yy",},"resourceVersion":"1.0","name":"50a0f586-b831-4088-bd0d-e94208313cd2","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"e10be0b2-e596-4caf-a27d-405e8f5e1248","path":"sprites/spr_droid_straight_shoot_spread_h0/spr_droid_straight_shoot_spread_h0.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"e10be0b2-e596-4caf-a27d-405e8f5e1248","path":"sprites/spr_droid_straight_shoot_spread_h0/spr_droid_straight_shoot_spread_h0.yy",},"LayerId":{"name":"fa2a7c98-6d8b-4531-811c-1d1aa30ea7bf","path":"sprites/spr_droid_straight_shoot_spread_h0/spr_droid_straight_shoot_spread_h0.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_droid_straight_shoot_spread_h0","path":"sprites/spr_droid_straight_shoot_spread_h0/spr_droid_straight_shoot_spread_h0.yy",},"resourceVersion":"1.0","name":"e10be0b2-e596-4caf-a27d-405e8f5e1248","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"867c2f95-bbed-48f0-af3e-8d493971a3a7","path":"sprites/spr_droid_straight_shoot_spread_h0/spr_droid_straight_shoot_spread_h0.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"867c2f95-bbed-48f0-af3e-8d493971a3a7","path":"sprites/spr_droid_straight_shoot_spread_h0/spr_droid_straight_shoot_spread_h0.yy",},"LayerId":{"name":"fa2a7c98-6d8b-4531-811c-1d1aa30ea7bf","path":"sprites/spr_droid_straight_shoot_spread_h0/spr_droid_straight_shoot_spread_h0.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_droid_straight_shoot_spread_h0","path":"sprites/spr_droid_straight_shoot_spread_h0/spr_droid_straight_shoot_spread_h0.yy",},"resourceVersion":"1.0","name":"867c2f95-bbed-48f0-af3e-8d493971a3a7","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"24fb103a-a60d-4bdb-9a6d-9faf2376c5bc","path":"sprites/spr_droid_straight_shoot_spread_h0/spr_droid_straight_shoot_spread_h0.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"24fb103a-a60d-4bdb-9a6d-9faf2376c5bc","path":"sprites/spr_droid_straight_shoot_spread_h0/spr_droid_straight_shoot_spread_h0.yy",},"LayerId":{"name":"fa2a7c98-6d8b-4531-811c-1d1aa30ea7bf","path":"sprites/spr_droid_straight_shoot_spread_h0/spr_droid_straight_shoot_spread_h0.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_droid_straight_shoot_spread_h0","path":"sprites/spr_droid_straight_shoot_spread_h0/spr_droid_straight_shoot_spread_h0.yy",},"resourceVersion":"1.0","name":"24fb103a-a60d-4bdb-9a6d-9faf2376c5bc","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"b1ad9eec-d249-4231-b8a6-28c0f6b5d858","path":"sprites/spr_droid_straight_shoot_spread_h0/spr_droid_straight_shoot_spread_h0.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"b1ad9eec-d249-4231-b8a6-28c0f6b5d858","path":"sprites/spr_droid_straight_shoot_spread_h0/spr_droid_straight_shoot_spread_h0.yy",},"LayerId":{"name":"fa2a7c98-6d8b-4531-811c-1d1aa30ea7bf","path":"sprites/spr_droid_straight_shoot_spread_h0/spr_droid_straight_shoot_spread_h0.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_droid_straight_shoot_spread_h0","path":"sprites/spr_droid_straight_shoot_spread_h0/spr_droid_straight_shoot_spread_h0.yy",},"resourceVersion":"1.0","name":"b1ad9eec-d249-4231-b8a6-28c0f6b5d858","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"72cf1245-8e1a-44e2-8ffa-f233a48f7dcd","path":"sprites/spr_droid_straight_shoot_spread_h0/spr_droid_straight_shoot_spread_h0.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"72cf1245-8e1a-44e2-8ffa-f233a48f7dcd","path":"sprites/spr_droid_straight_shoot_spread_h0/spr_droid_straight_shoot_spread_h0.yy",},"LayerId":{"name":"fa2a7c98-6d8b-4531-811c-1d1aa30ea7bf","path":"sprites/spr_droid_straight_shoot_spread_h0/spr_droid_straight_shoot_spread_h0.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_droid_straight_shoot_spread_h0","path":"sprites/spr_droid_straight_shoot_spread_h0/spr_droid_straight_shoot_spread_h0.yy",},"resourceVersion":"1.0","name":"72cf1245-8e1a-44e2-8ffa-f233a48f7dcd","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"33ae0f4f-a8c9-4ee5-87ea-d08e1fb8d40b","path":"sprites/spr_droid_straight_shoot_spread_h0/spr_droid_straight_shoot_spread_h0.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"33ae0f4f-a8c9-4ee5-87ea-d08e1fb8d40b","path":"sprites/spr_droid_straight_shoot_spread_h0/spr_droid_straight_shoot_spread_h0.yy",},"LayerId":{"name":"fa2a7c98-6d8b-4531-811c-1d1aa30ea7bf","path":"sprites/spr_droid_straight_shoot_spread_h0/spr_droid_straight_shoot_spread_h0.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_droid_straight_shoot_spread_h0","path":"sprites/spr_droid_straight_shoot_spread_h0/spr_droid_straight_shoot_spread_h0.yy",},"resourceVersion":"1.0","name":"33ae0f4f-a8c9-4ee5-87ea-d08e1fb8d40b","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"f76c99c4-877f-4966-8d0f-40b9200ce590","path":"sprites/spr_droid_straight_shoot_spread_h0/spr_droid_straight_shoot_spread_h0.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"f76c99c4-877f-4966-8d0f-40b9200ce590","path":"sprites/spr_droid_straight_shoot_spread_h0/spr_droid_straight_shoot_spread_h0.yy",},"LayerId":{"name":"fa2a7c98-6d8b-4531-811c-1d1aa30ea7bf","path":"sprites/spr_droid_straight_shoot_spread_h0/spr_droid_straight_shoot_spread_h0.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_droid_straight_shoot_spread_h0","path":"sprites/spr_droid_straight_shoot_spread_h0/spr_droid_straight_shoot_spread_h0.yy",},"resourceVersion":"1.0","name":"f76c99c4-877f-4966-8d0f-40b9200ce590","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"1e193e28-a7ef-4a39-9d63-2b7bc73b05d9","path":"sprites/spr_droid_straight_shoot_spread_h0/spr_droid_straight_shoot_spread_h0.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"1e193e28-a7ef-4a39-9d63-2b7bc73b05d9","path":"sprites/spr_droid_straight_shoot_spread_h0/spr_droid_straight_shoot_spread_h0.yy",},"LayerId":{"name":"fa2a7c98-6d8b-4531-811c-1d1aa30ea7bf","path":"sprites/spr_droid_straight_shoot_spread_h0/spr_droid_straight_shoot_spread_h0.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_droid_straight_shoot_spread_h0","path":"sprites/spr_droid_straight_shoot_spread_h0/spr_droid_straight_shoot_spread_h0.yy",},"resourceVersion":"1.0","name":"1e193e28-a7ef-4a39-9d63-2b7bc73b05d9","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"4a7e6126-1409-4344-942f-0c177a80c7c5","path":"sprites/spr_droid_straight_shoot_spread_h0/spr_droid_straight_shoot_spread_h0.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"4a7e6126-1409-4344-942f-0c177a80c7c5","path":"sprites/spr_droid_straight_shoot_spread_h0/spr_droid_straight_shoot_spread_h0.yy",},"LayerId":{"name":"fa2a7c98-6d8b-4531-811c-1d1aa30ea7bf","path":"sprites/spr_droid_straight_shoot_spread_h0/spr_droid_straight_shoot_spread_h0.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_droid_straight_shoot_spread_h0","path":"sprites/spr_droid_straight_shoot_spread_h0/spr_droid_straight_shoot_spread_h0.yy",},"resourceVersion":"1.0","name":"4a7e6126-1409-4344-942f-0c177a80c7c5","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"df63aa18-8922-47cf-8ef7-122849456e5a","path":"sprites/spr_droid_straight_shoot_spread_h0/spr_droid_straight_shoot_spread_h0.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"df63aa18-8922-47cf-8ef7-122849456e5a","path":"sprites/spr_droid_straight_shoot_spread_h0/spr_droid_straight_shoot_spread_h0.yy",},"LayerId":{"name":"fa2a7c98-6d8b-4531-811c-1d1aa30ea7bf","path":"sprites/spr_droid_straight_shoot_spread_h0/spr_droid_straight_shoot_spread_h0.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_droid_straight_shoot_spread_h0","path":"sprites/spr_droid_straight_shoot_spread_h0/spr_droid_straight_shoot_spread_h0.yy",},"resourceVersion":"1.0","name":"df63aa18-8922-47cf-8ef7-122849456e5a","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"08e1f52d-f7b8-4505-8dc5-361bf1cbbb68",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"8ae95e82-9497-430f-b4cc-e27116e2dbb8",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"9e439f01-c28a-4a97-8256-654d031ee8c4",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"71c7449d-ad06-4d49-bc80-85efd0cff1d6",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"87f1a5e0-c707-4c87-b348-b55baa7231d4",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"50a0f586-b831-4088-bd0d-e94208313cd2",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"e10be0b2-e596-4caf-a27d-405e8f5e1248",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"867c2f95-bbed-48f0-af3e-8d493971a3a7",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"24fb103a-a60d-4bdb-9a6d-9faf2376c5bc",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"b1ad9eec-d249-4231-b8a6-28c0f6b5d858",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"72cf1245-8e1a-44e2-8ffa-f233a48f7dcd",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"33ae0f4f-a8c9-4ee5-87ea-d08e1fb8d40b",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"f76c99c4-877f-4966-8d0f-40b9200ce590",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"1e193e28-a7ef-4a39-9d63-2b7bc73b05d9",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"4a7e6126-1409-4344-942f-0c177a80c7c5",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"df63aa18-8922-47cf-8ef7-122849456e5a",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_droid_straight_shoot_spread_h0","path":"sprites/spr_droid_straight_shoot_spread_h0/spr_droid_straight_shoot_spread_h0.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "spr_droid_straight_shoot_spread_h0",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 10.0,
@@ -85,7 +59,7 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"f4d0be89-0889-4148-b56b-cc198c05d373","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"08e1f52d-f7b8-4505-8dc5-361bf1cbbb68","path":"sprites/spr_droid_straight_shoot_spread_h0/spr_droid_straight_shoot_spread_h0.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"e8ef71b4-1204-41b3-bacf-b5110764665d","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"8ae95e82-9497-430f-b4cc-e27116e2dbb8","path":"sprites/spr_droid_straight_shoot_spread_h0/spr_droid_straight_shoot_spread_h0.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"16496945-ceb8-422b-a1b1-6355026adb7f","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"9e439f01-c28a-4a97-8256-654d031ee8c4","path":"sprites/spr_droid_straight_shoot_spread_h0/spr_droid_straight_shoot_spread_h0.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
@@ -102,7 +76,7 @@
             {"id":"6614a608-1fa9-4935-9601-cfeb92266917","Key":13.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"1e193e28-a7ef-4a39-9d63-2b7bc73b05d9","path":"sprites/spr_droid_straight_shoot_spread_h0/spr_droid_straight_shoot_spread_h0.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"271f5ddc-cf64-4d49-8be1-c5681c0dda4c","Key":14.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"4a7e6126-1409-4344-942f-0c177a80c7c5","path":"sprites/spr_droid_straight_shoot_spread_h0/spr_droid_straight_shoot_spread_h0.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"29214950-d012-4d3b-919b-5407fa8c1d03","Key":15.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"df63aa18-8922-47cf-8ef7-122849456e5a","path":"sprites/spr_droid_straight_shoot_spread_h0/spr_droid_straight_shoot_spread_h0.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -118,22 +92,13 @@
     "yorigin": 35,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_droid_straight_shoot_spread_h0","path":"sprites/spr_droid_straight_shoot_spread_h0/spr_droid_straight_shoot_spread_h0.yy",},
-    "resourceVersion": "1.4",
-    "name": "spr_droid_straight_shoot_spread_h0",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"fa2a7c98-6d8b-4531-811c-1d1aa30ea7bf","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"fa2a7c98-6d8b-4531-811c-1d1aa30ea7bf","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "droid_straight_shoot_spread",
     "path": "folders/Objects/Enemies/Droids/droid_straight_shoot_spread.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_droid_straight_shoot_spread_h0",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

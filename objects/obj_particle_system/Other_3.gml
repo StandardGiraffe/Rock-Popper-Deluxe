@@ -33,6 +33,9 @@ array_foreach(
     global.particle_debris_glass_dust_b,
     global.particle_debris_small_hot,
     global.particle_debris_asteroid,
+    global.particle_debris_asteroid_cluster_ejecta_a,
+    global.particle_debris_asteroid_cluster_ejecta_b,
+
     global.particle_debris_droid,
     global.particle_debris_platform_core,
     

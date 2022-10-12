@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_asterdroid_shooter_small_h2",
   "bboxMode": 2,
   "collisionKind": 5,
   "type": 0,
@@ -14,6 +17,7 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
+  "DynamicTexturePage": false,
   "width": 48,
   "height": 24,
   "textureGroupId": {
@@ -24,45 +28,23 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"bd1d46bd-ea25-4c9a-8b80-e8031836be47","path":"sprites/spr_asterdroid_shooter_small_h2/spr_asterdroid_shooter_small_h2.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"bd1d46bd-ea25-4c9a-8b80-e8031836be47","path":"sprites/spr_asterdroid_shooter_small_h2/spr_asterdroid_shooter_small_h2.yy",},"LayerId":{"name":"1b349fdd-810c-4f48-8195-23b93b59637c","path":"sprites/spr_asterdroid_shooter_small_h2/spr_asterdroid_shooter_small_h2.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_asterdroid_shooter_small_h2","path":"sprites/spr_asterdroid_shooter_small_h2/spr_asterdroid_shooter_small_h2.yy",},"resourceVersion":"1.0","name":"bd1d46bd-ea25-4c9a-8b80-e8031836be47","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"45c5e47e-8820-49f1-8f57-db683d5432ab","path":"sprites/spr_asterdroid_shooter_small_h2/spr_asterdroid_shooter_small_h2.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"45c5e47e-8820-49f1-8f57-db683d5432ab","path":"sprites/spr_asterdroid_shooter_small_h2/spr_asterdroid_shooter_small_h2.yy",},"LayerId":{"name":"1b349fdd-810c-4f48-8195-23b93b59637c","path":"sprites/spr_asterdroid_shooter_small_h2/spr_asterdroid_shooter_small_h2.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_asterdroid_shooter_small_h2","path":"sprites/spr_asterdroid_shooter_small_h2/spr_asterdroid_shooter_small_h2.yy",},"resourceVersion":"1.0","name":"45c5e47e-8820-49f1-8f57-db683d5432ab","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"71c5bbac-d029-4103-a7cb-163616e5170f","path":"sprites/spr_asterdroid_shooter_small_h2/spr_asterdroid_shooter_small_h2.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"71c5bbac-d029-4103-a7cb-163616e5170f","path":"sprites/spr_asterdroid_shooter_small_h2/spr_asterdroid_shooter_small_h2.yy",},"LayerId":{"name":"1b349fdd-810c-4f48-8195-23b93b59637c","path":"sprites/spr_asterdroid_shooter_small_h2/spr_asterdroid_shooter_small_h2.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_asterdroid_shooter_small_h2","path":"sprites/spr_asterdroid_shooter_small_h2/spr_asterdroid_shooter_small_h2.yy",},"resourceVersion":"1.0","name":"71c5bbac-d029-4103-a7cb-163616e5170f","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"af9a2fb7-3711-4f70-a5b4-8dd0eeec6fd0","path":"sprites/spr_asterdroid_shooter_small_h2/spr_asterdroid_shooter_small_h2.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"af9a2fb7-3711-4f70-a5b4-8dd0eeec6fd0","path":"sprites/spr_asterdroid_shooter_small_h2/spr_asterdroid_shooter_small_h2.yy",},"LayerId":{"name":"1b349fdd-810c-4f48-8195-23b93b59637c","path":"sprites/spr_asterdroid_shooter_small_h2/spr_asterdroid_shooter_small_h2.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_asterdroid_shooter_small_h2","path":"sprites/spr_asterdroid_shooter_small_h2/spr_asterdroid_shooter_small_h2.yy",},"resourceVersion":"1.0","name":"af9a2fb7-3711-4f70-a5b4-8dd0eeec6fd0","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"4255442e-ef40-4e18-b9aa-6a3e653252ed","path":"sprites/spr_asterdroid_shooter_small_h2/spr_asterdroid_shooter_small_h2.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"4255442e-ef40-4e18-b9aa-6a3e653252ed","path":"sprites/spr_asterdroid_shooter_small_h2/spr_asterdroid_shooter_small_h2.yy",},"LayerId":{"name":"1b349fdd-810c-4f48-8195-23b93b59637c","path":"sprites/spr_asterdroid_shooter_small_h2/spr_asterdroid_shooter_small_h2.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_asterdroid_shooter_small_h2","path":"sprites/spr_asterdroid_shooter_small_h2/spr_asterdroid_shooter_small_h2.yy",},"resourceVersion":"1.0","name":"4255442e-ef40-4e18-b9aa-6a3e653252ed","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"eb6ae7a8-b755-4a84-a265-3d6ba8a1ac1f","path":"sprites/spr_asterdroid_shooter_small_h2/spr_asterdroid_shooter_small_h2.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"eb6ae7a8-b755-4a84-a265-3d6ba8a1ac1f","path":"sprites/spr_asterdroid_shooter_small_h2/spr_asterdroid_shooter_small_h2.yy",},"LayerId":{"name":"1b349fdd-810c-4f48-8195-23b93b59637c","path":"sprites/spr_asterdroid_shooter_small_h2/spr_asterdroid_shooter_small_h2.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_asterdroid_shooter_small_h2","path":"sprites/spr_asterdroid_shooter_small_h2/spr_asterdroid_shooter_small_h2.yy",},"resourceVersion":"1.0","name":"eb6ae7a8-b755-4a84-a265-3d6ba8a1ac1f","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"7527f9fd-53cd-4270-91d9-0ecb2dccd622","path":"sprites/spr_asterdroid_shooter_small_h2/spr_asterdroid_shooter_small_h2.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"7527f9fd-53cd-4270-91d9-0ecb2dccd622","path":"sprites/spr_asterdroid_shooter_small_h2/spr_asterdroid_shooter_small_h2.yy",},"LayerId":{"name":"1b349fdd-810c-4f48-8195-23b93b59637c","path":"sprites/spr_asterdroid_shooter_small_h2/spr_asterdroid_shooter_small_h2.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_asterdroid_shooter_small_h2","path":"sprites/spr_asterdroid_shooter_small_h2/spr_asterdroid_shooter_small_h2.yy",},"resourceVersion":"1.0","name":"7527f9fd-53cd-4270-91d9-0ecb2dccd622","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"3a25bfc9-3622-477f-b929-5a795941916c","path":"sprites/spr_asterdroid_shooter_small_h2/spr_asterdroid_shooter_small_h2.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"3a25bfc9-3622-477f-b929-5a795941916c","path":"sprites/spr_asterdroid_shooter_small_h2/spr_asterdroid_shooter_small_h2.yy",},"LayerId":{"name":"1b349fdd-810c-4f48-8195-23b93b59637c","path":"sprites/spr_asterdroid_shooter_small_h2/spr_asterdroid_shooter_small_h2.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_asterdroid_shooter_small_h2","path":"sprites/spr_asterdroid_shooter_small_h2/spr_asterdroid_shooter_small_h2.yy",},"resourceVersion":"1.0","name":"3a25bfc9-3622-477f-b929-5a795941916c","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"85b45579-5deb-48fa-97a2-cbb09d1db405","path":"sprites/spr_asterdroid_shooter_small_h2/spr_asterdroid_shooter_small_h2.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"85b45579-5deb-48fa-97a2-cbb09d1db405","path":"sprites/spr_asterdroid_shooter_small_h2/spr_asterdroid_shooter_small_h2.yy",},"LayerId":{"name":"1b349fdd-810c-4f48-8195-23b93b59637c","path":"sprites/spr_asterdroid_shooter_small_h2/spr_asterdroid_shooter_small_h2.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_asterdroid_shooter_small_h2","path":"sprites/spr_asterdroid_shooter_small_h2/spr_asterdroid_shooter_small_h2.yy",},"resourceVersion":"1.0","name":"85b45579-5deb-48fa-97a2-cbb09d1db405","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"048c61c6-eb0a-439d-9a66-6848ba582a7a","path":"sprites/spr_asterdroid_shooter_small_h2/spr_asterdroid_shooter_small_h2.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"048c61c6-eb0a-439d-9a66-6848ba582a7a","path":"sprites/spr_asterdroid_shooter_small_h2/spr_asterdroid_shooter_small_h2.yy",},"LayerId":{"name":"1b349fdd-810c-4f48-8195-23b93b59637c","path":"sprites/spr_asterdroid_shooter_small_h2/spr_asterdroid_shooter_small_h2.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_asterdroid_shooter_small_h2","path":"sprites/spr_asterdroid_shooter_small_h2/spr_asterdroid_shooter_small_h2.yy",},"resourceVersion":"1.0","name":"048c61c6-eb0a-439d-9a66-6848ba582a7a","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"fa121d00-fd90-4d35-84d8-363ff950d5aa","path":"sprites/spr_asterdroid_shooter_small_h2/spr_asterdroid_shooter_small_h2.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"fa121d00-fd90-4d35-84d8-363ff950d5aa","path":"sprites/spr_asterdroid_shooter_small_h2/spr_asterdroid_shooter_small_h2.yy",},"LayerId":{"name":"1b349fdd-810c-4f48-8195-23b93b59637c","path":"sprites/spr_asterdroid_shooter_small_h2/spr_asterdroid_shooter_small_h2.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_asterdroid_shooter_small_h2","path":"sprites/spr_asterdroid_shooter_small_h2/spr_asterdroid_shooter_small_h2.yy",},"resourceVersion":"1.0","name":"fa121d00-fd90-4d35-84d8-363ff950d5aa","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"d41c5ec2-5a51-4655-9320-30b9f9f55abe","path":"sprites/spr_asterdroid_shooter_small_h2/spr_asterdroid_shooter_small_h2.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"d41c5ec2-5a51-4655-9320-30b9f9f55abe","path":"sprites/spr_asterdroid_shooter_small_h2/spr_asterdroid_shooter_small_h2.yy",},"LayerId":{"name":"1b349fdd-810c-4f48-8195-23b93b59637c","path":"sprites/spr_asterdroid_shooter_small_h2/spr_asterdroid_shooter_small_h2.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_asterdroid_shooter_small_h2","path":"sprites/spr_asterdroid_shooter_small_h2/spr_asterdroid_shooter_small_h2.yy",},"resourceVersion":"1.0","name":"d41c5ec2-5a51-4655-9320-30b9f9f55abe","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"bd1d46bd-ea25-4c9a-8b80-e8031836be47",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"45c5e47e-8820-49f1-8f57-db683d5432ab",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"71c5bbac-d029-4103-a7cb-163616e5170f",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"af9a2fb7-3711-4f70-a5b4-8dd0eeec6fd0",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"4255442e-ef40-4e18-b9aa-6a3e653252ed",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"eb6ae7a8-b755-4a84-a265-3d6ba8a1ac1f",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"7527f9fd-53cd-4270-91d9-0ecb2dccd622",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"3a25bfc9-3622-477f-b929-5a795941916c",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"85b45579-5deb-48fa-97a2-cbb09d1db405",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"048c61c6-eb0a-439d-9a66-6848ba582a7a",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"fa121d00-fd90-4d35-84d8-363ff950d5aa",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"d41c5ec2-5a51-4655-9320-30b9f9f55abe",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_asterdroid_shooter_small_h2","path":"sprites/spr_asterdroid_shooter_small_h2/spr_asterdroid_shooter_small_h2.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "spr_asterdroid_shooter_small_h2",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 10.0,
@@ -73,7 +55,7 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"a3c3f3b3-2eb4-47a0-890f-62be09f6c55a","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"bd1d46bd-ea25-4c9a-8b80-e8031836be47","path":"sprites/spr_asterdroid_shooter_small_h2/spr_asterdroid_shooter_small_h2.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"f83ec542-4852-4a21-b298-22cb4ce73804","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"45c5e47e-8820-49f1-8f57-db683d5432ab","path":"sprites/spr_asterdroid_shooter_small_h2/spr_asterdroid_shooter_small_h2.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"ecd76b37-5ec1-4231-a8ad-5181c4e22904","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"71c5bbac-d029-4103-a7cb-163616e5170f","path":"sprites/spr_asterdroid_shooter_small_h2/spr_asterdroid_shooter_small_h2.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
@@ -86,7 +68,7 @@
             {"id":"09b929fd-2537-46e3-9d49-ef5e17fe5f3b","Key":9.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"048c61c6-eb0a-439d-9a66-6848ba582a7a","path":"sprites/spr_asterdroid_shooter_small_h2/spr_asterdroid_shooter_small_h2.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"76924ac2-65ef-4c81-b04c-70633bcee5cc","Key":10.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"fa121d00-fd90-4d35-84d8-363ff950d5aa","path":"sprites/spr_asterdroid_shooter_small_h2/spr_asterdroid_shooter_small_h2.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"63313506-99d0-42e6-a271-1c5a4f4dbdd3","Key":11.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"d41c5ec2-5a51-4655-9320-30b9f9f55abe","path":"sprites/spr_asterdroid_shooter_small_h2/spr_asterdroid_shooter_small_h2.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -102,22 +84,13 @@
     "yorigin": 12,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_asterdroid_shooter_small_h2","path":"sprites/spr_asterdroid_shooter_small_h2/spr_asterdroid_shooter_small_h2.yy",},
-    "resourceVersion": "1.4",
-    "name": "spr_asterdroid_shooter_small_h2",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"1b349fdd-810c-4f48-8195-23b93b59637c","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"1b349fdd-810c-4f48-8195-23b93b59637c","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "asterdroid_shooter_small",
     "path": "folders/Objects/Enemies/Asterdroids/asterdroid_shooter_small.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_asterdroid_shooter_small_h2",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_asteroid_gravel_large",
   "bboxMode": 2,
   "collisionKind": 5,
   "type": 0,
@@ -14,6 +17,7 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
+  "DynamicTexturePage": false,
   "width": 32,
   "height": 32,
   "textureGroupId": {
@@ -24,12 +28,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"e77c37cf-2de1-46de-b2a6-09cf17aba419","path":"sprites/spr_asteroid_gravel_large/spr_asteroid_gravel_large.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"e77c37cf-2de1-46de-b2a6-09cf17aba419","path":"sprites/spr_asteroid_gravel_large/spr_asteroid_gravel_large.yy",},"LayerId":{"name":"84e496b2-4f9a-4410-9575-6e4382d3b663","path":"sprites/spr_asteroid_gravel_large/spr_asteroid_gravel_large.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_asteroid_gravel_large","path":"sprites/spr_asteroid_gravel_large/spr_asteroid_gravel_large.yy",},"resourceVersion":"1.0","name":"e77c37cf-2de1-46de-b2a6-09cf17aba419","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"e77c37cf-2de1-46de-b2a6-09cf17aba419",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_asteroid_gravel_large","path":"sprites/spr_asteroid_gravel_large/spr_asteroid_gravel_large.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "spr_asteroid_gravel_large",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 0.0,
@@ -40,9 +44,9 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"597ec678-1175-4537-b118-0bc5e73f0851","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"e77c37cf-2de1-46de-b2a6-09cf17aba419","path":"sprites/spr_asteroid_gravel_large/spr_asteroid_gravel_large.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -58,22 +62,13 @@
     "yorigin": 16,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_asteroid_gravel_large","path":"sprites/spr_asteroid_gravel_large/spr_asteroid_gravel_large.yy",},
-    "resourceVersion": "1.4",
-    "name": "spr_asteroid_gravel_large",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"84e496b2-4f9a-4410-9575-6e4382d3b663","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"84e496b2-4f9a-4410-9575-6e4382d3b663","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "asteroid_gravel_large",
     "path": "folders/Objects/Enemies/Asteroids/asteroid_gravel_large.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_asteroid_gravel_large",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

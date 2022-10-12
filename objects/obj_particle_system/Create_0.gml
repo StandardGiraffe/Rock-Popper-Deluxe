@@ -414,6 +414,31 @@ part_type_direction(p, 0, 360, 0, 0);
 part_type_orientation(p, 0, 360, 0, 0, false);
 part_type_blend(p, false);
 part_type_life(p, room_speed * 0.5, room_speed * 2);
+
+// Asteroid Cluster Ejecta Debris
+global.particle_debris_asteroid_cluster_ejecta_a = part_type_create();
+var p = global.particle_debris_asteroid_cluster_ejecta_a;
+part_type_shape(p, pt_shape_explosion);
+part_type_size(p, 0.5, 1.5, 0.2, false);
+part_type_color1(p, c_dkgray);
+part_type_alpha3(p, 0.75, 0.15, 0);
+part_type_speed(p, 0, 1, 0, 0);
+part_type_direction(p, 0, 360, 0, 0);
+part_type_orientation(p, 0, 360, 0, 0, false);
+part_type_blend(p, true);
+part_type_life(p, room_speed * 0.5, room_speed * 1.5);
+
+global.particle_debris_asteroid_cluster_ejecta_b = part_type_create();
+var p = global.particle_debris_asteroid_cluster_ejecta_b;
+part_type_shape(p, pt_shape_cloud);
+part_type_size(p, 0.5, 1.5, 0.2, false);
+part_type_color1(p, c_gray);
+part_type_alpha3(p, 0.75, 0.15, 0);
+part_type_speed(p, 0, 1, 0, 0);
+part_type_direction(p, 0, 360, 0, 0);
+part_type_orientation(p, 0, 360, 0, 0, false);
+part_type_blend(p, true);
+part_type_life(p, room_speed * 0.5, room_speed * 1.5);
   
 // Droid debris
 global.particle_debris_droid = part_type_create();

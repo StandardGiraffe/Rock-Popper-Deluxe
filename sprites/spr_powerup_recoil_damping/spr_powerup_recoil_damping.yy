@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_powerup_recoil_damping",
   "bboxMode": 2,
   "collisionKind": 5,
   "type": 0,
@@ -14,6 +17,7 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
+  "DynamicTexturePage": false,
   "width": 30,
   "height": 35,
   "textureGroupId": {
@@ -24,21 +28,15 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"1c6f6312-31db-4d69-ae46-bf28635ec46e","path":"sprites/spr_powerup_recoil_damping/spr_powerup_recoil_damping.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"1c6f6312-31db-4d69-ae46-bf28635ec46e","path":"sprites/spr_powerup_recoil_damping/spr_powerup_recoil_damping.yy",},"LayerId":{"name":"5bfe07eb-26a9-4257-a935-12575b754334","path":"sprites/spr_powerup_recoil_damping/spr_powerup_recoil_damping.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_powerup_recoil_damping","path":"sprites/spr_powerup_recoil_damping/spr_powerup_recoil_damping.yy",},"resourceVersion":"1.0","name":"1c6f6312-31db-4d69-ae46-bf28635ec46e","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"79631370-5282-4ea3-8a5d-3e7a00d4a394","path":"sprites/spr_powerup_recoil_damping/spr_powerup_recoil_damping.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"79631370-5282-4ea3-8a5d-3e7a00d4a394","path":"sprites/spr_powerup_recoil_damping/spr_powerup_recoil_damping.yy",},"LayerId":{"name":"5bfe07eb-26a9-4257-a935-12575b754334","path":"sprites/spr_powerup_recoil_damping/spr_powerup_recoil_damping.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_powerup_recoil_damping","path":"sprites/spr_powerup_recoil_damping/spr_powerup_recoil_damping.yy",},"resourceVersion":"1.0","name":"79631370-5282-4ea3-8a5d-3e7a00d4a394","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"bd4d56d7-0d82-4198-8873-47529546765d","path":"sprites/spr_powerup_recoil_damping/spr_powerup_recoil_damping.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"bd4d56d7-0d82-4198-8873-47529546765d","path":"sprites/spr_powerup_recoil_damping/spr_powerup_recoil_damping.yy",},"LayerId":{"name":"5bfe07eb-26a9-4257-a935-12575b754334","path":"sprites/spr_powerup_recoil_damping/spr_powerup_recoil_damping.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_powerup_recoil_damping","path":"sprites/spr_powerup_recoil_damping/spr_powerup_recoil_damping.yy",},"resourceVersion":"1.0","name":"bd4d56d7-0d82-4198-8873-47529546765d","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"f6c2e634-f8af-4e62-abc6-3896639a6de7","path":"sprites/spr_powerup_recoil_damping/spr_powerup_recoil_damping.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"f6c2e634-f8af-4e62-abc6-3896639a6de7","path":"sprites/spr_powerup_recoil_damping/spr_powerup_recoil_damping.yy",},"LayerId":{"name":"5bfe07eb-26a9-4257-a935-12575b754334","path":"sprites/spr_powerup_recoil_damping/spr_powerup_recoil_damping.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_powerup_recoil_damping","path":"sprites/spr_powerup_recoil_damping/spr_powerup_recoil_damping.yy",},"resourceVersion":"1.0","name":"f6c2e634-f8af-4e62-abc6-3896639a6de7","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"1c6f6312-31db-4d69-ae46-bf28635ec46e",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"79631370-5282-4ea3-8a5d-3e7a00d4a394",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"bd4d56d7-0d82-4198-8873-47529546765d",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"f6c2e634-f8af-4e62-abc6-3896639a6de7",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_powerup_recoil_damping","path":"sprites/spr_powerup_recoil_damping/spr_powerup_recoil_damping.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "spr_powerup_recoil_damping",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 10.0,
@@ -49,12 +47,12 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"cd3fc793-5704-462f-ab87-7c42140f152c","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"1c6f6312-31db-4d69-ae46-bf28635ec46e","path":"sprites/spr_powerup_recoil_damping/spr_powerup_recoil_damping.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"b033d428-e645-4661-9665-32ee7998e49d","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"79631370-5282-4ea3-8a5d-3e7a00d4a394","path":"sprites/spr_powerup_recoil_damping/spr_powerup_recoil_damping.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"4624672e-1140-4a2a-bfb1-529b04ffb007","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"bd4d56d7-0d82-4198-8873-47529546765d","path":"sprites/spr_powerup_recoil_damping/spr_powerup_recoil_damping.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"f487c9ef-eb15-442b-9259-8449727541b0","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"f6c2e634-f8af-4e62-abc6-3896639a6de7","path":"sprites/spr_powerup_recoil_damping/spr_powerup_recoil_damping.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -70,22 +68,13 @@
     "yorigin": 14,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_powerup_recoil_damping","path":"sprites/spr_powerup_recoil_damping/spr_powerup_recoil_damping.yy",},
-    "resourceVersion": "1.4",
-    "name": "spr_powerup_recoil_damping",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"5bfe07eb-26a9-4257-a935-12575b754334","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"5bfe07eb-26a9-4257-a935-12575b754334","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Recoil Damping",
     "path": "folders/Objects/Powerups/Engines/Recoil Damping.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_powerup_recoil_damping",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

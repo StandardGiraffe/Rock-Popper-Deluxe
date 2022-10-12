@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_debris_asteroid",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -14,6 +17,7 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
+  "DynamicTexturePage": false,
   "width": 8,
   "height": 8,
   "textureGroupId": {
@@ -24,99 +28,41 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"b01ef174-c05e-4804-91e0-2c5d4aabc003","path":"sprites/spr_debris_asteroid/spr_debris_asteroid.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"b01ef174-c05e-4804-91e0-2c5d4aabc003","path":"sprites/spr_debris_asteroid/spr_debris_asteroid.yy",},"LayerId":{"name":"9543fcf7-6fdc-4c78-9b59-415acbb32732","path":"sprites/spr_debris_asteroid/spr_debris_asteroid.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_debris_asteroid","path":"sprites/spr_debris_asteroid/spr_debris_asteroid.yy",},"resourceVersion":"1.0","name":"b01ef174-c05e-4804-91e0-2c5d4aabc003","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"b12d79aa-88fe-4faa-ad63-146b1faafd82","path":"sprites/spr_debris_asteroid/spr_debris_asteroid.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"b12d79aa-88fe-4faa-ad63-146b1faafd82","path":"sprites/spr_debris_asteroid/spr_debris_asteroid.yy",},"LayerId":{"name":"9543fcf7-6fdc-4c78-9b59-415acbb32732","path":"sprites/spr_debris_asteroid/spr_debris_asteroid.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_debris_asteroid","path":"sprites/spr_debris_asteroid/spr_debris_asteroid.yy",},"resourceVersion":"1.0","name":"b12d79aa-88fe-4faa-ad63-146b1faafd82","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"3d81b9c5-091a-4788-bd92-722cd3a9de4a","path":"sprites/spr_debris_asteroid/spr_debris_asteroid.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"3d81b9c5-091a-4788-bd92-722cd3a9de4a","path":"sprites/spr_debris_asteroid/spr_debris_asteroid.yy",},"LayerId":{"name":"9543fcf7-6fdc-4c78-9b59-415acbb32732","path":"sprites/spr_debris_asteroid/spr_debris_asteroid.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_debris_asteroid","path":"sprites/spr_debris_asteroid/spr_debris_asteroid.yy",},"resourceVersion":"1.0","name":"3d81b9c5-091a-4788-bd92-722cd3a9de4a","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"365be24f-0b07-4525-8012-eaa544f5d52b","path":"sprites/spr_debris_asteroid/spr_debris_asteroid.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"365be24f-0b07-4525-8012-eaa544f5d52b","path":"sprites/spr_debris_asteroid/spr_debris_asteroid.yy",},"LayerId":{"name":"9543fcf7-6fdc-4c78-9b59-415acbb32732","path":"sprites/spr_debris_asteroid/spr_debris_asteroid.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_debris_asteroid","path":"sprites/spr_debris_asteroid/spr_debris_asteroid.yy",},"resourceVersion":"1.0","name":"365be24f-0b07-4525-8012-eaa544f5d52b","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"fcc828bc-6df5-4858-8fb6-f476957b00c8","path":"sprites/spr_debris_asteroid/spr_debris_asteroid.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"fcc828bc-6df5-4858-8fb6-f476957b00c8","path":"sprites/spr_debris_asteroid/spr_debris_asteroid.yy",},"LayerId":{"name":"9543fcf7-6fdc-4c78-9b59-415acbb32732","path":"sprites/spr_debris_asteroid/spr_debris_asteroid.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_debris_asteroid","path":"sprites/spr_debris_asteroid/spr_debris_asteroid.yy",},"resourceVersion":"1.0","name":"fcc828bc-6df5-4858-8fb6-f476957b00c8","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"343b61a4-b34a-465b-a644-b9b51d93351d","path":"sprites/spr_debris_asteroid/spr_debris_asteroid.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"343b61a4-b34a-465b-a644-b9b51d93351d","path":"sprites/spr_debris_asteroid/spr_debris_asteroid.yy",},"LayerId":{"name":"9543fcf7-6fdc-4c78-9b59-415acbb32732","path":"sprites/spr_debris_asteroid/spr_debris_asteroid.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_debris_asteroid","path":"sprites/spr_debris_asteroid/spr_debris_asteroid.yy",},"resourceVersion":"1.0","name":"343b61a4-b34a-465b-a644-b9b51d93351d","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"9f06ffec-0e31-4bc7-95a6-344b0b529c90","path":"sprites/spr_debris_asteroid/spr_debris_asteroid.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"9f06ffec-0e31-4bc7-95a6-344b0b529c90","path":"sprites/spr_debris_asteroid/spr_debris_asteroid.yy",},"LayerId":{"name":"9543fcf7-6fdc-4c78-9b59-415acbb32732","path":"sprites/spr_debris_asteroid/spr_debris_asteroid.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_debris_asteroid","path":"sprites/spr_debris_asteroid/spr_debris_asteroid.yy",},"resourceVersion":"1.0","name":"9f06ffec-0e31-4bc7-95a6-344b0b529c90","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"82d22287-d740-4b3f-853b-d737537b5a6b","path":"sprites/spr_debris_asteroid/spr_debris_asteroid.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"82d22287-d740-4b3f-853b-d737537b5a6b","path":"sprites/spr_debris_asteroid/spr_debris_asteroid.yy",},"LayerId":{"name":"9543fcf7-6fdc-4c78-9b59-415acbb32732","path":"sprites/spr_debris_asteroid/spr_debris_asteroid.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_debris_asteroid","path":"sprites/spr_debris_asteroid/spr_debris_asteroid.yy",},"resourceVersion":"1.0","name":"82d22287-d740-4b3f-853b-d737537b5a6b","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"e23c9195-dd81-4e9a-8ad6-1cd1726c7071","path":"sprites/spr_debris_asteroid/spr_debris_asteroid.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"e23c9195-dd81-4e9a-8ad6-1cd1726c7071","path":"sprites/spr_debris_asteroid/spr_debris_asteroid.yy",},"LayerId":{"name":"9543fcf7-6fdc-4c78-9b59-415acbb32732","path":"sprites/spr_debris_asteroid/spr_debris_asteroid.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_debris_asteroid","path":"sprites/spr_debris_asteroid/spr_debris_asteroid.yy",},"resourceVersion":"1.0","name":"e23c9195-dd81-4e9a-8ad6-1cd1726c7071","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"7dd1209a-8229-454b-aefd-6e77e0b4ba5b","path":"sprites/spr_debris_asteroid/spr_debris_asteroid.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"7dd1209a-8229-454b-aefd-6e77e0b4ba5b","path":"sprites/spr_debris_asteroid/spr_debris_asteroid.yy",},"LayerId":{"name":"9543fcf7-6fdc-4c78-9b59-415acbb32732","path":"sprites/spr_debris_asteroid/spr_debris_asteroid.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_debris_asteroid","path":"sprites/spr_debris_asteroid/spr_debris_asteroid.yy",},"resourceVersion":"1.0","name":"7dd1209a-8229-454b-aefd-6e77e0b4ba5b","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"c841b889-24f9-486f-adee-c8964d7c1de7","path":"sprites/spr_debris_asteroid/spr_debris_asteroid.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"c841b889-24f9-486f-adee-c8964d7c1de7","path":"sprites/spr_debris_asteroid/spr_debris_asteroid.yy",},"LayerId":{"name":"9543fcf7-6fdc-4c78-9b59-415acbb32732","path":"sprites/spr_debris_asteroid/spr_debris_asteroid.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_debris_asteroid","path":"sprites/spr_debris_asteroid/spr_debris_asteroid.yy",},"resourceVersion":"1.0","name":"c841b889-24f9-486f-adee-c8964d7c1de7","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"2e93eaed-732d-450f-b3d2-d2b893dfd031","path":"sprites/spr_debris_asteroid/spr_debris_asteroid.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"2e93eaed-732d-450f-b3d2-d2b893dfd031","path":"sprites/spr_debris_asteroid/spr_debris_asteroid.yy",},"LayerId":{"name":"9543fcf7-6fdc-4c78-9b59-415acbb32732","path":"sprites/spr_debris_asteroid/spr_debris_asteroid.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_debris_asteroid","path":"sprites/spr_debris_asteroid/spr_debris_asteroid.yy",},"resourceVersion":"1.0","name":"2e93eaed-732d-450f-b3d2-d2b893dfd031","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"6c3f361e-f822-4918-939c-4ef363cd96d8","path":"sprites/spr_debris_asteroid/spr_debris_asteroid.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"6c3f361e-f822-4918-939c-4ef363cd96d8","path":"sprites/spr_debris_asteroid/spr_debris_asteroid.yy",},"LayerId":{"name":"9543fcf7-6fdc-4c78-9b59-415acbb32732","path":"sprites/spr_debris_asteroid/spr_debris_asteroid.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_debris_asteroid","path":"sprites/spr_debris_asteroid/spr_debris_asteroid.yy",},"resourceVersion":"1.0","name":"6c3f361e-f822-4918-939c-4ef363cd96d8","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"016cb9b0-03cb-4cc3-8c9f-c5820b098d3e","path":"sprites/spr_debris_asteroid/spr_debris_asteroid.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"016cb9b0-03cb-4cc3-8c9f-c5820b098d3e","path":"sprites/spr_debris_asteroid/spr_debris_asteroid.yy",},"LayerId":{"name":"9543fcf7-6fdc-4c78-9b59-415acbb32732","path":"sprites/spr_debris_asteroid/spr_debris_asteroid.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_debris_asteroid","path":"sprites/spr_debris_asteroid/spr_debris_asteroid.yy",},"resourceVersion":"1.0","name":"016cb9b0-03cb-4cc3-8c9f-c5820b098d3e","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"b63d2c64-a20c-47d7-aefb-a6476dbfe162","path":"sprites/spr_debris_asteroid/spr_debris_asteroid.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"b63d2c64-a20c-47d7-aefb-a6476dbfe162","path":"sprites/spr_debris_asteroid/spr_debris_asteroid.yy",},"LayerId":{"name":"9543fcf7-6fdc-4c78-9b59-415acbb32732","path":"sprites/spr_debris_asteroid/spr_debris_asteroid.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_debris_asteroid","path":"sprites/spr_debris_asteroid/spr_debris_asteroid.yy",},"resourceVersion":"1.0","name":"b63d2c64-a20c-47d7-aefb-a6476dbfe162","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"481fffd5-d4b9-4b10-b21b-f4460ac131c7","path":"sprites/spr_debris_asteroid/spr_debris_asteroid.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"481fffd5-d4b9-4b10-b21b-f4460ac131c7","path":"sprites/spr_debris_asteroid/spr_debris_asteroid.yy",},"LayerId":{"name":"9543fcf7-6fdc-4c78-9b59-415acbb32732","path":"sprites/spr_debris_asteroid/spr_debris_asteroid.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_debris_asteroid","path":"sprites/spr_debris_asteroid/spr_debris_asteroid.yy",},"resourceVersion":"1.0","name":"481fffd5-d4b9-4b10-b21b-f4460ac131c7","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"6a2dfe70-e241-49c8-9de1-324812cfec52","path":"sprites/spr_debris_asteroid/spr_debris_asteroid.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"6a2dfe70-e241-49c8-9de1-324812cfec52","path":"sprites/spr_debris_asteroid/spr_debris_asteroid.yy",},"LayerId":{"name":"9543fcf7-6fdc-4c78-9b59-415acbb32732","path":"sprites/spr_debris_asteroid/spr_debris_asteroid.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_debris_asteroid","path":"sprites/spr_debris_asteroid/spr_debris_asteroid.yy",},"resourceVersion":"1.0","name":"6a2dfe70-e241-49c8-9de1-324812cfec52","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"3823c461-0f8b-4707-a805-cb3ce66ac78e","path":"sprites/spr_debris_asteroid/spr_debris_asteroid.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"3823c461-0f8b-4707-a805-cb3ce66ac78e","path":"sprites/spr_debris_asteroid/spr_debris_asteroid.yy",},"LayerId":{"name":"9543fcf7-6fdc-4c78-9b59-415acbb32732","path":"sprites/spr_debris_asteroid/spr_debris_asteroid.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_debris_asteroid","path":"sprites/spr_debris_asteroid/spr_debris_asteroid.yy",},"resourceVersion":"1.0","name":"3823c461-0f8b-4707-a805-cb3ce66ac78e","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"350a4fbd-097c-4513-9b12-52defd8065a4","path":"sprites/spr_debris_asteroid/spr_debris_asteroid.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"350a4fbd-097c-4513-9b12-52defd8065a4","path":"sprites/spr_debris_asteroid/spr_debris_asteroid.yy",},"LayerId":{"name":"9543fcf7-6fdc-4c78-9b59-415acbb32732","path":"sprites/spr_debris_asteroid/spr_debris_asteroid.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_debris_asteroid","path":"sprites/spr_debris_asteroid/spr_debris_asteroid.yy",},"resourceVersion":"1.0","name":"350a4fbd-097c-4513-9b12-52defd8065a4","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"0966e188-7861-4a1b-ab97-b1d6b6db2f9f","path":"sprites/spr_debris_asteroid/spr_debris_asteroid.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"0966e188-7861-4a1b-ab97-b1d6b6db2f9f","path":"sprites/spr_debris_asteroid/spr_debris_asteroid.yy",},"LayerId":{"name":"9543fcf7-6fdc-4c78-9b59-415acbb32732","path":"sprites/spr_debris_asteroid/spr_debris_asteroid.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_debris_asteroid","path":"sprites/spr_debris_asteroid/spr_debris_asteroid.yy",},"resourceVersion":"1.0","name":"0966e188-7861-4a1b-ab97-b1d6b6db2f9f","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"4844caae-27f4-4838-8057-8d1810c0ae2b","path":"sprites/spr_debris_asteroid/spr_debris_asteroid.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"4844caae-27f4-4838-8057-8d1810c0ae2b","path":"sprites/spr_debris_asteroid/spr_debris_asteroid.yy",},"LayerId":{"name":"9543fcf7-6fdc-4c78-9b59-415acbb32732","path":"sprites/spr_debris_asteroid/spr_debris_asteroid.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_debris_asteroid","path":"sprites/spr_debris_asteroid/spr_debris_asteroid.yy",},"resourceVersion":"1.0","name":"4844caae-27f4-4838-8057-8d1810c0ae2b","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"8abfacb9-d06f-438c-a0ea-283b54227c43","path":"sprites/spr_debris_asteroid/spr_debris_asteroid.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"8abfacb9-d06f-438c-a0ea-283b54227c43","path":"sprites/spr_debris_asteroid/spr_debris_asteroid.yy",},"LayerId":{"name":"9543fcf7-6fdc-4c78-9b59-415acbb32732","path":"sprites/spr_debris_asteroid/spr_debris_asteroid.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_debris_asteroid","path":"sprites/spr_debris_asteroid/spr_debris_asteroid.yy",},"resourceVersion":"1.0","name":"8abfacb9-d06f-438c-a0ea-283b54227c43","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"9020e291-666c-4991-8590-f1bb6cceda62","path":"sprites/spr_debris_asteroid/spr_debris_asteroid.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"9020e291-666c-4991-8590-f1bb6cceda62","path":"sprites/spr_debris_asteroid/spr_debris_asteroid.yy",},"LayerId":{"name":"9543fcf7-6fdc-4c78-9b59-415acbb32732","path":"sprites/spr_debris_asteroid/spr_debris_asteroid.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_debris_asteroid","path":"sprites/spr_debris_asteroid/spr_debris_asteroid.yy",},"resourceVersion":"1.0","name":"9020e291-666c-4991-8590-f1bb6cceda62","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"4ebbe77f-40f9-4379-89a3-b348727132c8","path":"sprites/spr_debris_asteroid/spr_debris_asteroid.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"4ebbe77f-40f9-4379-89a3-b348727132c8","path":"sprites/spr_debris_asteroid/spr_debris_asteroid.yy",},"LayerId":{"name":"9543fcf7-6fdc-4c78-9b59-415acbb32732","path":"sprites/spr_debris_asteroid/spr_debris_asteroid.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_debris_asteroid","path":"sprites/spr_debris_asteroid/spr_debris_asteroid.yy",},"resourceVersion":"1.0","name":"4ebbe77f-40f9-4379-89a3-b348727132c8","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"2ae3fa1c-213a-44b7-a304-18292872c5ab","path":"sprites/spr_debris_asteroid/spr_debris_asteroid.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"2ae3fa1c-213a-44b7-a304-18292872c5ab","path":"sprites/spr_debris_asteroid/spr_debris_asteroid.yy",},"LayerId":{"name":"9543fcf7-6fdc-4c78-9b59-415acbb32732","path":"sprites/spr_debris_asteroid/spr_debris_asteroid.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_debris_asteroid","path":"sprites/spr_debris_asteroid/spr_debris_asteroid.yy",},"resourceVersion":"1.0","name":"2ae3fa1c-213a-44b7-a304-18292872c5ab","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"55158e4e-916c-441a-aa47-32d229680a9e","path":"sprites/spr_debris_asteroid/spr_debris_asteroid.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"55158e4e-916c-441a-aa47-32d229680a9e","path":"sprites/spr_debris_asteroid/spr_debris_asteroid.yy",},"LayerId":{"name":"9543fcf7-6fdc-4c78-9b59-415acbb32732","path":"sprites/spr_debris_asteroid/spr_debris_asteroid.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_debris_asteroid","path":"sprites/spr_debris_asteroid/spr_debris_asteroid.yy",},"resourceVersion":"1.0","name":"55158e4e-916c-441a-aa47-32d229680a9e","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"7cf95d88-f4e0-495c-82b0-ba6c690a86e3","path":"sprites/spr_debris_asteroid/spr_debris_asteroid.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"7cf95d88-f4e0-495c-82b0-ba6c690a86e3","path":"sprites/spr_debris_asteroid/spr_debris_asteroid.yy",},"LayerId":{"name":"9543fcf7-6fdc-4c78-9b59-415acbb32732","path":"sprites/spr_debris_asteroid/spr_debris_asteroid.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_debris_asteroid","path":"sprites/spr_debris_asteroid/spr_debris_asteroid.yy",},"resourceVersion":"1.0","name":"7cf95d88-f4e0-495c-82b0-ba6c690a86e3","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"63859cb8-d307-4287-b544-521493df811a","path":"sprites/spr_debris_asteroid/spr_debris_asteroid.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"63859cb8-d307-4287-b544-521493df811a","path":"sprites/spr_debris_asteroid/spr_debris_asteroid.yy",},"LayerId":{"name":"9543fcf7-6fdc-4c78-9b59-415acbb32732","path":"sprites/spr_debris_asteroid/spr_debris_asteroid.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_debris_asteroid","path":"sprites/spr_debris_asteroid/spr_debris_asteroid.yy",},"resourceVersion":"1.0","name":"63859cb8-d307-4287-b544-521493df811a","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"78dcb78c-0a21-4238-aea8-5a87d76a811f","path":"sprites/spr_debris_asteroid/spr_debris_asteroid.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"78dcb78c-0a21-4238-aea8-5a87d76a811f","path":"sprites/spr_debris_asteroid/spr_debris_asteroid.yy",},"LayerId":{"name":"9543fcf7-6fdc-4c78-9b59-415acbb32732","path":"sprites/spr_debris_asteroid/spr_debris_asteroid.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_debris_asteroid","path":"sprites/spr_debris_asteroid/spr_debris_asteroid.yy",},"resourceVersion":"1.0","name":"78dcb78c-0a21-4238-aea8-5a87d76a811f","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"50e3d02e-00fc-4f75-ac44-e196551de69e","path":"sprites/spr_debris_asteroid/spr_debris_asteroid.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"50e3d02e-00fc-4f75-ac44-e196551de69e","path":"sprites/spr_debris_asteroid/spr_debris_asteroid.yy",},"LayerId":{"name":"9543fcf7-6fdc-4c78-9b59-415acbb32732","path":"sprites/spr_debris_asteroid/spr_debris_asteroid.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_debris_asteroid","path":"sprites/spr_debris_asteroid/spr_debris_asteroid.yy",},"resourceVersion":"1.0","name":"50e3d02e-00fc-4f75-ac44-e196551de69e","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"b01ef174-c05e-4804-91e0-2c5d4aabc003",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"b12d79aa-88fe-4faa-ad63-146b1faafd82",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"3d81b9c5-091a-4788-bd92-722cd3a9de4a",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"365be24f-0b07-4525-8012-eaa544f5d52b",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"fcc828bc-6df5-4858-8fb6-f476957b00c8",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"343b61a4-b34a-465b-a644-b9b51d93351d",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"9f06ffec-0e31-4bc7-95a6-344b0b529c90",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"82d22287-d740-4b3f-853b-d737537b5a6b",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"e23c9195-dd81-4e9a-8ad6-1cd1726c7071",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"7dd1209a-8229-454b-aefd-6e77e0b4ba5b",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"c841b889-24f9-486f-adee-c8964d7c1de7",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"2e93eaed-732d-450f-b3d2-d2b893dfd031",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"6c3f361e-f822-4918-939c-4ef363cd96d8",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"016cb9b0-03cb-4cc3-8c9f-c5820b098d3e",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"b63d2c64-a20c-47d7-aefb-a6476dbfe162",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"481fffd5-d4b9-4b10-b21b-f4460ac131c7",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"6a2dfe70-e241-49c8-9de1-324812cfec52",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"3823c461-0f8b-4707-a805-cb3ce66ac78e",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"350a4fbd-097c-4513-9b12-52defd8065a4",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"0966e188-7861-4a1b-ab97-b1d6b6db2f9f",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"4844caae-27f4-4838-8057-8d1810c0ae2b",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"8abfacb9-d06f-438c-a0ea-283b54227c43",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"9020e291-666c-4991-8590-f1bb6cceda62",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"4ebbe77f-40f9-4379-89a3-b348727132c8",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"2ae3fa1c-213a-44b7-a304-18292872c5ab",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"55158e4e-916c-441a-aa47-32d229680a9e",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"7cf95d88-f4e0-495c-82b0-ba6c690a86e3",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"63859cb8-d307-4287-b544-521493df811a",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"78dcb78c-0a21-4238-aea8-5a87d76a811f",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"50e3d02e-00fc-4f75-ac44-e196551de69e",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_debris_asteroid","path":"sprites/spr_debris_asteroid/spr_debris_asteroid.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "spr_debris_asteroid",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 0.0,
@@ -127,7 +73,7 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"fae72689-34e5-4231-b131-0878286f312f","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"b01ef174-c05e-4804-91e0-2c5d4aabc003","path":"sprites/spr_debris_asteroid/spr_debris_asteroid.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"7e171c2b-725a-465f-80ab-49743dbd10d0","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"b12d79aa-88fe-4faa-ad63-146b1faafd82","path":"sprites/spr_debris_asteroid/spr_debris_asteroid.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"be4fd25d-7f0e-419c-80f5-f26024e8032e","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"3d81b9c5-091a-4788-bd92-722cd3a9de4a","path":"sprites/spr_debris_asteroid/spr_debris_asteroid.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
@@ -158,7 +104,7 @@
             {"id":"58ece62d-01ff-4c9d-a5c4-14ec209caa1e","Key":27.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"63859cb8-d307-4287-b544-521493df811a","path":"sprites/spr_debris_asteroid/spr_debris_asteroid.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"a4a069d9-a866-4f74-b28c-bdf78c4675e7","Key":28.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"78dcb78c-0a21-4238-aea8-5a87d76a811f","path":"sprites/spr_debris_asteroid/spr_debris_asteroid.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"a2105a85-0bd3-466f-9f5c-36f5ccb1bffe","Key":29.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"50e3d02e-00fc-4f75-ac44-e196551de69e","path":"sprites/spr_debris_asteroid/spr_debris_asteroid.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -174,22 +120,13 @@
     "yorigin": 4,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_debris_asteroid","path":"sprites/spr_debris_asteroid/spr_debris_asteroid.yy",},
-    "resourceVersion": "1.4",
-    "name": "spr_debris_asteroid",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"9543fcf7-6fdc-4c78-9b59-415acbb32732","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"9543fcf7-6fdc-4c78-9b59-415acbb32732","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Debris",
     "path": "folders/Sprites/Debris.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_debris_asteroid",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

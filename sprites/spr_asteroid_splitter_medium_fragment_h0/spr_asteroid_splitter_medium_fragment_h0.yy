@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_asteroid_splitter_medium_fragment_h0",
   "bboxMode": 2,
   "collisionKind": 5,
   "type": 0,
@@ -14,6 +17,7 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
+  "DynamicTexturePage": false,
   "width": 32,
   "height": 16,
   "textureGroupId": {
@@ -24,12 +28,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"55a218b9-ad33-4535-a4b2-69bb6ef8bb4c","path":"sprites/spr_asteroid_splitter_medium_fragment_h0/spr_asteroid_splitter_medium_fragment_h0.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"55a218b9-ad33-4535-a4b2-69bb6ef8bb4c","path":"sprites/spr_asteroid_splitter_medium_fragment_h0/spr_asteroid_splitter_medium_fragment_h0.yy",},"LayerId":{"name":"133a315f-649f-4d05-8600-f01850456eb0","path":"sprites/spr_asteroid_splitter_medium_fragment_h0/spr_asteroid_splitter_medium_fragment_h0.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_asteroid_splitter_medium_fragment_h0","path":"sprites/spr_asteroid_splitter_medium_fragment_h0/spr_asteroid_splitter_medium_fragment_h0.yy",},"resourceVersion":"1.0","name":"55a218b9-ad33-4535-a4b2-69bb6ef8bb4c","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"55a218b9-ad33-4535-a4b2-69bb6ef8bb4c",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_asteroid_splitter_medium_fragment_h0","path":"sprites/spr_asteroid_splitter_medium_fragment_h0/spr_asteroid_splitter_medium_fragment_h0.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "spr_asteroid_splitter_medium_fragment_h0",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 0.0,
@@ -40,9 +44,9 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"6dcb946f-7140-40aa-a644-d661e4cd8462","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"55a218b9-ad33-4535-a4b2-69bb6ef8bb4c","path":"sprites/spr_asteroid_splitter_medium_fragment_h0/spr_asteroid_splitter_medium_fragment_h0.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -58,22 +62,13 @@
     "yorigin": 8,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_asteroid_splitter_medium_fragment_h0","path":"sprites/spr_asteroid_splitter_medium_fragment_h0/spr_asteroid_splitter_medium_fragment_h0.yy",},
-    "resourceVersion": "1.4",
-    "name": "spr_asteroid_splitter_medium_fragment_h0",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"133a315f-649f-4d05-8600-f01850456eb0","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"133a315f-649f-4d05-8600-f01850456eb0","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "asteroid_splitter_medium_fragment",
     "path": "folders/Objects/Enemies/Asteroids/asteroid_splitter_medium_fragment.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_asteroid_splitter_medium_fragment_h0",
-  "tags": [],
-  "resourceType": "GMSprite",
 }
