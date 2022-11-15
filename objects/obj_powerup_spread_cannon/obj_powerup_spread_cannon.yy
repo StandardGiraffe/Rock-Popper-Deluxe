@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_powerup_spread_cannon",
   "spriteId": {
     "name": "spr_powerup_spread_cannon",
     "path": "sprites/spr_powerup_spread_cannon/spr_powerup_spread_cannon.yy",
@@ -25,7 +28,7 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -33,8 +36,4 @@
     "name": "Spread-Shot",
     "path": "folders/Objects/Powerups/Cannons/Spread-Shot.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_powerup_spread_cannon",
-  "tags": [],
-  "resourceType": "GMObject",
 }
