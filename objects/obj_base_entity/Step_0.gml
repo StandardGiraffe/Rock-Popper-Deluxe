@@ -1,31 +1,52 @@
 check_if_spawning();
 
-// Tick-downs
-if (grappled > 0) {
-  grappled --;
-}
+#region Handle Sub-Modules
 
-// Fade out flashes
-if (flash_alpha > 0) {
-  flash_alpha -= 0.15
-}
-
-// Show shield bar while regenerating (if restored)
-if (shielded && (current_shields < max_shields)) {
-  shield_bar_opacity = 1;
-}
-
-// Fade unneeded shield bar
-if (current_shields == max_shields) && (shield_bar_opacity > 0) {
-  shield_bar_opacity = max(shield_bar_opacity - 0.025, 0);
-}
-
-// Regenerate Shields
-if (shielded && (current_shields < max_shields)) {
-  current_shields = min(current_shields + max_shields / 1800, max_shields);
+  for (var i = 0; i < array_length(sub_modules); i++) {
+    var sub_module = sub_modules[i];
   
-  if current_shields == max_shields { on_shields_repaired() }
-}
+    if sub_module.is_destroyed_module { continue; }
+  
+    handle_sub_module(sub_module);
+  }
+
+#endregion Handle Sub-Modules
+
+#region Handle Tick-downs
+
+// Handle grappled
+  if (grappled > 0) {
+    grappled --;
+  }
+
+  // Fade out flashes
+  if (flash_alpha > 0) {
+    flash_alpha -= 0.15
+  }
+
+#endregion Handle Tick-downs
+
+#region Handle Shields
+
+  // Show shield bar while regenerating (if restored)
+  if (shielded && (current_shields < max_shields)) {
+    shield_bar_opacity = 1;
+  }
+
+  // Fade unneeded shield bar
+  if (current_shields == max_shields) && (shield_bar_opacity > 0) {
+    shield_bar_opacity = max(shield_bar_opacity - 0.025, 0);
+  }
+
+  // Regenerate Shields
+  if (shielded && (current_shields < max_shields)) {
+    current_shields = min(current_shields + max_shields / 1800, max_shields);
+  
+    if current_shields == max_shields { on_shields_repaired() }
+  }
+  
+#endregion Handle Shields
+
 
 // Apply inertia if necessary
 if (inertia_rate > 0) {
