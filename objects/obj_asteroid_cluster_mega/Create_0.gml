@@ -112,6 +112,7 @@ function on_body_damage_increased() {
       var spat_asteroid = spawn_ejecta(exit_point[0], exit_point[1], trajectory, ejecta[i]);
       with spat_asteroid {
         points_value = 0;
+        void_persistent = choose(true, false);
         spawn_in_complete(self);
       }
     }

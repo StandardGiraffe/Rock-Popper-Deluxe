@@ -34,6 +34,7 @@ if (instance_exists(target_player) && spit_asteroid) {
   with spat_asteroid {
     speed *= random_range(1.25, 1.5);
     points_value = 0;
+    void_persistent = false;
     spawn_in_complete(self);
   }
 
