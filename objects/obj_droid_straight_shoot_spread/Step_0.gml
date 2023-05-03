@@ -38,7 +38,7 @@ if (ready_to_shoot && !spawning) {
     x + lengthdir_x(16, image_angle),
     y - lengthdir_y(17, image_angle),
     image_angle - 45,
-    snd_enemy_bullet_tiny_shoot,
+    undefined,
     my_vector
   );
   shoot_projectile(

@@ -36,7 +36,7 @@ if powerups_inventory.cannon_dual {
   var b_rear = shoot_projectile(
     obj_bullet_player, self,
     x, y, b_front.get_direction() + 180,
-    snd_shoot,
+    undefined,
     my_vector
   );
   setup_player_shot(b_rear, self);
@@ -57,7 +57,7 @@ if powerups_inventory.cannon_dual {
     var b = shoot_projectile(
       obj_bullet_player, self,
       x, y, image_angle + random_range(15, 45),
-      snd_shoot,
+      undefined,
       my_vector
     );
     setup_player_shot(b, self);
@@ -68,7 +68,7 @@ if powerups_inventory.cannon_dual {
     var b = shoot_projectile(
       obj_bullet_player, self,
       x, y, image_angle + random_range(15, 45),
-      snd_shoot,
+      ,
       my_vector
     );
     setup_player_shot(b, self);
@@ -79,7 +79,7 @@ if powerups_inventory.cannon_dual {
     var b = shoot_projectile(
       obj_bullet_player, self,
       x, y, image_angle - random_range(15, 45),
-      snd_shoot,
+      undefined,
       my_vector
     );
     setup_player_shot(b, self);
@@ -90,7 +90,7 @@ if powerups_inventory.cannon_dual {
     var b = shoot_projectile(
       obj_bullet_player, self,
       x, y, image_angle - random_range(15, 45),
-      snd_shoot,
+      undefined,
       my_vector
     );
     setup_player_shot(b, self);

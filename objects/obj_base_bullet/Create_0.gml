@@ -45,9 +45,7 @@ shot_power = function(others_velocity = new vector_zero()) {
       (get_current_speed() / base_speed), 0.5, 1.5
     ) * max(image_alpha, 0.5)
   );
-  show_debug_message(impact_damage)
   
-  //show_debug_message([base_power, current_speed, base_speed, 
   return impact_damage;
 }
 

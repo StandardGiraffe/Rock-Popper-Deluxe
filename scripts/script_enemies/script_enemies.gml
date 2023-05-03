@@ -11,7 +11,8 @@ function Enemy(
   _hit_sound = snd_struck,
   _death_sound = snd_destroyed,
   _spawn_distance_minimum = 100,
-  _spawn_distance_maximum = 5000
+  _spawn_distance_maximum = 5000,
+  _target_speed = noone
 ) constructor {
   // Identification
   name = _object_name;
@@ -31,6 +32,8 @@ function Enemy(
   // Sound Effects
   hit_sound = _hit_sound;
   death_sound = _death_sound;
+  
+  target_speed = _target_speed;
 }
 
 #region Asteroids
@@ -462,7 +465,7 @@ global.enemy_platform_core = {
   score_multiplier: 250,
   movement_speed: { base: 0, min: 0.1, max: 0.5, as_int: false },
   mass: 1000,
-  rotation_speed: { base: 0, min: -2, max: 2, as_int: false },
+  rotation_speed: { base: 0, min: -0.75, max: 0.75, as_int: false },
   initial_direction: { base: 0, min: 0, max: 360, as_int: false },
   hit_sound: snd_platform_core_impact,
   death_sound: snd_platform_core_destroyed,
@@ -491,7 +494,7 @@ global.enemy_platform_core_mini_red = {
   score_multiplier: 75,
   movement_speed: { base: 2, min: 1, max: 2, as_int: false },
   mass: 600,
-  rotation_speed: { base: 0, min: -3, max: 3, as_int: false },
+  rotation_speed: { base: 0, min: -1, max: 1, as_int: false },
   initial_direction: { base: 0, min: 0, max: 360, as_int: false },
   hit_sound: snd_platform_core_impact,
   death_sound: snd_platform_core_mini_destroyed,
@@ -520,7 +523,7 @@ global.enemy_platform_core_mini_blue = {
   score_multiplier: 75,
   movement_speed: { base: 1, min: 1, max: 2, as_int: false },
   mass: 600,
-  rotation_speed: { base: 0, min: -3, max: 3, as_int: false },
+  rotation_speed: { base: 0, min: -1, max: 1, as_int: false },
   initial_direction: { base: 0, min: 0, max: 360, as_int: false },
   hit_sound: snd_platform_core_impact,
   death_sound: snd_platform_core_mini_destroyed,
@@ -549,7 +552,7 @@ global.enemy_platform_core_mini_grey = {
   score_multiplier: 75,
   movement_speed: { base: 3, min: 1, max: 2, as_int: false },
   mass: 600,
-  rotation_speed: { base: 0, min: -3, max: 3, as_int: false },
+  rotation_speed: { base: 0, min: -1, max: 1, as_int: false },
   initial_direction: { base: 0, min: 0, max: 360, as_int: false },
   hit_sound: snd_platform_core_impact,
   death_sound: snd_platform_core_mini_destroyed,
@@ -564,6 +567,34 @@ global.enemy_platform_core_mini_grey = {
   drop_chance: 8,
   repulsor_shielded: true,
   grapple_beam_range: 200,
+  shield_drain_range: 0,
+  point_defence_range: 0,
+  point_defence_cooldown: undefined
+};
+
+global.enemy_platform_core_micro = {
+  object_name: obj_platform_core_micro,
+  type: "platform_core",
+  max_hitpoints: { base: 3, min: 2, max: 4, as_int: true },
+  max_shields: 0,
+  score_multiplier: 50,
+  movement_speed: { base: 2.5, min: 0, max: 0, as_int: false },
+  mass: 2000,
+  rotation_speed: { base: 0, min: -3, max: 3, as_int: false },
+  initial_direction: { base: 0, min: 0, max: 360, as_int: false },
+  hit_sound: snd_platform_core_impact,
+  death_sound: snd_platform_core_mini_destroyed,
+  spawn_distance_minimum: 100,
+  spawn_distance_maximum: 5000,
+  sprites: [
+    spr_platform_core_micro_h0,
+    spr_platform_core_micro_h1,
+    spr_platform_core_micro_h2,
+    spr_platform_core_micro_h3
+  ],
+  drop_chance: 16,
+  repulsor_shielded: false,
+  grapple_beam_range: 0,
   shield_drain_range: 0,
   point_defence_range: 0,
   point_defence_cooldown: undefined

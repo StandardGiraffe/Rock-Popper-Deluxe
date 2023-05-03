@@ -17,5 +17,14 @@ text_colours = [
   c_white,
 ]
 
+font = fnt_small;
+locus = [ x, y ];
+centred = false;
+
 draw_set_font(fnt_small);
 draw_set_alpha(alpha);
+
+function centre_text_horizontally() {
+  draw_set_halign(fa_center);
+  locus[0] = room_width / 2;
+}

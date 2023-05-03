@@ -8,6 +8,7 @@
     );
     e.target_direction = _angle;
     e.starting_speed = _speed;
+    if (e.target_speed) { e.target_speed = _speed; }
     e.wobble_range = 0;
   
     var rank_offset = e.sprite_height * 1.5;
@@ -21,6 +22,7 @@
       );
       e.target_direction = _angle;
       e.starting_speed = _speed;
+      if (e.target_speed) { e.target_speed = _speed; }
       e.wobble_range = 0;
     
       var e = spawn_entity(
@@ -30,6 +32,7 @@
       );
       e.target_direction = _angle;
       e.starting_speed = _speed;
+      if (e.target_speed) { e.target_speed = _speed; }
       e.wobble_range = 0;
     
       rank_offset += e.sprite_height * 1.5;
@@ -50,6 +53,8 @@
       );
       e.target_direction = current_angle;
       e.starting_speed = _speed;
+      if (e.target_speed) { e.target_speed = _speed; }
+      
       if (_suppress_wobble) { 
         e.wobble_range = 0;
       }

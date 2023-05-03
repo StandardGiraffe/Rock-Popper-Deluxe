@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_base_game_management",
   "spriteId": null,
   "solid": false,
   "visible": true,
@@ -28,8 +31,4 @@
     "name": "Categories",
     "path": "folders/Objects/Base Objects/Categories.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_base_game_management",
-  "tags": [],
-  "resourceType": "GMObject",
 }

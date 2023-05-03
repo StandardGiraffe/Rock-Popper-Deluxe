@@ -54,7 +54,6 @@ function powerup_drop_other_modules(_module_group, _module_to_exclude, _player) 
       
     if (_player.powerups_inventory[$ powerup] && powerup != _module_to_exclude) {
       var ejection_direction = _player.image_angle;
-      show_debug_message(global.powerup_collection[$ powerup])
       var dropped_powerup = spawn_powerup(
         global.powerup_collection[$ powerup],
         _player.x - lengthdir_x(10, ejection_direction),

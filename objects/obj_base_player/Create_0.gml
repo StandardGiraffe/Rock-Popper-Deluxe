@@ -1,7 +1,6 @@
 event_inherited();
 
 stats = new FreshPlayerStats(true);
-show_debug_message(stats)
 if (stats.max_shields) {
   max_shields = stats.max_shields;
   current_shields = max_shields;

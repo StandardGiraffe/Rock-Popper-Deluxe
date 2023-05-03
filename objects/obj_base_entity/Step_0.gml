@@ -48,8 +48,17 @@ check_if_spawning();
 #endregion Handle Shields
 
 
-// Apply inertia if necessary
-if (inertia_rate > 0) {
-  var grapple_penalty = (grappled ? 5 : 1);
-  apply_inertia(inertia_rate * grapple_penalty);
-}
+#region Handle Inertia if Necessary
+
+  // Apply inertia if necessary
+  if (inertia_rate > 0) {
+    var grapple_penalty = (grappled ? 5 : 1);
+    apply_inertia(inertia_rate * grapple_penalty);
+  }
+
+  if (target_speed && (target_speed != speed)) {
+    speed = stabilize_speed(speed, target_speed, target_speed_acc_rate, target_speed_dec_rate);
+  }
+  
+  speed = min(speed, global.entity_speed_limit);
+#endregion Handle Inertia if Necessary

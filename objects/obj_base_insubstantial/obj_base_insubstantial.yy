@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_base_insubstantial",
   "spriteId": null,
   "solid": false,
   "visible": true,
@@ -25,8 +28,4 @@
     "name": "Categories",
     "path": "folders/Objects/Base Objects/Categories.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_base_insubstantial",
-  "tags": [],
-  "resourceType": "GMObject",
 }

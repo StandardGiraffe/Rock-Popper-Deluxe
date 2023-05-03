@@ -259,6 +259,17 @@ global.waves = [
     #region Background Features
       background_crystal_sparkle_effect();
     
+      global.background_manager.change_colour(#330033, room_speed * 5);
+    #endregion
+    
+    spawn_entity_randomly(obj_platform_core_micro);
+    spawn_entity_randomly(obj_platform_core_micro);
+  },
+  
+  function(spawner) {
+    #region Background Features
+      background_crystal_sparkle_effect();
+    
       global.background_manager.change_colour(#100000, room_speed * 5);
     #endregion
     
@@ -363,10 +374,25 @@ global.waves = [
     spawn_entity_randomly(obj_asterdroid_shooter_small);
     spawn_entity_randomly(obj_asterdroid_shielded);
   },
-
+  
   function(spawner) {
     global.wave ++;
+    spawner.pause_spawning();
     
+    spawn_entity_randomly(obj_platform_core_micro);
+    spawn_entity_randomly(obj_platform_core_micro);
+    spawn_entity_randomly(obj_platform_core_micro);
+    spawn_entity_randomly(obj_platform_core_micro);
+    
+    #region Background Features
+      background_crystal_sparkle_effect(20);
+      global.background_manager.change_colour(#330033, room_speed * 5);
+    #endregion
+    
+    return 10;
+  },
+
+  function(spawner) {
     spawn_entity_randomly(obj_platform_core_mini_red);
     spawn_entity_randomly(obj_platform_core_mini_blue);
     
@@ -374,6 +400,8 @@ global.waves = [
       background_crystal_sparkle_effect(20);
       global.background_manager.change_colour(#100010, room_speed * 5);
     #endregion
+    
+    spawner.resume_spawning();
   },
   
   function(spawner) {
@@ -461,6 +489,7 @@ global.waves = [
 
   function(spawner) {
     global.wave ++;
+    spawner.pause_spawning();
     
     spawn_entity_randomly(obj_platform_core_mini_grey);
     spawn_entity_randomly(obj_platform_core_mini_grey);
@@ -470,6 +499,20 @@ global.waves = [
       background_crystal_sparkle_effect(25);
       global.background_manager.change_colour(#383b5a, room_speed * 10);
     #endregion
+    
+    return 10;
+  },
+  
+  function(spawner) {
+    spawn_entity_randomly(obj_platform_core_micro);
+    spawn_entity_randomly(obj_platform_core_micro);
+    spawn_entity_randomly(obj_platform_core_micro);
+    
+    #region Background Features
+      background_crystal_sparkle_effect(35);
+    #endregion
+    
+    spawner.resume_spawning();
   },
 
   function(spawner) {
@@ -569,6 +612,109 @@ global.waves = [
     global.wave ++;
     spawner.pause_spawning();
     
+    spawn_entity_randomly(obj_platform_core_micro);
+    
+    #region Background Features
+      background_crystal_sparkle_effect(15);
+      global.background_manager.change_colour(#100010, room_speed * 2.5);
+    #endregion
+    
+    return 0.75;
+  },
+  
+  function(spawner) {
+    spawn_entity_randomly(obj_platform_core_micro);
+    
+    #region Background Features
+      background_crystal_sparkle_effect(20);
+      global.background_manager.change_colour(#120012, room_speed * 0.75);
+    #endregion
+    
+    return 0.75;
+  },
+  
+  function(spawner) {
+    spawn_entity_randomly(obj_platform_core_micro);
+    
+    #region Background Features
+      background_crystal_sparkle_effect(25);
+      global.background_manager.change_colour(#140014, room_speed * 0.75);
+    #endregion
+    
+    return 0.75;
+  },
+  
+  function(spawner) {
+    spawn_entity_randomly(obj_platform_core_micro);
+    
+    #region Background Features
+      background_crystal_sparkle_effect(25);
+      global.background_manager.change_colour(#160016, room_speed * 0.75);
+    #endregion
+    
+    return 0.75;
+  },
+  
+  function(spawner) {
+    spawn_entity_randomly(obj_platform_core_micro);
+    
+    #region Background Features
+      background_crystal_sparkle_effect(30);
+      global.background_manager.change_colour(#180018, room_speed * 0.75);
+    #endregion
+    
+    return 0.75;
+  },
+  
+  function(spawner) {
+    spawn_entity_randomly(obj_platform_core_micro);
+    
+    #region Background Features
+      background_crystal_sparkle_effect(30);
+      global.background_manager.change_colour(#1A001A, room_speed * 0.75);
+    #endregion
+    
+    return 0.75;
+  },
+  
+  function(spawner) {
+    spawn_entity_randomly(obj_platform_core_micro);
+    
+    #region Background Features
+      background_crystal_sparkle_effect(35);
+      global.background_manager.change_colour(#1C001C, room_speed * 0.75);
+    #endregion
+    
+    return 0.75;
+  },
+  
+  function(spawner) {
+    spawn_entity_randomly(obj_platform_core_micro);
+    
+    #region Background Features
+      background_crystal_sparkle_effect(35);
+      global.background_manager.change_colour(#200020, room_speed * 0.75);
+    #endregion
+    
+    return 0.75;
+  },
+  
+  function(spawner) {
+    var locus = new central_spawn_region();
+    
+    spawn_formation_starburst(
+      obj_platform_core_micro, locus.x, locus.y, 2.5, 3
+    )
+    
+    #region Background Features
+      background_crystal_sparkle_effect(50);
+      global.background_manager.change_colour(#300030, room_speed * 0.75);
+    #endregion
+    
+    return 15;
+  },
+  
+  function(spawner) {
     spawn_entity_randomly(obj_platform_core_mini_blue);
     
     #region Background Features

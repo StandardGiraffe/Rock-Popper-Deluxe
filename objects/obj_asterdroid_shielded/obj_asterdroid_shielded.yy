@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_asterdroid_shielded",
   "spriteId": {
     "name": "spr_asterdroid_shielded_sh",
     "path": "sprites/spr_asterdroid_shielded_sh/spr_asterdroid_shielded_sh.yy",
@@ -25,7 +28,7 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -33,8 +36,4 @@
     "name": "asterdroid_shielded",
     "path": "folders/Objects/Enemies/Asterdroids/asterdroid_shielded.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_asterdroid_shielded",
-  "tags": [],
-  "resourceType": "GMObject",
 }

@@ -1,6 +1,10 @@
 faction = factions.neutrals;
 killer = noone;
 
+target_speed = noone;
+target_speed_acc_rate = 0.025;
+target_speed_dec_rate = 0.05;
+
 // Sub-Module Variables
 host = self;
 sub_modules = [ ];
@@ -169,9 +173,16 @@ afterimage_lifespan = 0;
         bullet.faction = self.faction;
         bullet.base_power *= 2.5;
         bullet.void_persistent = true;
-        bullet.set_direction(angle_of_deflection(
-          bullet.x, bullet.y, self, impact_direction
-        ));
+        
+        // Enemy shots reflect directly; player shots have more wiggle-room to escape.
+        if (object_is_ancestor(original_shooter.object_index, obj_base_player)) {
+          bullet.set_direction(angle_of_deflection(
+            bullet.x, bullet.y, self, impact_direction
+          ));
+        } else {
+          bullet.set_direction(impact_direction + 180);
+        }
+        
         bullet.seeking_shot = true;
         bullet.permanent_target = original_shooter;
       } else {

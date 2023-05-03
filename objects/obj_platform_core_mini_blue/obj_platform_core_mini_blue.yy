@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_platform_core_mini_blue",
   "spriteId": {
     "name": "spr_platform_core_mini_blue_sh",
     "path": "sprites/spr_platform_core_mini_blue_sh/spr_platform_core_mini_blue_sh.yy",
@@ -25,7 +28,7 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -33,8 +36,4 @@
     "name": "Mini-Core: Blue",
     "path": "folders/Objects/Enemies/Platforms/Cores/Mini-Core: Blue.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_platform_core_mini_blue",
-  "tags": [],
-  "resourceType": "GMObject",
 }

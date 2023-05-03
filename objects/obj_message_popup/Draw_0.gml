@@ -1,6 +1,10 @@
 /// @description Display the message
+if (centred) { centre_text_horizontally(); }
+
+draw_set_font(font);
+
 draw_text_color(
-  x, y,
+  locus[0], locus[1],
   text_message,
   text_colours[0],
   text_colours[1],

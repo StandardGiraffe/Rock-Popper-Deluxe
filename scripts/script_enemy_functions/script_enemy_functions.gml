@@ -35,13 +35,19 @@ function maybe_drop_powerup(_drop_chance, _x, _y, _target_player = undefined) {
   }
 }
 
-function stabilize_speed(_speed, _starting_speed, _acceleration_rate = 0.001, _deceleration_rate = 0.05) {
-  if (_speed < _starting_speed) {
-    return _speed + _acceleration_rate;
+function stabilize_speed(_speed, _target_speed, _acceleration_rate = 0.001, _deceleration_rate = 0.05) {
+  if (_speed < _target_speed) {
+    return min(_speed + _acceleration_rate, _target_speed);
   }
 
-  if (_speed > _starting_speed) {
-    return _speed - _deceleration_rate;
+  if (_speed > _target_speed) {
+    
+    // Speedy things blur while decelerating, if not already blurring
+    if (!self.spawning && self.afterimage_drawing_time <= 0) {
+      draw_afterimage(self, self.x, self.y, 0.25)
+    }
+    
+    return max(_speed - _deceleration_rate, _target_speed);
   }
   
   return _speed;
